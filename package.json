@@ -1,9 +1,9 @@
 {
   "name": "osm-community-index",
-  "version": "1.0.0",
+  "version": "2.1.1",
   "license": "ISC",
-  "repository": "osmlab/osm-community-index",
-  "author": "Bryan Housel <bryan@mapbox.com>",
+  "repository": "github:osmlab/osm-community-index",
+  "author": "Bryan Housel <bhousel@gmail.com>",
   "description": "An index of community resources for OpenStreetMap",
   "keywords": [
     "OSM",
@@ -13,6 +13,7 @@
   "main": "dist/index.js",
   "module": "index.mjs",
   "scripts": {
+    "all": "run-s build dist",
     "build": "node build.js && rollup -c",
     "dist": "node build_dist.js",
     "icons": "node build_icons.js",
@@ -22,33 +23,31 @@
     "txpull": "tx pull -a",
     "txpush": "tx push -s"
   },
-  "dependencies": {
-    "@ideditor/country-coder": "^3.0.1",
-    "@mapbox/geojson-area": "^0.2.2",
-    "circle-to-polygon": "^1.0.2",
-    "geojson-precision": "^0.4.0"
-  },
   "devDependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.25",
-    "@fortawesome/free-brands-svg-icons": "^5.11.2",
-    "@fortawesome/free-solid-svg-icons": "^5.11.2",
-    "bytes": "^3.0.0",
-    "colors": "^1.1.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@ideditor/location-conflation": "0.5.0",
+    "@mapbox/geojson-area": "^0.2.2",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "bytes": "^3.1.0",
+    "colors": "^1.4.0",
     "easy-table": "^1.1.1",
-    "eslint": "^6.0.0",
+    "eslint": "^7.2.0",
+    "geojson-precision": "^1.0.0",
     "geojson-rewind": "^0.3.1",
-    "glob": "^7.1.5",
+    "glob": "^7.1.6",
     "js-yaml": "^3.13.1",
-    "json-stringify-pretty-compact": "^1.1.0",
-    "jsonschema": "^1.1.0",
-    "rollup": "^1.25.1",
-    "rollup-plugin-commonjs": "^10.0.0",
-    "rollup-plugin-json": "^4.0.0",
-    "rollup-plugin-node-resolve": "^5.0.4",
-    "shelljs": "^0.8.0",
-    "tap": "^14.8.2"
+    "json-stringify-pretty-compact": "^2.0.0",
+    "jsonschema": "^1.2.5",
+    "npm-run-all": "^4.0.0",
+    "rollup": "^2.25.0",
+    "shelljs": "^0.8.3",
+    "tap": "^14.10.6"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=10"
   }
 }

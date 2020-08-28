@@ -1,9 +1,8 @@
-/* eslint-disable no-console */
 const calcArea = require('@mapbox/geojson-area');
 const colors = require('colors/safe');
 const fs = require('fs');
 const glob = require('glob');
-const isValidLocation = require('./lib/isValidLocation.js');
+const LocationConflation = require('@ideditor/location-conflation');
 const path = require('path');
 const precision = require('geojson-precision');
 const prettyStringify = require('json-stringify-pretty-compact');
@@ -37,12 +36,14 @@ function buildAll() {
     'i18n/en.yaml'
   ]);
 
+  // Features
   let tstrings = {};   // translation strings
-  const features = generateFeatures();
-  const resources = generateResources(tstrings, features);
+  const features = collectFeatures();
+  const featureCollection = { type: 'FeatureCollection', features: features };
+  fs.writeFileSync('dist/features.json', prettyStringify(featureCollection, { maxLength: 9999 }));
 
-  // Save individual data files
-  fs.writeFileSync('dist/features.json', prettyStringify({ features: sort(features) }, { maxLength: 9999 }));
+  // Resources
+  const resources = collectResources(tstrings, featureCollection);
   fs.writeFileSync('dist/resources.json', prettyStringify({ resources: sort(resources) }, { maxLength: 9999 }));
   fs.writeFileSync('i18n/en.yaml', YAML.safeDump({ en: sort(tstrings) }, { lineWidth: -1 }) );
 
@@ -50,18 +51,18 @@ function buildAll() {
 }
 
 
-function generateFeatures() {
-  let features = {};
+function collectFeatures() {
+  let features = [];
   let files = {};
   process.stdout.write('📦  Features: ');
 
-  glob.sync(__dirname + '/features/**/*.geojson').forEach(file => {
+  glob.sync('features/**/*.geojson').forEach(file => {
     const contents = fs.readFileSync(file, 'utf8');
     let parsed;
     try {
       parsed = JSON.parse(contents);
     } catch (jsonParseError) {
-      console.error(colors.red('Error - ' + jsonParseError.message + ' in:'));
+      console.error(colors.red(`Error - ${jsonParseError.message} in:`));
       console.error('  ' + colors.yellow(file));
       process.exit(1);
     }
@@ -78,12 +79,12 @@ function generateFeatures() {
     let area = calcArea.geometry(feature.geometry) / 1e6;   // m² to km²
     area = Number(area.toFixed(2));
     if (area < 2000) {
-      console.warn(colors.yellow('Warning - small area (' + area + ' km²).  Use a point `includeLocation` instead.'));
+      console.warn(colors.yellow(`Warning - small area (${area} km²).  Use a point 'includeLocation' instead.`));
       console.warn('  ' + colors.yellow(file));
     }
 
     // use the filename as the feature.id
-    const id = path.basename(file, '.geojson').toLowerCase();
+    const id = path.basename(file).toLowerCase();
     feature.id = id;
 
     // sort properties
@@ -103,7 +104,7 @@ function generateFeatures() {
       console.error('  ' + colors.yellow(file));
       process.exit(1);
     }
-    features[id] = feature;
+    features.push(feature);
     files[id] = file;
 
     process.stdout.write(colors.green('✓'));
@@ -115,30 +116,35 @@ function generateFeatures() {
 }
 
 
-function generateResources(tstrings, features) {
+function collectResources(tstrings, featureCollection) {
   let resources = {};
   let files = {};
+  const loco = new LocationConflation(featureCollection);
   process.stdout.write('📦  Resources: ');
 
-  glob.sync(__dirname + '/resources/**/*.json').forEach(file => {
+  glob.sync('resources/**/*.json').forEach(file => {
     let contents = fs.readFileSync(file, 'utf8');
 
     let resource;
     try {
       resource = JSON.parse(contents);
     } catch (jsonParseError) {
-      console.error(colors.red('Error - ' + jsonParseError.message + ' in:'));
+      console.error(colors.red(`Error - ${jsonParseError.message} in:`));
       console.error('  ' + colors.yellow(file));
       process.exit(1);
     }
 
     // sort properties and array values
     let obj = {};
-    if (resource.id)                  { obj.id = resource.id; }
-    if (resource.type)                { obj.type = resource.type; }
-    if (resource.includeLocations)    { obj.includeLocations = resource.includeLocations; }
-    if (resource.excludeLocations)    { obj.excludeLocations = resource.excludeLocations; }
-    if (resource.countryCodes)        { obj.countryCodes = resource.countryCodes.sort(); }
+    if (resource.id)    { obj.id = resource.id; }
+    if (resource.type)  { obj.type = resource.type; }
+
+    if (resource.locationSet) {
+      obj.locationSet = {};
+      if (resource.locationSet.include) { obj.locationSet.include = resource.locationSet.include; }
+      if (resource.locationSet.exclude) { obj.locationSet.exclude = resource.locationSet.exclude; }
+    }
+
     if (resource.languageCodes)       { obj.languageCodes = resource.languageCodes.sort(); }
     if (resource.name)                { obj.name = resource.name; }
     if (resource.description)         { obj.description = resource.description; }
@@ -151,9 +157,13 @@ function generateResources(tstrings, features) {
     resource = obj;
 
     validateFile(file, resource, resourceSchema);
-    validateLocations(resource.includeLocations, file, features);
-    if (resource.excludeLocations) {
-      validateLocations(resource.excludeLocations, file, features);
+
+    try {
+      loco.validateLocationSet(resource.locationSet);
+    } catch (err) {
+      console.error(colors.red(`Error - ${err.message} in:`));
+      console.error('  ' + colors.yellow(file));
+      process.exit(1);
     }
 
     prettifyFile(file, resource, contents);
@@ -220,17 +230,6 @@ function generateResources(tstrings, features) {
   process.stdout.write(' ' + Object.keys(files).length + '\n');
 
   return resources;
-}
-
-
-function validateLocations(locations, file, features) {
-  locations.forEach(location => {
-    if (!isValidLocation(location, features)) {
-      console.error(colors.red('Error - Invalid location: ') + colors.yellow(location));
-      console.error('  ' + colors.yellow(file));
-      process.exit(1);
-    }
-  });
 }
 
 

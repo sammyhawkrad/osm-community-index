@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 const bytes = require('bytes');
 const colors = require('colors/safe');
 const fs = require('fs');
@@ -19,7 +18,7 @@ function getStats() {
   let t = new Table;
   currSize = 0;
   currFiles = 0;
-  glob.sync(__dirname + '/features/**/*.geojson').forEach(addRow);
+  glob.sync('features/**/*.geojson').forEach(addRow);
   t.sort(['Size|des']);
   console.log(t.toString());
   featureSize = bytes(currSize, { unitSeparator: ' ' });
@@ -28,7 +27,7 @@ function getStats() {
   t = new Table;
   currSize = 0;
   currFiles = 0;
-  glob.sync(__dirname + '/resources/**/*.json').forEach(addRow);
+  glob.sync('resources/**/*.json').forEach(addRow);
   t.sort(['Size|des']);
   console.log(t.toString());
   resourceSize = bytes(currSize, { unitSeparator: ' ' });
@@ -42,13 +41,13 @@ function getStats() {
 
 
   function addRow(file) {
-    let stats = fs.statSync(file);
-    let color = colorBytes(stats.size);
+    const stats = fs.statSync(file);
+    const color = colorBytes(stats.size);
     currSize += stats.size;
     currFiles++;
 
     t.cell('Size', stats.size, function sizePrinter(val, width) {
-      let displaySize = bytes(stats.size, { unitSeparator: ' ' });
+      const displaySize = bytes(stats.size, { unitSeparator: ' ' });
       return width ? Table.padLeft(displaySize, width) : color(displaySize);
     });
     t.cell('File', color(path.basename(file)));
