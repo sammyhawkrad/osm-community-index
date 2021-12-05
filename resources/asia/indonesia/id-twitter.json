@@ -1,0 +1,9 @@
+{
+  "id": "id-twitter",
+  "type": "twitter",
+  "account": "OSM_ID",
+  "locationSet": {"include": ["id"]},
+  "languageCodes": ["en"],
+  "order": 3,
+  "strings": {"community": "OpenStreetMap Indonesia"}
+}

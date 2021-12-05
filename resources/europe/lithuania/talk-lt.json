@@ -1,0 +1,9 @@
+{
+  "id": "talk-lt",
+  "type": "mailinglist",
+  "account": "talk-lt",
+  "locationSet": {"include": ["lt"]},
+  "languageCodes": ["lt"],
+  "order": 1,
+  "strings": {"community": "OpenStreetMap Lithuania"}
+}

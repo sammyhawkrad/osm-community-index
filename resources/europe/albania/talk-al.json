@@ -1,0 +1,9 @@
+{
+  "id": "talk-al",
+  "type": "mailinglist",
+  "account": "talk-al",
+  "locationSet": {"include": ["al"]},
+  "languageCodes": ["en"],
+  "order": 2,
+  "strings": {"community": "OpenStreetMap Albania"}
+}

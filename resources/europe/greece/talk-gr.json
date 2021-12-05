@@ -1,0 +1,9 @@
+{
+  "id": "talk-gr",
+  "type": "mailinglist",
+  "account": "talk-gr",
+  "locationSet": {"include": ["gr"]},
+  "languageCodes": ["el"],
+  "order": 3,
+  "strings": {"community": "OpenStreetMap Greece"}
+}

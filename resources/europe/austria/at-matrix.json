@@ -1,0 +1,17 @@
+{
+  "id": "at-matrix",
+  "type": "matrix",
+  "account": "#osm-at",
+  "locationSet": {"include": ["at"]},
+  "languageCodes": ["de"],
+  "strings": {
+    "community": "OpenStreetMap Austria",
+    "description": "Unofficial German Matrix channel for Austria"
+  },
+  "contacts": [
+    {
+      "name": "Stefan Kies",
+      "email": "negreheb+osmcommunityindex@mailbox.org"
+    }
+  ]
+}

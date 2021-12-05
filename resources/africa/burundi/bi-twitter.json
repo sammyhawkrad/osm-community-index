@@ -1,0 +1,9 @@
+{
+  "id": "bi-twitter",
+  "type": "twitter",
+  "account": "osmburundi",
+  "locationSet": {"include": ["bi"]},
+  "languageCodes": ["en"],
+  "order": 2,
+  "strings": {"community": "OpenStreetMap Burundi"}
+}

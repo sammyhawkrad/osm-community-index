@@ -1,0 +1,12 @@
+{
+  "id": "cat-facebook",
+  "type": "facebook",
+  "account": "OSMcatala",
+  "locationSet": {"include": ["catalan_countries.geojson"]},
+  "languageCodes": ["ca"],
+  "strings": {"community": "OpenStreetMap Catalan Countries"},
+  "contacts": [
+    {"name": "Carlos Sánchez", "email": "erielkhan@gmail.com"},
+    {"name": "Jose Luis Infante", "email": "jlinfante@llefia.org"}
+  ]
+}

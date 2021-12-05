@@ -1,9 +1,0 @@
-{
-  "id": "guatemala-telegram",
-  "type": "telegram",
-  "locationSet": {"include": ["gt"]},
-  "languageCodes": ["es"],
-  "name": "OSM Guatemala on Telegram",
-  "description": "OpenStreetMap Guatemala Telegram chat",
-  "url": "https://telegram.me/openstreetmapGT"
-}

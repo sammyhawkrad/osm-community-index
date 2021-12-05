@@ -1,0 +1,9 @@
+{
+  "id": "talk-rs",
+  "type": "mailinglist",
+  "account": "talk-rs",
+  "locationSet": {"include": ["rs"]},
+  "languageCodes": ["en", "sr"],
+  "order": 5,
+  "strings": {"community": "OpenStreetMap Serbia"}
+}

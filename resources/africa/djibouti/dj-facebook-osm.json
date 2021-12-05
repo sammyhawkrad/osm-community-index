@@ -1,0 +1,8 @@
+{
+  "id": "OSM-dj-facebook",
+  "type": "facebook",
+  "account": "OpenStreetMapDjibouti",
+  "locationSet": {"include": ["dj"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap Djibouti"}
+}

@@ -1,11 +1,15 @@
 {
   "id": "latam-matrix",
   "type": "matrix",
+  "account": "#osm-latam",
   "locationSet": {"include": ["419"]},
   "languageCodes": ["en", "es", "pt"],
-  "name": "OpenStreetMap Latin America Matrix",
-  "description": "Chat with other members of the Latinamerican OSM community, it is bridged with the Telegram chat",
-  "url": "https://matrix.to/#/#osm-latam:matrix.org",
-  "contacts": [{"name": "OSM LATAM Community", "email": "info@osmlatam.org"}],
-  "order": 3
+  "order": 3,
+  "strings": {
+    "community": "OpenStreetMap Latin America",
+    "description": "Chat with other members of the Latinamerican OSM community, it is bridged with the Telegram chat"
+  },
+  "contacts": [
+    {"name": "OSM LATAM Community", "email": "info@osmlatam.org"}
+  ]
 }

@@ -1,0 +1,9 @@
+{
+  "id": "talk-af",
+  "type": "mailinglist",
+  "account": "talk-af",
+  "locationSet": {"include": ["af"]},
+  "languageCodes": ["en"],
+  "order": 2,
+  "strings": {"community": "OpenStreetMap Afghanistan"}
+}

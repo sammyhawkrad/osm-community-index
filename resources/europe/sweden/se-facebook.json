@@ -3,8 +3,9 @@
   "type": "facebook",
   "locationSet": {"include": ["se"]},
   "languageCodes": ["sv"],
-  "name": "OpenStreetMap Sweden Facebook",
-  "description": "OpenStreetMap Sweden on Facebook",
-  "url": "https://www.facebook.com/groups/osmsweden/",
-  "order": 3
+  "order": 3,
+  "strings": {
+    "community": "OpenStreetMap Sweden",
+    "url": "https://www.facebook.com/groups/osmsweden"
+  }
 }

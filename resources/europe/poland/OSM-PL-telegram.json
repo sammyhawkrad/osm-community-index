@@ -1,0 +1,8 @@
+{
+  "id": "osm-pl-telegram",
+  "type": "telegram",
+  "account": "OpenStreetMapPolska",
+  "locationSet": {"include": ["pl"]},
+  "languageCodes": ["pl"],
+  "strings": {"community": "OpenStreetMap Poland"}
+}

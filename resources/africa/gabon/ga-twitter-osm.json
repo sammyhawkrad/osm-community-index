@@ -1,0 +1,8 @@
+{
+  "id": "OSM-GA-twitter",
+  "type": "twitter",
+  "account": "OsmGabon",
+  "locationSet": {"include": ["ga"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap Gabon"}
+}

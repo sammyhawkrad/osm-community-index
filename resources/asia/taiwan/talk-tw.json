@@ -1,0 +1,15 @@
+{
+  "id": "talk-tw",
+  "type": "mailinglist",
+  "account": "talk-tw",
+  "locationSet": {"include": ["tw"]},
+  "languageCodes": ["en", "zh-tw"],
+  "order": -3,
+  "strings": {"community": "OpenStreetMap Taiwan"},
+  "contacts": [
+    {
+      "name": "Nobody 沒有人 (Public email)",
+      "email": "hiboard@openstreetmap.tw"
+    }
+  ]
+}

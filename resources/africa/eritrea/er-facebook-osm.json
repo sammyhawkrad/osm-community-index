@@ -1,0 +1,8 @@
+{
+  "id": "OSM-er-facebook",
+  "type": "facebook",
+  "account": "Openstreetmap-Eritrea-OSMEr-105545004517975",
+  "locationSet": {"include": ["er"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap Eritrea"}
+}

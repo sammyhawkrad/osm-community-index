@@ -1,0 +1,9 @@
+{
+  "id": "hk-discord",
+  "type": "discord",
+  "account": "CyG9zte",
+  "locationSet": {"include": ["hk"]},
+  "languageCodes": ["en", "yue", "zh"],
+  "strings": {"community": "OpenStreetMap Hong Kong"},
+  "contacts": [{"name": "Phake Nick", "email": "c933103@gmail.com"}]
+}

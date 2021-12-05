@@ -1,0 +1,15 @@
+{
+  "id": "talk-it-lombardia_mailinglist",
+  "type": "mailinglist",
+  "account": "talk-it-lombardia",
+  "locationSet": {"include": ["lombardia.geojson"]},
+  "languageCodes": ["it"],
+  "order": 2,
+  "strings": {"community": "OpenStreetMap Italy-Lombardia"},
+  "contacts": [
+    {
+      "name": "Lorenzo Stucchi",
+      "email": "lorenzostucchi95@outlook.it"
+    }
+  ]
+}

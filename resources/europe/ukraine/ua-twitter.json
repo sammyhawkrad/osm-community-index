@@ -1,11 +1,10 @@
 {
   "id": "ua-twitter",
   "type": "twitter",
+  "account": "osm_ua",
   "locationSet": {"include": ["ukraine.geojson"]},
   "languageCodes": ["uk"],
-  "name": "OpenStreetMap UA Twitter",
-  "description": "OpenStreetMap Ukraine on Twitter: {url}",
-  "url": "https://twitter.com/osm_ua",
-  "contacts": [{"name": "Andrii Holovin", "email": "andygol@ua.fm"}],
-  "order": 1
+  "order": 1,
+  "strings": {"community": "OpenStreetMap Ukraine"},
+  "contacts": [{"name": "Andrii Holovin", "email": "andygol@ua.fm"}]
 }

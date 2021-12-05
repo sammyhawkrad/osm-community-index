@@ -3,9 +3,9 @@
 <head>
 <meta charset='utf-8' />
 <title>OSM Community Index</title>
-<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet' />
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.1/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.1/mapbox-gl.css' rel='stylesheet'/>
 <style>
   body { margin: 0; padding: 0; }
   h2 { margin: 10px; font-size: 1.2em; }
@@ -51,13 +51,18 @@
 </head>
 
 <body>
+<script>var $buoop={required:{i:15,e:-4,f:-3,o:-3,s:-1,c:-3},reminder:0,noclose:true,no_permanent_hide:true,insecure:true,api:2021.06};</script>
+<script src='https://browser-update.org/update.js'></script>
+
 <div id='map'></div>
-<div class='map-overlay' id='features'><h2>OSM Communities</h2><div id='pd'></div></div>
+<div class='map-overlay' id='features'><h2>OSM Communities</h2><div id='resultPane'></div></div>
 
 <script>
 
 // define access token
 mapboxgl.accessToken = 'pk.eyJ1IjoibWlrZWxtYXJvbiIsImEiOiJjaWZlY25lZGQ2cTJjc2trbmdiZDdjYjllIn0.Wx1n0X7aeCQyDTnK6_mrGw';
+// cdn base address
+var cdnBase = 'https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/';
 
 // create map
 var map = new mapboxgl.Map({
@@ -66,12 +71,12 @@ var map = new mapboxgl.Map({
   center: [0,0],
   zoom: 1
 });
-
+var previous = '';
+var flying = false;
 
 // wait for map to load before adjusting it
 map.on('load', function() {
-  var previous = '';
-  var dataURL = 'https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/combined.min.geojson';
+  var dataURL = cdnBase + 'completeFeatureCollection.min.json';
 
   map.addSource('osm-community-index', { type: 'geojson', data: dataURL });
   map.addLayer({
@@ -85,56 +90,102 @@ map.on('load', function() {
   map.getCanvas().style.cursor = 'default';
 
   // change info window on click
-  map.on('click', function (e) {
-    var hits = map.queryRenderedFeatures(e.point, { layers: ['osm-community-index'] });
-    var seen = {};   // to ignore duplicate results from queryRenderedFeatures - #360
-    var communities = [];
+  map.on('click', function(e) {
+    serveClick(e.point, e.lngLat);
+  });
 
-    // gather the communities from the result
-    hits.forEach(function(hit) {
-      var props = hit.properties || {};
-      var resources = {};
-      try {
-        resources = JSON.parse(props.resources || '{}');
-      } catch (e) { }
+  if (getParameterByName("map") != "" && getParameterByName("map") !== null) {
+    var iZoom = 7;
+    if (getParameterByName("zoom") != "" && getParameterByName("zoom") !== null) {
+      iZoom = parseInt(getParameterByName("zoom"));
+      if (isNaN(iZoom)) { iZoom = 7; }
+    }
+    var coords = getParameterByName("map").split(/\,/);
+    flying = true;
+    map.flyTo({center: [coords[1], coords[0]], zoom: iZoom, essential: true});
+  }
 
-      for (var k in resources) {
-        if (seen[k]) continue;
-        seen[k] = true;
+});
 
-        var community = resources[k];
-        communities.push({
-          'area': props.area || Infinity,
-          'order': community.order || 0,
-          'community': community
-        });
-      }
-    });
+map.on('moveend', function(e) {
+  if (flying) {
+    flying = false;
+    map.fire('flyend');
+  }
+});
 
-    // sort by feature area ascending, community order descending
-    communities.sort(function(a, b) {
-      return a.area - b.area || b.order - a.order;
-    });
+map.on('flyend', function(e) {
+  serveClick(new mapboxgl.Point(document.getElementById('map').offsetWidth / 2, document.getElementById('map').offsetHeight / 2), map.getCenter());
+});
 
-    // display
-    var inner = '';
-    communities.forEach(function(c) {
-      var community = c.community;
-      var iconURL = 'https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/' + community.type + '.svg';
+function serveClick(ePoint, eLatLng) {
+  var hits = map.queryRenderedFeatures(ePoint, { layers: ['osm-community-index'] });
+  var seen = {};   // to ignore duplicate results from queryRenderedFeatures - #360
+  var communities = [];
 
-      inner += '<div class="resource">'
-        + '<img class="icon" src="' + iconURL + '"/>'
-        + '<a class="label" target="_blank" href="' + community.url + '">' + community.name + '</a>'
-        + '</div>';
-    });
+  // gather the communities from the result
+  hits.forEach(function(hit) {
+    var props = hit.properties || {};
+    var resources = {};
+    try {
+      resources = JSON.parse(props.resources || '{}');
+    } catch (e) { }
 
-    if (inner !== previous) {
-      previous = inner;
-      document.getElementById('pd').innerHTML = inner;
+    for (var k in resources) {
+      if (seen[k]) continue;
+      seen[k] = true;
+
+      var community = resources[k];
+      communities.push({
+        'area': props.area || Infinity,
+        'order': community.order || 0,
+        'community': community
+      });
     }
   });
 
-});
+  // sort by feature area ascending, community order descending
+  communities.sort(function(a, b) {
+    return a.area - b.area || b.order - a.order;
+  });
+
+  // display
+  var inner = '';
+  communities.forEach(function(c) {
+    var community = c.community;
+    var iconURL = cdnBase + 'img/' + community.type + '.svg';
+    var url = community.url || community.resolved.url;
+    var name = community.name || community.resolved.name;
+    var properName = name.charAt(0).toUpperCase() + name.slice(1);  // capitalize
+
+    inner += '<div class="resource">'
+      + '<img class="icon" src="' + iconURL + '"/>'
+      + '<a class="label" target="_blank" href="' + url + '">' + properName + '</a>'
+      + '</div>';
+  });
+
+  // show permalink
+  var lat = eLatLng.lat.toFixed(5);
+  var lng = eLatLng.lng.toFixed(5);
+  var zoom = map.getZoom().toFixed(2);
+  var iconURL = cdnBase + 'img/url.svg';
+  inner += '<hr style="border:1px solid #67e;color:#67e"/><div class="resource"><img class="icon" src="' + iconURL + '"/><a class="label" target="_blank" href="?map=' + lat + ',' + lng + '&zoom=' + zoom + '">Permalink to this position</a></div>';
+
+  if (inner !== previous) {
+    previous = inner;
+    document.getElementById('resultPane').innerHTML = inner;
+  }
+}
+
+function getParameterByName(name) {
+  name = name.replace(/[\[\]]/g, '\\$&');
+  var url = window.location.href;
+  var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+  var results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
 
 </script>
 

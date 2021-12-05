@@ -1,0 +1,9 @@
+{
+  "id": "talk-se",
+  "type": "mailinglist",
+  "account": "talk-se",
+  "locationSet": {"include": ["se"]},
+  "languageCodes": ["sv"],
+  "order": -3,
+  "strings": {"community": "OpenStreetMap Sweden"}
+}

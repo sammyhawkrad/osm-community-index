@@ -1,0 +1,11 @@
+{
+  "id": "OSM-gn-twitter",
+  "type": "twitter",
+  "account": "osmguinea",
+  "locationSet": {"include": ["gn"]},
+  "languageCodes": ["en"],
+  "strings": {
+    "community": "OpenStreetMap Guinea",
+    "url": "https://twitter.com/osmguinea?lang=en"
+  }
+}

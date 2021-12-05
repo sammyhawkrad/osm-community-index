@@ -1,0 +1,14 @@
+{
+  "id": "bd-facebook",
+  "type": "facebook",
+  "locationSet": {"include": ["bd"]},
+  "order": 2,
+  "strings": {
+    "community": "OpenStreetMap Bangladesh",
+    "extendedDescription": "Mapping in Bangladesh? Have questions, want to connect with the community here? Join us at {url}. All are welcome!",
+    "url": "https://www.facebook.com/groups/osmbd/"
+  },
+  "contacts": [
+    {"name": "Ahasanul Hoque", "email": "hoque.ahasan@gmail.com"}
+  ]
+}

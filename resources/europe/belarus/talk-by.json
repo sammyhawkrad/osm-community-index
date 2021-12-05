@@ -1,0 +1,9 @@
+{
+  "id": "talk-by",
+  "type": "mailinglist",
+  "account": "talk-blr",
+  "locationSet": {"include": ["by"]},
+  "languageCodes": ["en"],
+  "order": 3,
+  "strings": {"community": "OpenStreetMap Belarus"}
+}

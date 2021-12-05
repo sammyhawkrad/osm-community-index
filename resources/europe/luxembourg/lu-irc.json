@@ -1,0 +1,12 @@
+{
+  "id": "lu-irc",
+  "type": "irc",
+  "account": "osm-lu",
+  "locationSet": {"include": ["lu"]},
+  "languageCodes": ["de", "en", "fr", "lb"],
+  "order": 4,
+  "strings": {"community": "OpenStreetMap Luxembourg"},
+  "contacts": [
+    {"name": "OSM Luxembourg", "email": "contact@openstreetmap.lu"}
+  ]
+}

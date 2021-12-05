@@ -1,0 +1,9 @@
+{
+  "id": "za-twitter",
+  "type": "twitter",
+  "account": "OpenStreetMapZA",
+  "locationSet": {"include": ["za"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap South Africa"},
+  "contacts": [{"name": "Grant Slater", "email": "osm@firefishy.com"}]
+}

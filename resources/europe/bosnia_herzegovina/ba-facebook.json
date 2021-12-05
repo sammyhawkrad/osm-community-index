@@ -1,0 +1,9 @@
+{
+  "id": "ba-facebook",
+  "type": "facebook",
+  "account": "OpenStreetMapBosnaIHercegovina",
+  "locationSet": {"include": ["ba"]},
+  "languageCodes": ["en"],
+  "order": 3,
+  "strings": {"community": "OpenStreetMap Bosnia and Herzegovina"}
+}

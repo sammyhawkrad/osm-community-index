@@ -1,0 +1,7 @@
+{
+  "id": "gf-telegram",
+  "type": "telegram",
+  "account": "osmblogfr",
+  "locationSet": {"include": ["gf"]},
+  "strings": {"community": "OpenStreetMap French Guiana"}
+}

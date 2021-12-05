@@ -1,0 +1,14 @@
+{
+  "id": "cat-telegram",
+  "type": "telegram",
+  "account": "osmcat",
+  "locationSet": {"include": ["catalan_countries.geojson"]},
+  "languageCodes": ["ca"],
+  "order": 8,
+  "strings": {"community": "OpenStreetMap Catalan Countries"},
+  "contacts": [
+    {"name": "Carlos Sánchez", "email": "erielkhan@gmail.com"},
+    {"name": "Jose Luis Infante", "email": "jlinfante@llefia.org"},
+    {"name": "Xavier Barnada", "email": "xbarnada@gmail.com"}
+  ]
+}

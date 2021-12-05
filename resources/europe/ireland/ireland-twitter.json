@@ -1,10 +1,9 @@
 {
   "id": "ireland-twitter",
   "type": "twitter",
-  "locationSet": {"include": ["ireland.geojson"]},
+  "account": "osm_ie",
+  "locationSet": {"include": ["gb-nir", "ie"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap IE on Twitter",
-  "description": "OpenStreetMap IE on Twitter: {url}",
-  "url": "https://twitter.com/osm_ie",
-  "order": 5
+  "order": 2,
+  "strings": {"community": "OpenStreetMap Ireland"}
 }

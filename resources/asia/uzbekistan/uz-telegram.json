@@ -1,0 +1,7 @@
+{
+  "id": "uz-telegram",
+  "type": "telegram",
+  "account": "osm_uz",
+  "locationSet": {"include": ["uz"]},
+  "strings": {"community": "OpenStreetMap Uzbekistan"}
+}

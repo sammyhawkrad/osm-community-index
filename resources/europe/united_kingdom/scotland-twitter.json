@@ -1,10 +1,9 @@
 {
   "id": "scotland-twitter",
   "type": "twitter",
-  "locationSet": {"include": ["scotland.geojson"]},
+  "account": "OSMScotland",
+  "locationSet": {"include": ["gb-sct"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Alba on Twitter",
-  "description": "OpenStreetMap Alba on Twitter: {url}",
-  "url": "https://twitter.com/OSMScotland",
-  "order": 4
+  "order": 4,
+  "strings": {"community": "OpenStreetMap Alba"}
 }

@@ -1,0 +1,9 @@
+{
+  "id": "talk-si",
+  "type": "mailinglist",
+  "account": "talk-si",
+  "locationSet": {"include": ["si"]},
+  "languageCodes": ["en", "sl"],
+  "order": -3,
+  "strings": {"community": "OpenStreetMap Slovenia"}
+}

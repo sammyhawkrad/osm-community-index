@@ -1,0 +1,11 @@
+{
+  "id": "osm-iran-discord",
+  "type": "discord",
+  "account": "MCA7A87Def",
+  "locationSet": {"include": ["ir"]},
+  "languageCodes": ["fa"],
+  "strings": {
+    "community": "OpenStreetMap Iran",
+    "extendedDescription": "A Discord server for OpenStreetMap Iran. Feel free to join!"
+  }
+}

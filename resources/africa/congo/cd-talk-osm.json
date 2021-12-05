@@ -1,0 +1,8 @@
+{
+  "id": "OSM-cd-mailinglist",
+  "type": "mailinglist",
+  "account": "talk-cd",
+  "locationSet": {"include": ["cd"]},
+  "languageCodes": ["en", "fr"],
+  "strings": {"community": "OpenStreetMap RDC"}
+}

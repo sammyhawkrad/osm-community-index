@@ -1,11 +1,15 @@
 {
   "id": "fr-facebook",
   "type": "facebook",
+  "account": "osmfr",
   "locationSet": {"include": ["fr"]},
   "languageCodes": ["fr"],
-  "name": "OpenStreetMap France Facebook page",
-  "description": "OpenStreetMap France Facebook page",
-  "url": "https://www.facebook.com/osmfr",
-  "contacts": [{"name": "OpenStreetMap France", "email": "contact@openstreetmap.fr"}],
-  "order": 3
+  "order": 3,
+  "strings": {"community": "OpenStreetMap France"},
+  "contacts": [
+    {
+      "name": "OpenStreetMap France",
+      "email": "contact@openstreetmap.fr"
+    }
+  ]
 }

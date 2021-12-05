@@ -1,0 +1,9 @@
+{
+  "id": "talk-fi",
+  "type": "mailinglist",
+  "account": "talk-fi",
+  "locationSet": {"include": ["fi"]},
+  "languageCodes": ["fi"],
+  "order": -3,
+  "strings": {"community": "OpenStreetMap Finland"}
+}

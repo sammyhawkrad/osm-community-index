@@ -1,0 +1,7 @@
+{
+  "id": "talk-ec",
+  "type": "mailinglist",
+  "account": "talk-ec",
+  "locationSet": {"include": ["ec"]},
+  "strings": {"community": "OpenStreetMap Ecuador"}
+}

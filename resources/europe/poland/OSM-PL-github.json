@@ -1,9 +1,12 @@
 {
   "id": "OSM-PL-github",
   "type": "github",
+  "account": "osm-pl",
   "locationSet": {"include": ["pl"]},
   "languageCodes": ["en", "pl"],
-  "name": "OpenStreetMap Polska on GitHub",
-  "description": "GitHub organization for Polish OpenStreetMap community",
-  "url": "https://github.com/osm-pl"
+  "order": -25,
+  "strings": {
+    "community": "OpenStreetMap Poland",
+    "description": "GitHub organization for Polish OpenStreetMap community"
+  }
 }

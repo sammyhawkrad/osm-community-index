@@ -1,9 +1,8 @@
 {
   "id": "il-telegram",
   "type": "telegram",
+  "account": "OSM_Israel",
   "locationSet": {"include": ["il"]},
-  "name": "OSM Israel on Telegram",
-  "description": "A Telegram group for the OpenStreetMap community in Israel: {url}",
-  "url": "https://t.me/OSM_Israel",
-  "order": 5
+  "order": 5,
+  "strings": {"community": "OpenStreetMap Israel"}
 }

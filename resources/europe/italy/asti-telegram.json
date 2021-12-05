@@ -1,0 +1,13 @@
+{
+  "id": "asti-telegram",
+  "type": "telegram",
+  "account": "OSMAsti",
+  "locationSet": {"include": [[8.2071, 44.9]]},
+  "languageCodes": ["it"],
+  "order": 3,
+  "strings": {"community": "OpenStreetMap Asti"},
+  "contacts": [
+    {"name": "Andrea Musuruane", "email": "musuruan@gmail.com"},
+    {"name": "Francesco Ansanelli", "email": "francians@gmail.com"}
+  ]
+}

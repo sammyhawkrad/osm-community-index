@@ -1,0 +1,17 @@
+{
+  "id": "th-facebook",
+  "type": "facebook",
+  "locationSet": {"include": ["th"]},
+  "languageCodes": ["en", "th"],
+  "order": 3,
+  "strings": {
+    "community": "OpenStreetMap Thailand",
+    "url": "https://www.facebook.com/groups/thaiosm"
+  },
+  "contacts": [
+    {
+      "name": "Theppitak Karoonboonyanan",
+      "email": "theppitak@gmail.com"
+    }
+  ]
+}

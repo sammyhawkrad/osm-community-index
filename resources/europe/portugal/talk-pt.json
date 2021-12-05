@@ -1,0 +1,12 @@
+{
+  "id": "talk-pt",
+  "type": "mailinglist",
+  "account": "talk-pt",
+  "locationSet": {"include": ["pt"]},
+  "languageCodes": ["pt"],
+  "order": -3,
+  "strings": {"community": "OpenStreetMap Portugal"},
+  "contacts": [
+    {"name": "Nuno Caldeira", "email": "hello@iamnunocaldeira.com"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "talk-ph",
+  "type": "mailinglist",
+  "account": "talk-ph",
+  "locationSet": {"include": ["ph"]},
+  "languageCodes": ["en", "tl"],
+  "order": 2,
+  "strings": {"community": "OpenStreetMap Philippines"},
+  "contacts": [
+    {"name": "OSM PH core team", "email": "osm.pilipinas@gmail.com"}
+  ]
+}

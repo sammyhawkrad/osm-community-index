@@ -1,0 +1,17 @@
+{
+  "id": "my-facebook",
+  "type": "facebook",
+  "locationSet": {"include": ["my"]},
+  "languageCodes": ["en", "ms"],
+  "order": 3,
+  "strings": {
+    "community": "OpenStreetMap Malaysia",
+    "url": "https://www.facebook.com/groups/openstreetmapMY"
+  },
+  "contacts": [
+    {
+      "name": "Mohd Saidin",
+      "email": "projekopenstreetmap@hotmail.com"
+    }
+  ]
+}

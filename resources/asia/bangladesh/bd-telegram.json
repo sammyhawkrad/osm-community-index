@@ -1,0 +1,8 @@
+{
+  "id": "bd-telegram",
+  "type": "telegram",
+  "account": "OpenStreetMapBD",
+  "locationSet": {"include": ["bd"]},
+  "order": 1,
+  "strings": {"community": "OpenStreetMap Bangladesh"}
+}

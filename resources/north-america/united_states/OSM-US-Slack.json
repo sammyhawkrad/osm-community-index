@@ -3,13 +3,15 @@
   "type": "slack",
   "locationSet": {"include": ["us"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap US Slack",
-  "description": "All are welcome! Sign up at {signupUrl}",
-  "url": "https://osmus.slack.com",
-  "signupUrl": "https://slack.openstreetmap.us/",
+  "order": 4,
+  "strings": {
+    "community": "OpenStreetMap US",
+    "description": "All are welcome! Sign up at {signupUrl}",
+    "signupUrl": "https://slack.openstreetmap.us/",
+    "url": "https://osmus.slack.com"
+  },
   "contacts": [
     {"name": "Ian Dees", "email": "ian@openstreetmap.us"},
     {"name": "Clifford Snow", "email": "clifford@snowandsnow.us"}
-  ],
-  "order": 4
+  ]
 }

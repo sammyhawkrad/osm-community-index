@@ -3,9 +3,11 @@
   "type": "mailinglist",
   "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
   "languageCodes": ["de"],
-  "name": "Berlin Mailing List",
-  "description": "This is the mailing list for the Berlin OSM community",
-  "url": "https://lists.openstreetmap.de/listinfo/berlin",
-  "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}],
-  "order": -3
+  "order": -3,
+  "strings": {
+    "community": "OpenStreetMap Berlin",
+    "name": "Berlin Mailing List",
+    "url": "https://lists.openstreetmap.de/listinfo/berlin"
+  },
+  "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]
 }

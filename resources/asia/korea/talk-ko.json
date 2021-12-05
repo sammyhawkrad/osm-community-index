@@ -1,0 +1,9 @@
+{
+  "id": "talk-ko",
+  "type": "mailinglist",
+  "account": "talk-ko",
+  "locationSet": {"include": ["kp", "kr"]},
+  "languageCodes": ["en", "ko"],
+  "order": -3,
+  "strings": {"community": "OpenStreetMap Korea"}
+}

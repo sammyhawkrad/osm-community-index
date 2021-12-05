@@ -1,0 +1,8 @@
+{
+  "id": "OSM-Benin-mailinglist",
+  "type": "mailinglist",
+  "account": "talk-bj",
+  "locationSet": {"include": ["ben"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap Benin"}
+}

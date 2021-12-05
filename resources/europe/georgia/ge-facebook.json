@@ -1,0 +1,10 @@
+{
+  "id": "ge-facebook",
+  "type": "facebook",
+  "locationSet": {"include": ["ge"]},
+  "languageCodes": ["en"],
+  "strings": {
+    "community": "OpenStreetMap Georgia",
+    "url": "https://www.facebook.com/groups/osmgeo"
+  }
+}

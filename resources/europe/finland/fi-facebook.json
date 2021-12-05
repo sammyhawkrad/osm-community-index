@@ -1,0 +1,11 @@
+{
+  "id": "fi-facebook",
+  "type": "facebook",
+  "locationSet": {"include": ["fi"]},
+  "languageCodes": ["fi"],
+  "order": -5,
+  "strings": {
+    "community": "OpenStreetMap Finland",
+    "url": "https://www.facebook.com/groups/208351726124"
+  }
+}

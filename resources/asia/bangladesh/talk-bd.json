@@ -1,0 +1,9 @@
+{
+  "id": "talk-bd",
+  "type": "mailinglist",
+  "account": "talk-bd",
+  "locationSet": {"include": ["bd"]},
+  "languageCodes": ["en"],
+  "order": 3,
+  "strings": {"community": "OpenStreetMap Bangladesh"}
+}

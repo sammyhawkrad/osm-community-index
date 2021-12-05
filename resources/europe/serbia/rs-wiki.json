@@ -1,0 +1,12 @@
+{
+  "id": "rs-wiki",
+  "type": "wiki",
+  "locationSet": {"include": ["rs"]},
+  "languageCodes": ["en", "sr"],
+  "order": 2,
+  "strings": {
+    "community": "OpenStreetMap Serbia",
+    "description": "Wikiproject page for Serbia",
+    "url": "https://wiki.openstreetmap.org/wiki/WikiProject_Serbia"
+  }
+}

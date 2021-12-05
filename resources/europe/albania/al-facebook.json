@@ -1,0 +1,9 @@
+{
+  "id": "al-facebook",
+  "type": "facebook",
+  "account": "OpenStreetMapAlbania",
+  "locationSet": {"include": ["al"]},
+  "languageCodes": ["en"],
+  "order": 1,
+  "strings": {"community": "OpenStreetMap Albania"}
+}

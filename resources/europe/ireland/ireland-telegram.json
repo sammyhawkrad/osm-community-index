@@ -1,10 +1,11 @@
 {
   "id": "ireland-telegram",
   "type": "telegram",
-  "locationSet": {"include": ["ireland.geojson"]},
+  "locationSet": {"include": ["gb-nir", "ie"]},
   "languageCodes": ["en"],
-  "name": "OSM Ireland on Telegram",
-  "description": "OpenStreetMap Ireland Telegram chat",
-  "url": "https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ?fbclid=IwAR1ltY85Y7_4_CZhhwLOsLLppzis1MOVRRy897epT99JuZ9ZHZF8wpDRIfk",
-  "order": 4
+  "order": 5,
+  "strings": {
+    "community": "OpenStreetMap Ireland",
+    "url": "https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ?fbclid=IwAR1ltY85Y7_4_CZhhwLOsLLppzis1MOVRRy897epT99JuZ9ZHZF8wpDRIfk"
+  }
 }

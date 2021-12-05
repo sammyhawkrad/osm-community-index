@@ -1,11 +1,12 @@
 {
-  "id": "hr-mailinglist",
+  "id": "talk-hr",
   "type": "mailinglist",
+  "account": "talk-hr",
   "locationSet": {"include": ["hr"]},
   "languageCodes": ["hr"],
-  "name": "Talk-hr Mailing List",
-  "description": "Talk-hr mailing list",
-  "url": "https://lists.openstreetmap.org/listinfo/talk-hr",
-  "contacts": [{"name": "OpenStreetMap Croatia", "email": "info@osm-hr.org"}],
-  "order": 3
+  "order": 3,
+  "strings": {"community": "OpenStreetMap Croatia"},
+  "contacts": [
+    {"name": "OpenStreetMap Croatia", "email": "info@osm-hr.org"}
+  ]
 }

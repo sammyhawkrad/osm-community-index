@@ -7,17 +7,17 @@
     "id",
     "type",
     "locationSet",
-    "name",
-    "description",
-    "url"
+    "strings"
   ],
 
   "properties": {
+
     "id": {
       "description": "(required) A unique identifier for the resource",
       "type": "string",
       "pattern": "^[-_.A-Za-z0-9]+$"
     },
+
     "type": {
       "description": "(required) Type of community resource",
       "type": "string",
@@ -28,8 +28,10 @@
         "facebook",
         "forum",
         "github",
+        "gitlab",
         "group",
         "irc",
+        "linkedin",
         "mailinglist",
         "matrix",
         "meetup",
@@ -39,47 +41,26 @@
         "slack",
         "telegram",
         "twitter",
+        "url",
         "wiki",
         "xmpp",
         "youthmappers",
         "youtube"
       ]
     },
+
+    "account": {
+      "description": "(optional) Resource account string, required for some resource types",
+      "examples": ["talk-af"],
+      "type": "string"
+    },
+
     "locationSet": {
       "$comment": "See location-conflation documentation for compatible values: https://github.com/ideditor/location-conflation#readme",
-      "description": "(required) included and excluded locations for this resource",
-      "type": "object",
-      "additionalProperties": false,
-      "required": [
-        "include"
-      ],
-      "properties": {
-        "include": {
-          "description": "(required) locations included",
-          "type": "array",
-          "uniqueItems": true,
-          "items": {
-            "anyOf": [
-              { "$ref": "#/definitions/countryCoder" },
-              { "$ref": "#/definitions/coordinatePair" },
-              { "$ref": "#/definitions/geojsonFilename" }
-            ]
-          }
-        },
-        "exclude": {
-          "description": "(optional) locations excluded",
-          "type": "array",
-          "uniqueItems": true,
-          "items": {
-            "anyOf": [
-              { "$ref": "#/definitions/countryCoder" },
-              { "$ref": "#/definitions/coordinatePair" },
-              { "$ref": "#/definitions/geojsonFilename" }
-            ]
-          }
-        }
-      }
+      "description": "(required) included and excluded locations for this item",
+      "$ref": "#/definitions/locationSet"
     },
+
     "languageCodes": {
       "description": "(optional) Array of ISO-639-1 (2 letter) or ISO-639-3 (3 letter) codes in lowercase",
       "type": "array",
@@ -89,29 +70,42 @@
         "pattern": "^[a-z]{2,3}(-[a-zA-Z]{2})?$"
       }
     },
-    "name": {
-      "$comment": "Assumed to be in English, this value will be sent to Transifex for translation",
-      "description": "(required) Display name for this community resource",
-      "type": "string"
+
+    "strings": {
+      "description": "(required) Source text strings related to this community resource",
+      "$comment": "All strings should be provided in English, and will be sent to Transifex for translation",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "community": {
+          "description": "(optional) Community Name",
+          "examples": ["OSM Afghanistan"],
+          "type": "string"
+        },
+        "name": {
+          "description": "(optional) Display name for this community resource",
+          "examples": ["Talk-af Mailing List"],
+          "type": "string"
+        },
+        "description": {
+          "description": "(optional) One line description of the community resource",
+          "type": "string"
+        },
+        "extendedDescription": {
+          "description": "(optional) Longer description of the community resource",
+          "type": "string"
+        },
+        "signupUrl": {
+          "description": "(optional) A url link to sign up for the community resource",
+          "type": "string"
+        },
+        "url": {
+          "description": "(optional) A url link to visit the community resource",
+          "type": "string"
+        }
+      }
     },
-    "description": {
-      "$comment": "Assumed to be in English, this value will be sent to Transifex for translation",
-      "description": "(required) One line description of the community resource",
-      "type": "string"
-    },
-    "extendedDescription": {
-      "$comment": "Assumed to be in English, this value will be sent to Transifex for translation",
-      "description": "(optional) Longer description of the community resource",
-      "type": "string"
-    },
-    "url": {
-      "description": "(required) A url link to visit the community resource",
-      "type": "string"
-    },
-    "signupUrl": {
-      "description": "(optional) A url link to sign up for the community resource",
-      "type": "string"
-    },
+
     "contacts": {
       "description": "(optional) People to contact about this community resource",
       "type": "array",
@@ -119,10 +113,7 @@
       "uniqueItems": true,
       "items": {
         "type": "object",
-        "required": [
-          "name",
-          "email"
-        ],
+        "required": ["name", "email"],
         "properties": {
           "name": {
             "description": "The contact person's name",
@@ -136,11 +127,13 @@
         }
       }
     },
+
     "order": {
       "$comment": "When several resources with same geography are present, this controls the display order.",
       "description": "(optional) Suggested sort order for this resource (default = 0, higher numbers display more prominently)",
       "type": "number"
     },
+
     "events": {
       "description": "(optional) Featured events for this resource",
       "type": "array",
@@ -197,24 +190,61 @@
   },
 
   "definitions": {
+
     "countryCoder": {
       "$comment": "See country-coder documentation for compatible values: https://github.com/ideditor/country-coder#readme",
       "description": "A country code (ISO 3166-1, United Nations M49, or anything recognized by country-coder)",
       "type": "string"
     },
-    "coordinatePair": {
-      "description": "A coordinate pair formatted as [longitude, latitude]",
+
+    "circularArea": {
+      "description": "A circular area defined as [longitude, latitude, radius?]. If not specified, radius will default to 25km.",
       "type": "array",
+      "minItems": 2,
+      "maxItems": 3,
       "items": {
-        "type": "number",
-        "minItems": 2,
-        "maxItems": 2
+        "type": "number"
       }
     },
+
     "geojsonFilename": {
-      "description": "A filename for one of the geojson features in this project",
+      "description": "A filename for one of the custom geojson features in this project",
       "type": "string",
       "pattern": "^.*\\.geojson$"
+    },
+
+    "locationSet": {
+      "$comment": "See location-conflation documentation for compatible values: https://github.com/ideditor/location-conflation#readme",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["include"],
+      "properties": {
+        "include": {
+          "description": "(required) locations included",
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "anyOf": [
+              { "$ref": "#/definitions/countryCoder" },
+              { "$ref": "#/definitions/circularArea" },
+              { "$ref": "#/definitions/geojsonFilename" }
+            ]
+          }
+        },
+        "exclude": {
+          "description": "(optional) locations excluded",
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "anyOf": [
+              { "$ref": "#/definitions/countryCoder" },
+              { "$ref": "#/definitions/circularArea" },
+              { "$ref": "#/definitions/geojsonFilename" }
+            ]
+          }
+        }
+      }
     }
+
   }
 }

@@ -1,11 +1,12 @@
 {
   "id": "md-telegram",
   "type": "telegram",
+  "account": "OSMMoldova",
   "locationSet": {"include": ["md"]},
   "languageCodes": ["mo", "ro", "ru"],
-  "name": "@OSMMoldova on Telegram",
-  "description": "OpenStreetMap Moldova Telegram chat",
-  "url": "https://t.me/OSMMoldova",
-  "contacts": [{"name": "Ion Moldovan", "email": "6yhxhs7t7huf@inbox.ru"}],
-  "order": 2
+  "order": 2,
+  "strings": {"community": "OpenStreetMap Moldova"},
+  "contacts": [
+    {"name": "Ion Moldovan", "email": "6yhxhs7t7huf@inbox.ru"}
+  ]
 }

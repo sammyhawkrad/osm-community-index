@@ -1,10 +1,11 @@
 {
   "id": "at-twitter",
   "type": "twitter",
+  "account": "osm_at",
   "locationSet": {"include": ["at"]},
   "languageCodes": ["de"],
-  "name": "OpenStreetMap Austria Twitter",
-  "description": "OpenStreetMap Austria On Twitter: {url}",
-  "url": "https://twitter.com/osm_at",
-  "contacts": [{"name": "AT Community", "email": "info@openstreetmap.at"}]
+  "strings": {"community": "OpenStreetMap Austria"},
+  "contacts": [
+    {"name": "AT Community", "email": "info@openstreetmap.at"}
+  ]
 }

@@ -1,0 +1,9 @@
+{
+  "id": "id-telegram",
+  "type": "telegram",
+  "account": "osmindonesia",
+  "locationSet": {"include": ["id"]},
+  "languageCodes": ["id"],
+  "order": 2,
+  "strings": {"community": "OpenStreetMap Indonesia"}
+}

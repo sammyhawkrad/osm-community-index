@@ -1,10 +1,9 @@
 {
   "id": "se-forum",
   "type": "forum",
+  "account": "4",
   "locationSet": {"include": ["se"]},
   "languageCodes": ["sv"],
-  "name": "OpenStreetMap Sweden Web Forum",
-  "description": "OpenStreetMap Sweden web forum",
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=4",
-  "order": -2
+  "order": -2,
+  "strings": {"community": "OpenStreetMap Sweden"}
 }

@@ -1,0 +1,9 @@
+{
+  "id": "talk-id",
+  "type": "mailinglist",
+  "account": "talk-id",
+  "locationSet": {"include": ["id"]},
+  "languageCodes": ["en"],
+  "order": 5,
+  "strings": {"community": "OpenStreetMap Indonesia"}
+}

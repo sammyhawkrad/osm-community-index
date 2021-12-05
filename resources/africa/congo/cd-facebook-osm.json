@@ -1,0 +1,8 @@
+{
+  "id": "OSM-cd-facebook",
+  "type": "facebook",
+  "account": "OpenStreetMap.RDC",
+  "locationSet": {"include": ["cd"]},
+  "languageCodes": ["en", "fr"],
+  "strings": {"community": "OpenStreetMap RDC"}
+}

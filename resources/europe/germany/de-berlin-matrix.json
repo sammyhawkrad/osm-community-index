@@ -1,0 +1,11 @@
+{
+  "id": "de-berlin-matrix",
+  "type": "matrix",
+  "account": "#osmberlin",
+  "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
+  "languageCodes": ["de"],
+  "strings": {"community": "OpenStreetMap Berlin"},
+  "contacts": [
+    {"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "osm-iran-aparat",
+  "type": "aparat",
+  "account": "osm_iran",
+  "locationSet": {"include": ["ir"]},
+  "languageCodes": ["fa"],
+  "strings": {
+    "community": "OpenStreetMap Iran",
+    "extendedDescription": "A good resource of videos about anything related to OpenStreetMap. Mainly in Persian."
+  },
+  "contacts": [{"name": "Iman", "email": "iriman@chmail.ir"}]
+}

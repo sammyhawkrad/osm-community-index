@@ -1,10 +1,21 @@
 {
   "id": "OSM-Discord",
   "type": "discord",
+  "account": "openstreetmap",
   "locationSet": {"include": ["001"]},
-  "languageCodes": ["en"],
-  "name": "OpenStreetMap Discord",
-  "description": "Get in touch with other mappers via Discord",
-  "url": "https://discord.gg/SRZUYUz",
-  "contacts": [{"name": "Austin Harrison", "email": "jaustinharrison@gmail.com"}]
+  "languageCodes": [
+    "de",
+    "en",
+    "es",
+    "fr",
+    "it",
+    "pt-BR",
+    "ro",
+    "tr"
+  ],
+  "order": 6,
+  "strings": {"name": "OpenStreetMap World Discord"},
+  "contacts": [
+    {"name": "Austin Harrison", "email": "jaustinharrison@gmail.com"}
+  ]
 }

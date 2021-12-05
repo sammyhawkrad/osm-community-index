@@ -1,0 +1,19 @@
+{
+  "id": "mm-facebook",
+  "type": "facebook",
+  "locationSet": {"include": ["mm"]},
+  "order": 3,
+  "strings": {
+    "community": "OpenStreetMap Myanmar",
+    "extendedDescription": "Mapping in Myanmar? Have questions, want to connect with the community here? Join us at {url}. All are welcome!",
+    "url": "https://www.facebook.com/groups/osmmm/"
+  },
+  "contacts": [
+    {"name": "Yan Naung Oak", "email": "yan@phandeeyar.org"},
+    {
+      "name": "Patrick Oswald",
+      "email": "patrickoswald.omm@gmail.com"
+    },
+    {"name": "Set Khaing Oo", "email": "setkhaing@phandeeyar.org"}
+  ]
+}

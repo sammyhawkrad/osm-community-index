@@ -1,0 +1,8 @@
+{
+  "id": "OSM-ci-facebook",
+  "type": "facebook",
+  "account": "openstreetmapci",
+  "locationSet": {"include": ["ci"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap Cote d'Ivoire"}
+}

@@ -1,0 +1,13 @@
+{
+  "id": "talk-cz",
+  "type": "mailinglist",
+  "account": "talk-cz",
+  "locationSet": {"include": ["cz"]},
+  "languageCodes": ["cs", "en", "sk"],
+  "order": -3,
+  "strings": {
+    "community": "OpenStreetMap CZ",
+    "url": "https://openstreetmap.cz/talk-cz"
+  },
+  "contacts": [{"name": "osmcz", "email": "dev@openstreetmap.cz"}]
+}

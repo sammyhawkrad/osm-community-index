@@ -1,0 +1,10 @@
+{
+  "id": "osm-india-matrix",
+  "type": "matrix",
+  "account": "#osm-in-general",
+  "locationSet": {"include": ["in"]},
+  "strings": {
+    "community": "OpenStreetMap India",
+    "extendedDescription": "Unofficial chat room for OSM India, also bridged to osmindia Telegram group"
+  }
+}

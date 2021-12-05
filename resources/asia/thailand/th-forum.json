@@ -1,0 +1,12 @@
+{
+  "id": "th-forum",
+  "type": "forum",
+  "account": "46",
+  "locationSet": {"include": ["th"]},
+  "languageCodes": ["en", "th"],
+  "order": -2,
+  "strings": {"community": "OpenStreetMap Thailand"},
+  "contacts": [
+    {"name": "Stephan Knauss", "email": "osm@stephans-server.de"}
+  ]
+}

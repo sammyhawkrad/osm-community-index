@@ -1,0 +1,9 @@
+{
+  "id": "talk-cm",
+  "type": "mailinglist",
+  "account": "talk-cm",
+  "locationSet": {"include": ["cm"]},
+  "languageCodes": ["en"],
+  "order": 2,
+  "strings": {"community": "OpenStreetMap Cameroon"}
+}

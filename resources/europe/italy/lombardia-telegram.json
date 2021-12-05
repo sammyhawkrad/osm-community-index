@@ -1,0 +1,15 @@
+{
+  "id": "lombardia-telegram",
+  "type": "telegram",
+  "account": "OSMLombardia",
+  "locationSet": {"include": ["lombardia.geojson"]},
+  "languageCodes": ["it"],
+  "order": 3,
+  "strings": {"community": "OpenStreetMap Lombardia"},
+  "contacts": [
+    {
+      "name": "Lorenzo Stucchi",
+      "email": "lorenzostucchi95@outlook.it"
+    }
+  ]
+}

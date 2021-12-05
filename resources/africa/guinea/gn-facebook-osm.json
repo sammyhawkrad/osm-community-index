@@ -1,0 +1,8 @@
+{
+  "id": "OSM-gn-facebook",
+  "type": "facebook",
+  "account": "osmguinee",
+  "locationSet": {"include": ["gn"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap Guinea"}
+}

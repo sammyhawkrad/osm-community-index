@@ -1,0 +1,17 @@
+{
+  "id": "fr-matrix",
+  "type": "matrix",
+  "account": "#osmfr",
+  "locationSet": {"include": ["fr"]},
+  "languageCodes": ["fr"],
+  "strings": {
+    "community": "OpenStreetMap France",
+    "description": "A Matrix group for the OSM France community: {url} (bridged with Telegram)"
+  },
+  "contacts": [
+    {
+      "name": "OpenStreetMap France",
+      "email": "contact@openstreetmap.fr"
+    }
+  ]
+}

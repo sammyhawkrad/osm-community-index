@@ -1,0 +1,9 @@
+{
+  "id": "talk-dk",
+  "type": "mailinglist",
+  "account": "talk-dk",
+  "locationSet": {"include": ["dk"]},
+  "languageCodes": ["da"],
+  "order": -3,
+  "strings": {"community": "OpenStreetMap Denmark"}
+}

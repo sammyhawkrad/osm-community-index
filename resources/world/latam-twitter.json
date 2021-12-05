@@ -1,11 +1,12 @@
 {
   "id": "latam-twitter",
   "type": "twitter",
+  "account": "osmlatam",
   "locationSet": {"include": ["419"]},
   "languageCodes": ["en", "es", "pt"],
-  "name": "OpenStreetMap Latin America Twitter",
-  "description": "OpenStreetMap Latin America on Twitter: {url}",
-  "url": "https://twitter.com/osmlatam",
-  "contacts": [{"name": "OSM LATAM Community", "email": "info@osmlatam.org"}],
-  "order": 3
+  "order": 3,
+  "strings": {"community": "OpenStreetMap Latin America"},
+  "contacts": [
+    {"name": "OSM LATAM Community", "email": "info@osmlatam.org"}
+  ]
 }

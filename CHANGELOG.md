@@ -3,9 +3,9 @@
 **osm-community-index** is an open source project. You can submit bug reports, help out,
 or learn more by visiting our project page on GitHub:  :octocat: https://github.com/osmlab/osm-community-index
 
-Please star our project on GitHub to show your support! :star:
+Please star our project on GitHub to show your support! ⭐️
 
-_Breaking changes, which may affect downstream projects, are marked with a_ :warning:
+_Breaking changes, which may affect downstream projects, are marked with a_ ⚠️
 
 
 <!--
@@ -18,6 +18,298 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+
+# 5.1.4
+##### 2021-Nov-30
+
+* Added:
+  * Added SOTM-US 2022 in Tucson, Arizona
+  * Added AT IRC channel ([#489])
+  * Added OSM Korea resources ([#484])
+* Updated:
+  * Updated icons from FontAwesome (this updated the Discord icon)
+* Removed:
+  * Remove ym-Institute-of-Finance-Management.json ([#493])
+  * Remove Berlin Meetup ([#492])
+
+[#493]: https://github.com/osmlab/osm-community-index/issues/493
+[#492]: https://github.com/osmlab/osm-community-index/issues/492
+[#489]: https://github.com/osmlab/osm-community-index/issues/489
+[#484]: https://github.com/osmlab/osm-community-index/issues/484
+
+
+# 5.1.3
+##### 2021-Aug-17
+* Added OSM Mexico Matrix Chat ([#480])
+* Added/Updated official local chapters ([#482]):
+  * OSM Japan
+  * OSM Poland
+  * OSGeo Oceania
+  * OSM CZ (Czechia)
+  * OSM Freemap Slovakia
+  * FLOSSK (Kosovo)
+  * OSM RDC (Democratic Republic of Congo)
+  * GeoLibres (Argentina)
+
+[#480]: https://github.com/osmlab/osm-community-index/issues/480
+[#482]: https://github.com/osmlab/osm-community-index/issues/482
+
+
+# 5.1.2
+##### 2021-Jul-29
+* Added resources:
+  * OSM French Polynesia ([#479])
+* Updated:
+  * Fix #osm-at matrix account name ([#348])
+  * Update OSM Japan Slack invitation url ([#478])
+
+[#348]: https://github.com/osmlab/osm-community-index/issues/348
+[#478]: https://github.com/osmlab/osm-community-index/issues/478
+[#479]: https://github.com/osmlab/osm-community-index/issues/479
+
+
+# 5.1.1
+##### 2021-Jul-13
+* Update `xmpp.svg` logo ([#476])
+* Switch "gb" to use "Q3336843" (UK countries excl. BOTS) ([country-coder#35])
+
+[#476]: https://github.com/osmlab/osm-community-index/issues/476
+[country-coder#35]: https://github.com/ideditor/country-coder/issues/35
+
+
+# 5.1.0
+##### 2021-Jun-24
+* Support new resource type `linkedin` ([#474])
+* Restore the `features/` and `resources/` folders in what we publish ([#471])
+
+[#474]: https://github.com/osmlab/osm-community-index/issues/474
+[#471]: https://github.com/osmlab/osm-community-index/issues/471
+
+
+# 5.0.1
+##### 2021-Jun-24
+* Remove "browser" from the export map, upgrade dependencies
+
+
+# 5.0.0
+##### 2021-Jun-18
+* Bump to location-conflation v1.0.1 / country-coder v5.0.1
+* ⚠️  Replace rollup with [esbuild](https://esbuild.github.io/) for super fast build speed. Package exports are now:
+  * `"module": "./index.mjs"` - ESM, modern JavaScript, works with `import`
+  * `"main": "./dist/oci.cjs"` - CJS bundle, modern JavaScript, works with `require()`
+  * `"browser": "./dist/oci.iife.js"` - IIFE bundle, modern JavaScript, works in browser `<script>` tag
+  * No longer distributing ES5 builds
+* ⚠️  osm-community-index is marked as `"type": "module"` now
+* ⚠️  Dropped support for old browsers like Internet Explorer on https://openstreetmap.community
+* Updated:
+  * Update OSM World Discord to the new vanity URL ([#464])
+
+[#464]: https://github.com/osmlab/osm-community-index/issues/464
+
+
+# 4.0.2
+##### 2021-Jun-06
+* Bump to location-conflation v0.9.0 / country-coder v4.1.0
+
+
+# 4.0.1
+##### 2021-May-21
+Added:
+  * OSM Kerala GitHub ([#463])
+  * OSM Netherlands Mailing List and Wonder.me ([#462])
+* Updated:
+  * Adjust sort of resources around London ([#460])
+
+[#463]: https://github.com/osmlab/osm-community-index/issues/463
+[#462]: https://github.com/osmlab/osm-community-index/issues/462
+[#460]: https://github.com/osmlab/osm-community-index/issues/460
+
+
+# 4.0.0
+##### 2021-Apr-30
+* Added/updated hundreds of missing resources (mainly [#423], also [#445], [#454], [#456])
+* ⚠️  Changed file format to support default strings and token replacements (see [#30])
+  * Added `defaults.json` - now contains default translatable strings (e.g. `'description': 'The official mailing list for {community}'`)<br/>This makes much less work for our volunteer translators.
+  * Added `account` property as a companion to `type` (e.g. `'type': 'mailinglist', 'account': 'talk-ru'`)
+  * `strings` object now holds all the source strings, including `community`, `name`, `url`, `description`, `extendedDescription`
+  * `resolveStrings` function can be used resolve all the strings and also generate linkified strings<br/>This function is exported in ES6/CJS formats for downstream projects to use
+  * `completeFeatureCollection.json` now contains `resolved` Object with all the resolved strings
+* Many updates to project documentation
+* Added `npm run local` command to test the index locally ([#433])
+* <https://openstreetmap.community> now has option to generate a permalink ([#393], [#440])
+
+[#456]: https://github.com/osmlab/osm-community-index/issues/456
+[#454]: https://github.com/osmlab/osm-community-index/issues/454
+[#445]: https://github.com/osmlab/osm-community-index/issues/445
+[#440]: https://github.com/osmlab/osm-community-index/issues/440
+[#433]: https://github.com/osmlab/osm-community-index/issues/433
+[#423]: https://github.com/osmlab/osm-community-index/issues/423
+[#393]: https://github.com/osmlab/osm-community-index/issues/393
+[#30]: https://github.com/osmlab/osm-community-index/issues/30
+
+
+# 3.1.2
+##### 2021-Mar-30
+* Added:
+  * OSM Azerbaijan Facebook ([#429])
+  * OSM Bangledesh ([#429])
+  * OSM Belarus ([#429])
+  * OSM Afghanistan Talk list ([#427])
+  * OSM Algeria forum ([#427])
+  * OSM Albania Facebook ([#427])
+  * OSM Cameroon ([#425], [#426])
+  * OSM Berlin Matrix ([#419])
+  * OSM Asti (Italy) ([#416])
+  * OSM Poland Discord ([#412], [#415])
+* Updated:
+  * Update descriptions and ordering for OSM Luxembourg ([#428])
+  * Correct OSM World Discord name ([#420])
+  * Adjust sort order for global OSM resources ([#418])
+  * Adjust sort order for OSM Poland GitHub ([#413])
+  * Correct region for UK local chapter ([#411])
+* Removed Inactive:
+  * YouthMappers chapter ym-Tribhuvan-University ([#422])
+  * YouthMappers chapter ym-Kathmandu-University ([#421])
+
+[#411]: https://github.com/osmlab/osm-community-index/issues/411
+[#412]: https://github.com/osmlab/osm-community-index/issues/412
+[#413]: https://github.com/osmlab/osm-community-index/issues/413
+[#415]: https://github.com/osmlab/osm-community-index/issues/415
+[#416]: https://github.com/osmlab/osm-community-index/issues/416
+[#418]: https://github.com/osmlab/osm-community-index/issues/418
+[#419]: https://github.com/osmlab/osm-community-index/issues/419
+[#420]: https://github.com/osmlab/osm-community-index/issues/420
+[#421]: https://github.com/osmlab/osm-community-index/issues/421
+[#422]: https://github.com/osmlab/osm-community-index/issues/422
+[#425]: https://github.com/osmlab/osm-community-index/issues/425
+[#426]: https://github.com/osmlab/osm-community-index/issues/426
+[#427]: https://github.com/osmlab/osm-community-index/issues/427
+[#428]: https://github.com/osmlab/osm-community-index/issues/428
+[#429]: https://github.com/osmlab/osm-community-index/issues/429
+
+
+# 3.1.1
+##### 2021-Jan-27
+* Added:
+  * OSM Kerala Matrix ([#410])
+  * OSM India Matrix ([#409])
+  * OSM France Matrix ([#408])
+* Updated:
+  * OSM World Discord language codes ([#406])
+
+[#406]: https://github.com/osmlab/osm-community-index/issues/406
+[#408]: https://github.com/osmlab/osm-community-index/issues/408
+[#409]: https://github.com/osmlab/osm-community-index/issues/409
+[#410]: https://github.com/osmlab/osm-community-index/issues/410
+
+
+# 3.1.0
+##### 2021-Jan-03
+* Support new resource type `gitlab` ([#404])
+* Added:
+  * OSM Serbia resources ([#404])
+  * US Michagin Wiki ([#403])
+  * OSM Finland Telegram ([#402])
+  * OSM Iran Discord ([#400])
+  * OSM Norway Matrix ([#399])
+* Updated:
+  * OSM World Discord URL ([#401])
+
+[#398]: https://github.com/osmlab/osm-community-index/issues/398
+[#399]: https://github.com/osmlab/osm-community-index/issues/399
+[#400]: https://github.com/osmlab/osm-community-index/issues/400
+[#401]: https://github.com/osmlab/osm-community-index/issues/401
+[#402]: https://github.com/osmlab/osm-community-index/issues/402
+[#403]: https://github.com/osmlab/osm-community-index/issues/403
+[#404]: https://github.com/osmlab/osm-community-index/issues/404
+
+
+# 3.0.1
+##### 2020-Dec-16
+* Updated:
+  * Retain all of the country-coder properties in completeFeatureCollection.json ([#398])
+
+[#398]: https://github.com/osmlab/osm-community-index/issues/398
+
+
+# 3.0.0
+##### 2020-Dec-15
+* Added:
+  * OSM Turkey Facebook group and mailing list ([#395], [#396])
+  * OSM Poland Telegram group ([#394])
+  * OSM Hong Kong Discord ([#391])
+  * OSM Finland Facebook group ([#388])
+  * Catalan community resources ([#387])
+  * Fix OSM Iraq mailing list so it is now included ([#370])
+  * OSM Austria Matrix chat ([#348])
+* Updated:
+  * Update YouthMappers CostaRica source strings to English ([#386])
+  * Fix misspelling "Xeoinquedos" ([#344], [#379])
+* Dependencies:
+  * Upgrade to location-conflation v0.6 / country-coder v4.0
+* Breaking Changes:
+  * ⚠️  Removed unneeded `index.mjs` and `index.js` JavaScript bundles
+  * ⚠️  Renamed files for consistency and clarity:
+    * `dist/features.json` -> `dist/featureCollection.json`
+    * `dist/combined.geojson` -> `dist/completeFeatureCollection.json`
+
+[#344]: https://github.com/osmlab/osm-community-index/issues/344
+[#348]: https://github.com/osmlab/osm-community-index/issues/348
+[#370]: https://github.com/osmlab/osm-community-index/issues/370
+[#379]: https://github.com/osmlab/osm-community-index/issues/379
+[#386]: https://github.com/osmlab/osm-community-index/issues/386
+[#387]: https://github.com/osmlab/osm-community-index/issues/387
+[#388]: https://github.com/osmlab/osm-community-index/issues/388
+[#391]: https://github.com/osmlab/osm-community-index/issues/391
+[#394]: https://github.com/osmlab/osm-community-index/issues/394
+[#395]: https://github.com/osmlab/osm-community-index/issues/395
+[#396]: https://github.com/osmlab/osm-community-index/issues/396
+
+
+# 2.1.2
+##### 2020-Oct-21
+* Added:
+  * OSM Malta IRC room ([#374])
+  * OSM Italy, Lombardy region ([#372], [#373], [#378])
+  * OSM Iraq mailing list ([#370])
+  * OSM France, Grenoble region ([#369])
+  * OSM Luxembourg resources ([#367])
+  * XMPP chat for France ([#362])
+  * Germany, state Baden-Wuerttemberg resources ([#356])
+  * Poland Github ([#350])
+  * XMPP chat for Berlin / Germany ([#349])
+* Updated:
+  * Use matrix.to links for Matrix chat ([#365], [#366], [#375], [#376], [#377])
+  * Updated descriptions and links for Philippine channels ([#371])
+  * Adjust ranking of Irish community resources ([#368])
+  * OSM-US is an official local chapter now
+  * Correct typo 'OSM Croaria' -> 'OSM Croatia'
+  * MappingDC is one word
+  * Add missing HTTP(S) to URL ([#351])
+* Removed:
+  * osmcz-telegram ([#361])
+
+[#349]: https://github.com/osmlab/osm-community-index/issues/349
+[#350]: https://github.com/osmlab/osm-community-index/issues/350
+[#351]: https://github.com/osmlab/osm-community-index/issues/351
+[#356]: https://github.com/osmlab/osm-community-index/issues/356
+[#361]: https://github.com/osmlab/osm-community-index/issues/361
+[#362]: https://github.com/osmlab/osm-community-index/issues/362
+[#365]: https://github.com/osmlab/osm-community-index/issues/365
+[#366]: https://github.com/osmlab/osm-community-index/issues/366
+[#367]: https://github.com/osmlab/osm-community-index/issues/367
+[#368]: https://github.com/osmlab/osm-community-index/issues/368
+[#369]: https://github.com/osmlab/osm-community-index/issues/369
+[#370]: https://github.com/osmlab/osm-community-index/issues/370
+[#371]: https://github.com/osmlab/osm-community-index/issues/371
+[#372]: https://github.com/osmlab/osm-community-index/issues/372
+[#373]: https://github.com/osmlab/osm-community-index/issues/373
+[#374]: https://github.com/osmlab/osm-community-index/issues/374
+[#375]: https://github.com/osmlab/osm-community-index/issues/375
+[#376]: https://github.com/osmlab/osm-community-index/issues/376
+[#377]: https://github.com/osmlab/osm-community-index/issues/377
+[#378]: https://github.com/osmlab/osm-community-index/issues/378
+
 
 # 2.1.1
 ##### 2020-Apr-13
@@ -60,8 +352,8 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 ##### 2020-Jan-15
 
 * Updated:
-  * :warning: Build environment now requires Node 10 or greater.
-  * :warning: New approach to specifying locations introduces some breaking changes but shrinks the data significantly. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.  ([#298], [#291])
+  * ⚠️  Build environment now requires Node 10 or greater.
+  * ⚠️  New approach to specifying locations introduces some breaking changes but shrinks the data significantly. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.  ([#298], [#291])
     * Resource files now use a `locationSet` property to make it easier to specify where the resources are included and excluded.
     * Removed: `countryCodes` properties
     * Removed: `featureId` properties and most `.geojson` files (everything that was just a country or a circular point is now gone, as it can be calculated)
@@ -143,7 +435,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 
 * New:
   * Features now include an automatically calculated `area` property, making it easier for downstream projects to sort resources by area ([#286])
-    * :warning: This new property breaks backward compatibility of the `combined.geojson` files.
+    * ⚠️  This new property breaks backward compatibility of the `combined.geojson` files.
   * Add an `osm-lc` type and `osm-lc.svg` icon for official OSM Local Chapters (see [#1])
   * Resources now support an `order` property, to allow communities to control how their resources are sorted ([#114])
   * Resource `contacts` property is now optional

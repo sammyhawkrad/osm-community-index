@@ -1,11 +1,10 @@
 {
   "id": "at-forum",
   "type": "forum",
+  "account": "89",
   "locationSet": {"include": ["at"]},
   "languageCodes": ["de", "en"],
-  "name": "OpenStreetMap Austria Forum",
-  "description": "The official forum for OpenStreetMap questions in and around Austria",
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=89",
-  "contacts": [{"name": "emga", "email": "emgaosm@gmail.com"}],
-  "order": -2
+  "order": -2,
+  "strings": {"community": "OpenStreetMap Austria"},
+  "contacts": [{"name": "emga", "email": "emgaosm@gmail.com"}]
 }

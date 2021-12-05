@@ -1,0 +1,10 @@
+{
+  "id": "OSM-eg-facebook",
+  "type": "facebook",
+  "locationSet": {"include": ["eg"]},
+  "languageCodes": ["en"],
+  "strings": {
+    "community": "OpenStreetMap Egypt",
+    "url": "https://www.facebook.com/groups/405747563534310"
+  }
+}

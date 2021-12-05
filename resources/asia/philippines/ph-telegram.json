@@ -1,0 +1,15 @@
+{
+  "id": "OSM-PH-telegram",
+  "type": "telegram",
+  "account": "osmph",
+  "locationSet": {"include": ["ph"]},
+  "languageCodes": ["en", "tl"],
+  "order": 3,
+  "strings": {
+    "community": "OpenStreetMap Philippines",
+    "extendedDescription": "A friendly and very active Telegram group for OSM mappers and friends in the Philippines for small talk, light banter, and quick questions and answers."
+  },
+  "contacts": [
+    {"name": "OSM PH core team", "email": "osm.pilipinas@gmail.com"}
+  ]
+}

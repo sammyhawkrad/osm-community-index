@@ -1,11 +1,10 @@
 {
   "id": "ua-forum",
   "type": "forum",
+  "account": "40",
   "locationSet": {"include": ["ukraine.geojson"]},
   "languageCodes": ["en", "ru", "uk"],
-  "name": "OpenStreetMap Ukraine Forum",
-  "description": "Forum of OpenStreetMap community in Ukraine",
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=40",
-  "contacts": [{"name": "Andrii Holovin", "email": "andygol@ua.fm"}],
-  "order": 2
+  "order": 2,
+  "strings": {"community": "OpenStreetMap Ukraine"},
+  "contacts": [{"name": "Andrii Holovin", "email": "andygol@ua.fm"}]
 }

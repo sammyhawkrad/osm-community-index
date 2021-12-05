@@ -1,0 +1,9 @@
+{
+  "id": "rs-facebook",
+  "type": "facebook",
+  "account": "OpenStreetMapSrbija",
+  "locationSet": {"include": ["rs"]},
+  "languageCodes": ["en", "sr"],
+  "order": 1,
+  "strings": {"community": "OpenStreetMap Serbia"}
+}

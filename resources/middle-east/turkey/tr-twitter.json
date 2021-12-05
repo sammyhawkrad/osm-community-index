@@ -1,0 +1,8 @@
+{
+  "id": "tr-twitter",
+  "type": "twitter",
+  "account": "OpenstreetmapTr",
+  "locationSet": {"include": ["tr"]},
+  "languageCodes": ["tr"],
+  "strings": {"community": "OpenStreetMap Turkey"}
+}

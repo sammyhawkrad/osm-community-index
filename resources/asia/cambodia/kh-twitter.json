@@ -1,0 +1,8 @@
+{
+  "id": "kh-twitter",
+  "type": "twitter",
+  "account": "OSM_KH",
+  "locationSet": {"include": ["kh"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap Cambodia"}
+}

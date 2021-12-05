@@ -3,8 +3,12 @@
   "type": "group",
   "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
-  "name": "OpenStreetMap Colombia",
-  "description": "News of the OpenStreetMap Colombia community and the OSMCo Foundation",
-  "url": "https://blog.openstreetmap.co/s657",
-  "contacts": [{"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}]
+  "strings": {
+    "community": "OpenStreetMap Colombia",
+    "description": "News of the OpenStreetMap Colombia community and the OSMCo Foundation",
+    "url": "https://blog.openstreetmap.co/s657"
+  },
+  "contacts": [
+    {"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}
+  ]
 }

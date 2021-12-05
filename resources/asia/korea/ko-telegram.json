@@ -1,0 +1,12 @@
+{
+  "id": "ko-telegram",
+  "type": "telegram",
+  "account": "osmKorea",
+  "locationSet": {"include": ["kp", "kr"]},
+  "languageCodes": ["en", "ko"],
+  "strings": {"community": "OpenStreetMap Korea"},
+  "contacts": [
+    {"name": "Yongmin Hong", "email": "revi@pobox.com"},
+    {"name": "Max N", "email": "abonnements@revolwear.com"}
+  ]
+}

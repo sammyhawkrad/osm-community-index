@@ -1,0 +1,8 @@
+{
+  "id": "OSM-ci-twitter",
+  "type": "twitter",
+  "account": "OSMCI",
+  "locationSet": {"include": ["ci"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap Cote d'Ivoire"}
+}

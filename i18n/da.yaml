@@ -1,29 +1,90 @@
 da:
-  OSM-Facebook:
-    name: OpenStreetMap på Facebook
-    description: Like os på Facebook for nyheder og opdateringer om OpenStreetMap.
-  OSM-Reddit:
-    name: OpenStreetMap på Reddit
-    description: /r/openstreetmap/ er et godt sted at lære mere om OpenStreetMap.  Spørg os om alt!
-  OSM-Twitter:
+  al-maptime-tirana:
+    name: Maptime Tirana
+  Bay-Area-OpenStreetMappers:
+    name: Bay Area OpenStreetMappers
+    description: Forbedre OpenStreetMap i Bay Area
+  be-matrix:
+    description: Alle kortlæggere er velkomne!
+  bg-wiki:
+    description: Wikiprojektside for Bulgarien
+  cape-coast-youthmappers:
     description: 'Følg os på Twitter på {url}'
+  Central-Pennsylvania-OSM:
+    name: Central Pennsylvania OSM
+  Code-for-San-Jose-Slack:
+    name: Code for San Jose Slack
+  de-berlin-mailinglist:
+    name: Berlin maillingliste
+  de-viersen-meetup:
+    name: OpenStreetMap Viersen Meetup
+  GeoPhilly:
+    name: GeoPhilly
+  Maptime-Bogota:
+    name: Maptime Bogotá
+  Maptime-ME-meetup:
+    name: MaptimeME
+  Maptime-Oceania-Slack:
+    name: Maptime Oceania Slack
+    description: Tilmeld dig på  {signupUrl}
+  OpenCleveland-meetup:
+    name: Open Cleveland
+    description: Forbedre OpenStreetMap i Cleveland området
+  OSM-Boston:
+    name: OpenStreetMap Boston
+  OSM-CA-Slack:
+    description: Alle er velkomne! Tilmeld dig på {signupUrl}.
+  OSM-Chattanooga:
+    name: OpenStreetMap Colombia Twitter
+    description: OpenStreetMap brugergruppen for Chattanooga
+  OSM-Colorado:
+    name: OpenStreetMap Colorado
+  OSM-Facebook:
+    description: Like os på Facebook for nyheder og opdateringer om OpenStreetMap.
   OSM-help:
     name: OpenStreetMap Hjælp
     description: Stil et spørgsmål og få svar på OSM's fællesskabs-drevne spørgsmål- og svar side.
     extendedDescription: '{url} er for alle der har brug for hjælp med OpenStreetMap. Hvad enten du er en begynder eller har et teknisk spørgsmål, er vi her for at hjælpe!'
+  OSM-India-Puducherry-Matrix:
+    name: Free Software Hardware Movement - Matrix
+  OSM-india-twitter:
+    description: 'Vi er kun et tweet væk: {url}'
+  OSM-japan-facebook:
+    description: Kortlæggere og OpenStreetMap brugere i Japan
+  OSM-japan-website:
+    description: Kortlæggere og OpenStreetMap brugere i Japan
+  OSM-Kerala-facebook:
+    description: Forbedre OpenStreetMap i Kerala
+  OSM-Portland:
+    name: OpenStreetMap Portland
+  OSM-Portland-forum:
+    name: OpenStreetMap PDX Google gruppen
+  OSM-Rome-meetup:
+    description: Forbedre OpenStreetMap i Rom området
+  OSM-Seattle:
+    name: OpenStreetMap Seattle
+  OSM-SoCal:
+    name: OpenStreetMap Southern California
+  OSM-South-Bay:
+    name: OSM South Bay
+  OSM-Tampa-Bay:
+    name: OpenStreetMap Tampa Bay
+  OSM-TH-CNX-meetup:
+    name: OSM Meetup Chiang Mai
+  OSM-Utah:
+    name: OpenStreetMap Utah
+  OSM-Wyoming:
+    name: OpenStreetMap Wyoming
   OSMF:
+    name: OpenStreetMap Foundation
     description: OSMF er en UK-baseret non-profit organisation der støtter OpenStreetMap projektet
     extendedDescription: 'OSMF støtter OpenStreetMap ved at rejse penge, vedligeholde serverne der driver OSM, organisere den årlige State of the Map konference, og koordinere de frivillige der holder OSM kørende. Du kan vise din støtte og have en stemme i forhold til OpenStreetMaps retning ved at melde dig som OSMF medlem her: {signupUrl}'
-  bw-facebook:
-    name: Kortlæg Botswana på Facebook
-  bw-twitter:
-    name: Kortlæg Botswana på Twitter
-  dk-forum:
-    name: OpenStreetMap Danmark webforum
-    description: Dansk OpenStreetMap webforum
-  dk-irc:
-    name: OpenStreetMap Danmark IRC
-    description: 'Kom ind i kanalen #osm-dk på irc.oftc.net (port 6667)'
-  dk-mailinglist:
-    name: Talk-dk mailinglisten
-    description: En mailingliste hvor OpenStreetMap i Danmark diskuteres
+  PHXGeo-meetup:
+    name: PHXGeo Meetup
+  PHXGeo-twitter:
+    name: PHXGeo Twitter
+    description: Følg os på Twitter på {url}
+  Western-Slope-facebook:
+    name: Western Slope OSM Facebook
+  Western-Slope-meetup:
+    name: Western Slope OSM Meetup

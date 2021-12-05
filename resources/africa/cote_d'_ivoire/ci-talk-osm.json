@@ -1,0 +1,8 @@
+{
+  "id": "OSM-ci-mailinglist",
+  "type": "mailinglist",
+  "account": "talk-ci",
+  "locationSet": {"include": ["ci"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap Cote d'Ivoire"}
+}

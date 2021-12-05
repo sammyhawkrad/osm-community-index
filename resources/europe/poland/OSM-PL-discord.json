@@ -1,0 +1,18 @@
+{
+  "id": "OSM-PL-discord",
+  "type": "discord",
+  "account": "HvQWsMeQzT",
+  "locationSet": {"include": ["pl"]},
+  "languageCodes": ["en", "pl"],
+  "order": 8,
+  "strings": {
+    "community": "OpenStreetMap Poland",
+    "description": "Main place for voice chats among Polish OpenStreetMap community, active text channels"
+  },
+  "contacts": [
+    {
+      "name": "Włodzimierz Bartczak",
+      "email": "wlodzimierz.bartczak@openstreetmap.pl"
+    }
+  ]
+}

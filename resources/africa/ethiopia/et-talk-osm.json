@@ -1,0 +1,8 @@
+{
+  "id": "OSM-et-mailinglist",
+  "type": "mailinglist",
+  "account": "talk-et",
+  "locationSet": {"include": ["et"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap Ethiopia"}
+}

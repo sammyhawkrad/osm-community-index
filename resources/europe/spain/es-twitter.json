@@ -1,9 +1,8 @@
 {
   "id": "es-twitter",
   "type": "twitter",
+  "account": "openstreetmapes",
   "locationSet": {"include": ["es"]},
   "languageCodes": ["es"],
-  "name": "OpenStreetMap España Twitter",
-  "description": "Follow us on Twitter at {url}",
-  "url": "https://twitter.com/openstreetmapes"
+  "strings": {"community": "OpenStreetMap España"}
 }

@@ -1,10 +1,13 @@
 {
   "id": "sk-freemap",
-  "type": "osm",
+  "type": "osm-lc",
   "locationSet": {"include": ["sk"]},
   "languageCodes": ["cz", "hu", "sk"],
-  "name": "OpenStreetMap Website Freemap Slovakia",
-  "description": "OpenStreetMap map website with tools in Slovakia and surrounding regions",
-  "url": "https://www.freemap.sk",
+  "strings": {
+    "community": "OpenStreetMap Freemap Slovakia",
+    "name": "OpenStreetMap Website Freemap Slovakia",
+    "description": "OpenStreetMap map website with tools in Slovakia and surrounding regions",
+    "url": "https://www.freemap.sk"
+  },
   "contacts": [{"name": "osm_sk", "email": "osm_sk@googlegroups.com"}]
 }

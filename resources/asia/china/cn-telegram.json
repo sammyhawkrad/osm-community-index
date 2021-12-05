@@ -1,0 +1,9 @@
+{
+  "id": "cn-telegram",
+  "type": "telegram",
+  "account": "osmchina",
+  "locationSet": {"include": ["cn"]},
+  "languageCodes": ["zh"],
+  "order": 5,
+  "strings": {"community": "OpenStreetMap China"}
+}

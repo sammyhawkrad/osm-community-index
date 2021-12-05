@@ -1,10 +1,12 @@
 {
   "id": "osmcz-twitter",
   "type": "twitter",
+  "account": "osmcz",
   "locationSet": {"include": ["cz"]},
   "languageCodes": ["cs", "en", "sk"],
-  "name": "Czech twitter @osmcz",
-  "description": "Follow czech community on Twitter - including translated WeeklyOSM!",
-  "url": "https://twitter.com/osmcz",
+  "strings": {
+    "community": "OpenStreetMap CZ",
+    "description": "Follow the Czech community on Twitter - including translated WeeklyOSM!"
+  },
   "contacts": [{"name": "osmcz", "email": "dev@openstreetmap.cz"}]
 }

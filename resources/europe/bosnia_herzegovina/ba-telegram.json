@@ -1,0 +1,8 @@
+{
+  "id": "ba-telegram",
+  "type": "telegram",
+  "account": "osmbih",
+  "locationSet": {"include": ["ba"]},
+  "order": 2,
+  "strings": {"community": "OpenStreetMap Bosnia and Herzegovina"}
+}

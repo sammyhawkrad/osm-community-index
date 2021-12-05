@@ -1,0 +1,9 @@
+{
+  "id": "pa-telegram",
+  "type": "telegram",
+  "account": "Comunidad_OSM_Panama",
+  "locationSet": {"include": ["pa"]},
+  "languageCodes": ["en", "es"],
+  "order": 5,
+  "strings": {"community": "OpenStreetMap Panama"}
+}

@@ -1,9 +1,8 @@
 {
-  "id": "Galicia-Twitter",
+  "id": "galicia-twitter",
   "type": "twitter",
+  "account": "osmgalicia",
   "locationSet": {"include": ["galicia.geojson"]},
-  "languageCodes": ["es", "gl"],
-  "name": "OpenStreetMap Galicia Twitter",
-  "description": "Follow us on Twitter at {url}",
-  "url": "https://twitter.com/osmgalicia"
+  "languageCodes": ["gl"],
+  "strings": {"community": "OpenStreetMap Galicia"}
 }

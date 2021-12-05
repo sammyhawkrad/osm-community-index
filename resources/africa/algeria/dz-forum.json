@@ -1,0 +1,8 @@
+{
+  "id": "dz-forum",
+  "type": "forum",
+  "account": "53",
+  "locationSet": {"include": ["dz"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap Algeria"}
+}

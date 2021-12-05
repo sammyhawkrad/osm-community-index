@@ -1,0 +1,8 @@
+{
+  "id": "osmbenin",
+  "type": "twitter",
+  "account": "OSMBenin",
+  "locationSet": {"include": ["ben"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap Benin"}
+}

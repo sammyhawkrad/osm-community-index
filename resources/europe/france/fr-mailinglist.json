@@ -1,11 +1,15 @@
 {
   "id": "fr-mailinglist",
   "type": "mailinglist",
+  "account": "talk-fr",
   "locationSet": {"include": ["fr"]},
   "languageCodes": ["fr"],
-  "name": "Talk-fr Mailing List",
-  "description": "Talk-fr mailing list",
-  "url": "https://lists.openstreetmap.org/listinfo/talk-fr",
-  "contacts": [{"name": "OpenStreetMap France", "email": "contact@openstreetmap.fr"}],
-  "order": -3
+  "order": -3,
+  "strings": {"community": "OpenStreetMap France"},
+  "contacts": [
+    {
+      "name": "OpenStreetMap France",
+      "email": "contact@openstreetmap.fr"
+    }
+  ]
 }

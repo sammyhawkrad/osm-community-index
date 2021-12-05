@@ -3,9 +3,13 @@
   "type": "meetup",
   "locationSet": {"include": ["de-stuttgart-meetup.geojson"]},
   "languageCodes": ["de"],
-  "name": "OpenStreetMap Stuttgart Meetup",
-  "description": "Mappers and OpenStreetMap users in the Stuttgart area",
-  "url": "https://wiki.openstreetmap.org/wiki/Stuttgart/Stammtisch",
-  "contacts": [{"name": "Dietmar Seifert", "email": "ostrmap@diesei.de"}],
-  "order": 5
+  "order": 5,
+  "strings": {
+    "name": "OpenStreetMap Stuttgart Meetup",
+    "description": "Mappers and OpenStreetMap users in the Stuttgart area",
+    "url": "https://wiki.openstreetmap.org/wiki/Stuttgart/Stammtisch"
+  },
+  "contacts": [
+    {"name": "Dietmar Seifert", "email": "ostrmap@diesei.de"}
+  ]
 }

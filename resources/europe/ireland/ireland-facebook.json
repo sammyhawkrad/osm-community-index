@@ -1,10 +1,11 @@
 {
   "id": "ireland-facebook",
   "type": "facebook",
-  "locationSet": {"include": ["ireland.geojson"]},
+  "locationSet": {"include": ["gb-nir", "ie"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Ireland Facebook group",
-  "description": "OpenStreetMap Ireland Facebook page",
-  "url": "https://www.facebook.com/groups/OpenStreetMapIreland",
-  "order": 3
+  "order": 3,
+  "strings": {
+    "community": "OpenStreetMap Ireland",
+    "url": "https://www.facebook.com/groups/OpenStreetMapIreland"
+  }
 }

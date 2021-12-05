@@ -1,10 +1,12 @@
 {
   "id": "OSM-Twitter",
   "type": "twitter",
+  "account": "openstreetmap",
   "locationSet": {"include": ["001"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Twitter",
-  "description": "Follow us on Twitter at {url}",
-  "url": "https://twitter.com/openstreetmap",
-  "contacts": [{"name": "Harry Wood", "email": "mail@harrywood.co.uk"}]
+  "order": 4,
+  "strings": {"community": "OpenStreetMap"},
+  "contacts": [
+    {"name": "Harry Wood", "email": "mail@harrywood.co.uk"}
+  ]
 }

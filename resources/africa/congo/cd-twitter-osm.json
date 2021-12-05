@@ -1,0 +1,8 @@
+{
+  "id": "OSM-cd-twitter",
+  "type": "twitter",
+  "account": "OSM_CD",
+  "locationSet": {"include": ["cd"]},
+  "languageCodes": ["en", "fr"],
+  "strings": {"community": "OpenStreetMap RDC"}
+}

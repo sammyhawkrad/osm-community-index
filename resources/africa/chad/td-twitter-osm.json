@@ -1,0 +1,8 @@
+{
+  "id": "td-twitter",
+  "type": "twitter",
+  "account": "ComOSMTchad",
+  "locationSet": {"include": ["td"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap Chad"}
+}

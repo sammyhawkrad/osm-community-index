@@ -1,0 +1,8 @@
+{
+  "id": "cu-forum",
+  "type": "forum",
+  "account": "72",
+  "locationSet": {"include": ["cu"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap Cuba"}
+}

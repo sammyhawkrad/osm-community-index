@@ -1,0 +1,12 @@
+{
+  "id": "rs-osm",
+  "type": "osm",
+  "locationSet": {"include": ["rs"]},
+  "languageCodes": ["en", "sr"],
+  "order": 6,
+  "strings": {
+    "community": "OpenStreetMap Serbia",
+    "description": "The platform for information on OpenStreetMap in Serbia",
+    "url": "https://openstreetmap.rs/"
+  }
+}

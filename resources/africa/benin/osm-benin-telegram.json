@@ -1,0 +1,8 @@
+{
+  "id": "osm-benin-telegram",
+  "type": "telegram",
+  "account": "OSMBenin",
+  "locationSet": {"include": ["ben"]},
+  "languageCodes": ["en"],
+  "strings": {"community": "OpenStreetMap Benin"}
+}

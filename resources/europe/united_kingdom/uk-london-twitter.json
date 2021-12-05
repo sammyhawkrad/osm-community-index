@@ -1,11 +1,15 @@
 {
   "id": "uk-london-twitter",
   "type": "twitter",
-  "locationSet": {"include": ["london.geojson"]},
+  "account": "OSMLondon",
+  "locationSet": {"include": [[-0.12, 51.5]]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap London on Twitter",
-  "description": "OpenStreetMap London on Twitter: {url}",
-  "url": "https://twitter.com/OSMLondon",
-  "contacts": [{"name": "Harry Wood", "email": "mail@harrywood.co.uk"}],
-  "order": 4
+  "order": 4,
+  "strings": {
+    "name": "OpenStreetMap London on Twitter",
+    "description": "OpenStreetMap London on Twitter: {url}"
+  },
+  "contacts": [
+    {"name": "Harry Wood", "email": "mail@harrywood.co.uk"}
+  ]
 }

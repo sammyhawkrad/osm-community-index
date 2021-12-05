@@ -1,0 +1,12 @@
+{
+  "id": "by-facebook",
+  "type": "facebook",
+  "account": "osm.by",
+  "locationSet": {"include": ["by"]},
+  "languageCodes": ["en"],
+  "order": 4,
+  "strings": {
+    "community": "OpenStreetMap Belarus",
+    "url": "https://www.facebook.com/groups/osm.by"
+  }
+}

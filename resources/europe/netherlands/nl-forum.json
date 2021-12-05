@@ -1,11 +1,12 @@
 {
   "id": "nl-forum",
   "type": "forum",
+  "account": "12",
   "locationSet": {"include": ["nl"]},
   "languageCodes": ["nl"],
-  "name": "Netherlands OpenStreetMap forum",
-  "description": "OpenStreetMap Netherlands web forum",
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=12",
-  "contacts": [{"name": "Peter Elderson", "email": "pelderson@gmail.com"}],
-  "order": 3
+  "order": 3,
+  "strings": {"community": "OpenStreetMap Netherlands"},
+  "contacts": [
+    {"name": "Peter Elderson", "email": "pelderson@gmail.com"}
+  ]
 }

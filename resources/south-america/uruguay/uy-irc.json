@@ -1,12 +1,14 @@
 {
   "id": "uy-irc",
   "type": "irc",
+  "account": "osmuruguay",
   "locationSet": {"include": ["uy"]},
   "languageCodes": ["es"],
-  "name": "OpenStreetMap Uruguay on IRC",
-  "description": "Join #osmuruguay on irc.freenode.org (port 6667)",
-  "extendedDescription": "Join #osmuruguay on irc.freenode.org",
-  "url": "https://webchat.freenode.net/?url=irc://irc.freenode.net/osmuruguay",
-  "contacts": [{"name": "UY community", "email": "talk-uy-owner@openstreetmap.org"}],
-  "order": -4
+  "order": -4,
+  "strings": {
+    "community": "OpenStreetMap Uruguay",
+    "description": "Join #{account} on irc.freenode.org (port 6667)",
+    "extendedDescription": "Join #{account} on irc.freenode.org",
+    "url": "https://webchat.freenode.net/?url=irc://irc.freenode.net/{account}"
+  }
 }
