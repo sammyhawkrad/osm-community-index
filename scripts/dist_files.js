@@ -1,9 +1,9 @@
 // External
-import colors from 'colors/safe.js';
+import chalk from 'chalk';
 import fs from 'node:fs';
-import glob from 'glob';
+import { globSync } from 'glob';
 import JSON5 from 'json5';
-import LocationConflation from '@ideditor/location-conflation';
+import LocationConflation from '@rapideditor/location-conflation';
 import shell from 'shelljs';
 import stringify from '@aitodotai/json-stringify-pretty-compact';
 
@@ -12,9 +12,9 @@ import { resolveStrings } from '../lib/resolve_strings.js';
 import { writeFileWithMeta } from '../lib/write_file_with_meta.js';
 
 // JSON
-import featureCollectionJSON from '../dist/featureCollection.json';
-import resourcesJSON from '../dist/resources.json';
-import defaultsJSON from '../defaults.json';
+import featureCollectionJSON from '../dist/featureCollection.json' assert {type: 'json'};
+import resourcesJSON from '../dist/resources.json' assert {type: 'json'};
+import defaultsJSON from '../defaults.json' assert {type: 'json'};
 const resources = resourcesJSON.resources;
 const defaults = defaultsJSON.defaults;
 
@@ -22,8 +22,8 @@ buildAll();
 
 
 function buildAll() {
-  const START = '🏗   ' + colors.yellow('Building dist…');
-  const END = '👍  ' + colors.green('dist built');
+  const START = '🏗   ' + chalk.yellow('Building dist…');
+  const END = '👍  ' + chalk.green('dist built');
 
   console.log('');
   console.log(START);
@@ -40,7 +40,7 @@ function buildAll() {
 
   // minify all .json files under dist/
   shell.rm('-f', ['dist/*.min.json']);  // start clean
-  glob.sync(`dist/**/*.json`).forEach(file => {
+  globSync(`dist/**/*.json`).forEach(file => {
     const minFile = file.replace('.json', '.min.json');
     minifySync(file, minFile);
   });
@@ -73,8 +73,8 @@ function minifySync(inPath, outPath) {
     const minified = JSON.stringify(JSON5.parse(contents));
     fs.writeFileSync(outPath, minified);
   } catch (err) {
-    console.error(colors.red(`Error - ${err.message} minifying:`));
-    console.error('  ' + colors.yellow(inPath));
+    console.error(chalk.red(`Error - ${err.message} minifying:`));
+    console.error('  ' + chalk.yellow(inPath));
     process.exit(1);
   }
 }

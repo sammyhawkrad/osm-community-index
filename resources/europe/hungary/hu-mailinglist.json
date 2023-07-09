@@ -1,0 +1,13 @@
+{
+  "id": "hu-mailinglist",
+  "type": "mailinglist",
+  "account": "talk-hu",
+  "locationSet": {"include": ["hu"]},
+  "languageCodes": ["hu"],
+  "order": -2,
+  "strings": {
+    "community": "OpenStreetMap Hungary",
+    "communityID": "openstreetmaphungary"
+  },
+  "contacts": [{"name": "Péter Gervai", "email": "grin@grin.hu"}]
+}

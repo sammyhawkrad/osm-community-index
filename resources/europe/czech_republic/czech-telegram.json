@@ -1,0 +1,12 @@
+{
+  "id": "czech-telegram",
+  "type": "telegram",
+  "account": "openstreetmapcz",
+  "locationSet": {"include": ["cz"]},
+  "languageCodes": ["cs", "en", "sk"],
+  "strings": {
+    "community": "OpenStreetMap CZ",
+    "communityID": "openstreetmapcz",
+    "description": "OpenStreetMap CZ room bridged with Discord, IRC, Jabber and Matrix"
+  }
+}

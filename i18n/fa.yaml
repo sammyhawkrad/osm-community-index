@@ -1,13 +1,16 @@
 fa:
   _communities:
+    geolibres: GeoLibres
+    kiribatiwomeninmapping: زنان کیریباتی در نقشه برداری
     mappingbotswana: نقشه برداری از بوتسوانا
+    maptimebogota: maptime بوگوتا
     openstreetmap: اوپن‌استریت‌مپ
     openstreetmapafghanistan: اوپن‌استریت‌مپ افغانستان
     openstreetmapafrica: اوپن‌استریت‌مپ آفریقا
     openstreetmapalba: اوپن‌استریت‌مپ آلبا (رومانی)
     openstreetmapalbania: اوپن‌استریت‌مپ آلبانی
-    openstreetmapalgeria: اوپن‌استریت‌مپ الجزایر
     openstreetmapargentina: اوپن‌استریت‌مپ آرژانتین
+    openstreetmaparmenia: اوپن‌استریت‌مپ ارمنستان
     openstreetmapasia: اوپن‌استریت‌مپ آسیا
     openstreetmapasti: اوپن‌استریت‌مپ آسته
     openstreetmapaustria: اوپن‌استریت‌مپ اتریش
@@ -17,7 +20,9 @@ fa:
     openstreetmapbelgium: اوپن‌استریت‌مپ بلژیک
     openstreetmapbenin: اوپن‌استریت‌مپ بنین
     openstreetmapberlin: اوپن‌استریت‌مپ برلین
+    openstreetmapbochum: اوپن‌استریت‌مپ بوخوم
     openstreetmapbolivia: اوپن‌استریت‌مپ بولیوی
+    openstreetmapbonn: اوپن‌استریت‌مپ بن
     openstreetmapbosniaandherzegovina: اوپن‌استریت‌مپ بوسنی و هرزگوین
     openstreetmapbrasil: اوپن‌استریت‌مپ برزیل
     openstreetmapbrasilia: اوپن‌استریت‌مپ برازیلیا
@@ -28,24 +33,33 @@ fa:
     openstreetmapcambodia: اوپن‌استریت‌مپ کامبوج
     openstreetmapcameroon: اوپن‌استریت‌مپ کامرون
     openstreetmapcanada: اوپن‌استریت‌مپ کانادا
+    openstreetmapcastillayleon: اوپن‌استریت‌مپ کاستیا و لئون
     openstreetmapcatalancountries: اوپن‌استریت‌مپ سرزمین‌های کاتالان
     openstreetmapchad: اوپن‌استریت‌مپ چاد
     openstreetmapchile: اوپن‌استریت‌مپ شیلی
     openstreetmapchina: اوپن‌استریت‌مپ چین
+    openstreetmapcologne: اوپن‌استریت‌مپ کلن
     openstreetmapcolombia: اوپن‌استریت‌مپ کلمبیا
+    openstreetmapcomunitatvalenciana: اوپن‌استریت‌مپ والنسیا
     openstreetmapcostarica: اوپن‌استریت‌مپ کاستاریکا
     openstreetmapcotedivoire: اوپن‌استریت‌مپ ساحل عاج
     openstreetmapcroatia: اوپن‌استریت‌مپ کرواسی
     openstreetmapcuba: اوپن‌استریت‌مپ کوبا
     openstreetmapcuneo: اوپن‌استریت‌مپ کونیو
+    openstreetmapde: اوپن‌استریت‌مپ آلمان
+    openstreetmapdeepsouth: اوپن‌استریت‌مپ جنوب عمیق
     openstreetmapdenmark: اوپن‌استریت‌مپ دانمارک
     openstreetmapdjibouti: اوپن‌استریت‌مپ جیبوتی
     openstreetmapdominicanrepublic: اوپن‌استریت‌مپ جمهوری دومینیکن
+    openstreetmapdresden: اوپن‌استریت‌مپ درسدن
+    openstreetmapdusseldorf: اوپن‌استریت‌مپ دوسلدورف
     openstreetmapecuador: اوپن‌استریت‌مپ اکوادور
     openstreetmapegypt: اوپن‌استریت‌مپ مصر
     openstreetmaperitrea: اوپن‌استریت‌مپ اریتره
     openstreetmapespana: اوپن‌استریت‌مپ اسپانیا
+    openstreetmapestonia: اوپن‌استریت‌مپ استونی
     openstreetmapethiopia: اوپن‌استریت‌مپ اتیوپی
+    openstreetmapfiji: اوپن‌استریت‌مپ فیجی
     openstreetmapfinland: اوپن‌استریت‌مپ فنلاند
     openstreetmapfrance: اوپن‌استریت‌مپ فرانسه
     openstreetmapfreemapslovakia: اوپن‌استریت‌مپ (نقشه آزاد) اسلواکی
@@ -56,8 +70,9 @@ fa:
     openstreetmapgeorgia: اوپن‌استریت‌مپ گرجستان
     openstreetmapgermany: اوپن‌استریت‌مپ آلمان
     openstreetmapghana: اوپن‌استریت‌مپ غنا
-    openstreetmapgraz: اوپن‌استریت‌مپ گراتس
+    openstreetmapgorakalwaria: اوپن‌استریت‌مپ گورا کالواریا
     openstreetmapgreece: اوپن‌استریت‌مپ یونان
+    openstreetmapgrenoble: اوپن‌استریت‌مپ گرونوبل
     openstreetmapguatemala: اوپن‌استریت‌مپ گواتمالا
     openstreetmapguinea: اوپن‌استریت‌مپ گینه
     openstreetmaphaiti: اوپن‌استریت‌مپ هائیتی
@@ -87,14 +102,19 @@ fa:
     openstreetmapkosovo: اوپن‌استریت‌مپ کوزوو
     openstreetmapkyrgyzstan: اوپن‌استریت‌مپ قرقیزستان
     openstreetmaplatinamerica: اوپن‌استریت‌مپ آمریکای لاتین
+    openstreetmaplatvia: اوپن‌استریت‌مپ لتونی
     openstreetmaplebanon: اوپن‌استریت‌مپ لبنان
     openstreetmaplesotho: اوپن‌استریت‌مپ لسوتو
     openstreetmapliberia: اوپن‌استریت‌مپ لیبریا
     openstreetmaplibya: اوپن‌استریت‌مپ لیبی
     openstreetmaplithuania: اوپن‌استریت‌مپ لیتوانی
+    openstreetmapljubljana: اوپن‌استریت‌مپ لیوبلیانا
     openstreetmaplombardia: اوپن‌استریت‌مپ لمباردی
+    openstreetmaplondon: اوپن‌استریت‌مپ لندن
+    openstreetmapluneburg: اوپن‌استریت‌مپ لونبورگ
     openstreetmapluxembourg: اوپن‌استریت‌مپ لوکزامبورگ
     openstreetmapmadagascar: اوپن‌استریت‌مپ ماداگاسکار
+    openstreetmapmadrid: اوپن‌استریت‌مپ مادرید
     openstreetmapmalawi: اوپن‌استریت‌مپ مالاوی
     openstreetmapmalaysia: اوپن‌استریت‌مپ مالزی
     openstreetmapmali: اوپن‌استریت‌مپ مالی
@@ -105,7 +125,6 @@ fa:
     openstreetmapmichigan: اوپن‌استریت‌مپ میشیگان
     openstreetmapmoldova: اوپن‌استریت‌مپ مولداوی
     openstreetmapmongolia: اوپن‌استریت‌مپ مغولستان
-    openstreetmapmontenegro: اوپن‌استریت‌مپ مونته‌نگرو
     openstreetmapmorocco: اوپن‌استریت‌مپ مراکش
     openstreetmapmyanmar: اوپن‌استریت‌مپ میانمار
     openstreetmapnepal: اوپن‌استریت‌مپ نپال
@@ -113,7 +132,6 @@ fa:
     openstreetmapnicaragua: اوپن‌استریت‌مپ نیکاراگوئه
     openstreetmapniger: اوپن‌استریت‌مپ نیجر
     openstreetmapnigeria: اوپن‌استریت‌مپ نیجریه
-    openstreetmapnorthmacedonia: اوپن‌استریت‌مپ مقدونیه شمالی
     openstreetmapnorway: اوپن‌استریت‌مپ نروژ
     openstreetmapottawa: اوپن‌استریت‌مپ اتاوا
     openstreetmappakistan: اوپن‌استریت‌مپ پاکستان
@@ -121,6 +139,7 @@ fa:
     openstreetmapparaguay: اوپن‌استریت‌مپ پاراگوئه
     openstreetmapperu: اوپن‌استریت‌مپ پرو
     openstreetmapphilippines: اوپن‌استریت‌مپ فیلیپین
+    openstreetmappiemonte: اوپن‌استریت‌مپ پیمونت
     openstreetmappoland: اوپن‌استریت‌مپ لهستان
     openstreetmapportugal: اوپن‌استریت‌مپ پرتغال
     openstreetmaprdc: اوپن‌استریت‌مپ جمهوری دموکراتیک کنگو
@@ -156,6 +175,7 @@ fa:
     openstreetmapus: اوپن‌استریت‌مپ آمریکا
     openstreetmapuzbekistan: اوپن‌استریت‌مپ ازبکستان
     openstreetmapvenezuela: اوپن‌استریت‌مپ ونزوئلا
+    openstreetmapvietnam: اوپن‌استریت‌مپ ویتنام
     openstreetmapwesternsahara: اوپن‌استریت‌مپ صحرای غربی
     openstreetmapzambia: اوپن‌استریت‌مپ زامبیا
     openstreetmapzimbabwe: اوپن‌استریت‌مپ زیمبابوه
@@ -171,11 +191,9 @@ fa:
     facebook:
       name: '{community} در فیس‌بوک'
       description: به انجمن ما در فیس‌بوک بپیوندید
-      url: https://facebook.com/{account}
     forum:
       name: 'فروم {community}'
       description: فروم رسمی {community}
-      url: https://forum.openstreetmap.org/viewforum.php?id={account}
     github:
       name: 'گیت‌هاب {community}'
       url: https://github.com/{account}
@@ -191,7 +209,6 @@ fa:
     linkedin:
       name: '{community} در لینکدین'
       description: به انجمن ما در لینکدین بپیوندید
-      url: https://linkedin.com/company/{account}
     mailinglist:
       name: 'لیست پستی {account}'
       description: فهرست پستی رسمی برای {community}
@@ -201,7 +218,7 @@ fa:
       description: به چت ماتریکس انجمن ما بپیوندید
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
-      url: https://meetup.com/{account}
+      name: '{community} جلسات'
     osm:
       name: '{community}'
     osm-lc:
@@ -222,6 +239,8 @@ fa:
     wiki:
       name: 'ویکی‌پروژهٔ {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    xmpp:
+      name: '{community} XMPP'
     youtube:
       name: '{community} در یوتیوب'
       description: در کانال یوتیوب ما مشترک شوید
@@ -233,8 +252,6 @@ fa:
     extendedDescription: Maptime یک محیط یادگیری باز برای همه سطوح و درجات دانش است که از آموزش عمدی برای مبتدیان پشتیبانی می کند. Maptime به طور همزمان انعطاف پذیر و ساختار یافته است ، فضایی را برای نگاشت آموزش ها ، کارگاه ها ، پروژه های جاری با هدف مشترک و زمان کار مستقل/مشارکتی ایجاد می کند.
   at-matrix:
     description: کانال غیر رسمی ماتریکس آلمانی برای اتریش
-  az-facebook:
-    name: اوپن‌استریت‌مپ آذربایجان
   Bahia-telegram:
     extendedDescription: برای کسب اطلاعات بیشتر در مورد اُپِن‌استریت‌مپ به انجمن بپیوندید ، سؤال کنید یا در جلسات ما شرکت کنید. همه خوش امدید!
   Bay-Area-OpenStreetMappers:
@@ -244,22 +261,19 @@ fa:
   bd-facebook:
     extendedDescription: نقشه برداری در بنگلادش؟ آیا سوالی دارید ، می خواهید در اینجا با جامعه ارتباط برقرار کنید؟ در {آدرس اینترنتی} به ما بپیوندید. همه خوش آمدید!
   be-chapter:
-    name: شعبهٔ محلی اوپن‌استریت‌مپ بلژیک
     description: ما به رشد و بهبود اوپن‌استریت‌مپ در بلژیک کمک می کنیم.
     extendedDescription: اگر می خواهید به بهبود و رشد جامعه نقشه برداری در بلژیک کمک کنید ، و افراد بیشتری را از نقشه برداری دیوانه کنید، اوپن‌استریت‌مپ بلژیک مکان مناسبی برای شما است!
   be-irc:
     extendedDescription: 'به #{account} در irc.oftc.net (پورت 6667) بپیوندید، بین این کانال و کانال چت ماتریکس پل زده شده است.'
   be-matrix:
     description: نقشه‌کشان، همگی خوش آمدید!
-    extendedDescription: بیشتر صحبتها در کانال "اوپن‌استریت‌مپ بلژیک" انجام می شود. می توانید هر چیزی را در آنجا بپرسید! اتاقهای دیگر برای موضوعات خاص است.
   be-meetup:
     description: ملاقات های واقعی از همه کسانی که به اوپن‌استریت‌مپ علاقه دارند
     extendedDescription: ملاقات های فیزیکی برای ملاقات با سایر نقشه برداران ، پرسیدن سوالات و یادگیری چیزهای بسیار عالی است. به خصوص مشارکت کنندگان جدید بسیار خوش آمدید!
   bg-wiki:
     description: صفحه ویکی پروژه برای بلغارستان
-  bi-vc-cvl_wiki:
-    description: نقشه برداران شمال پیمونت
-    extendedDescription: علاوه بر جلسات ماهانه، یک گروه واتساپ نیز داریم.
+  bi-vc-cvl-meetup:
+    description: گروه محلی برای نقشه‌برداران در Biellese، Vercellese، Canavese e Valli di Lanzo
   br-telegram:
     extendedDescription: برای آشنایی بیشتر با اوپن‌استریت‌مپ، پرسیدن سوال یا شرکت در جلسات ما، به انجمن بپیوندید. همگی خوش امدید!
   cape-coast-youthmappers:
@@ -283,9 +297,6 @@ fa:
     extendedDescription: برای آشنایی بیشتر با اوپن‌استریت‌مپ، پرسیدن سوالات یا شرکت در جلسات ما ، به انجمن بپیوندید. همه خوش امدید!
   co-facebook:
     extendedDescription: برای آشنایی بیشتر با اوپن‌استریت‌مپ به انجمن بپیوندید. همه خوش امدید!
-  Code-for-San-Jose-Slack:
-    name: کد مربوط به San Jose Slack
-    description: 'همگی خوش آمدید! در {signupUrl Sign} ثبت نام کنید، سپس به کانال #osm بپیوندید.'
   czech-community:
     description: نقشه پورتال ، وب سایت و مخاطبین اعضای OSM در جمهوری چک
   de-berlin-mailinglist:
@@ -304,16 +315,13 @@ fa:
     name: لیست پستی اشتوتگارت و بادن وورتمبرگ
     description: این لیست پستی برای انجمن OSM اشتوتگارت و کل بادن-وورتمبرگ است
   de-stuttgart-meetup:
+    name: اتاق ملاقات اوپن‌استریت‌مپ اشتوتگارت
     description: نقشه برداران و کاربران اوپن‌استریت‌مپ در منطقه اشتوتگارت
   de-viersen-meetup:
+    name: اتاق ملاقات اوپن‌استریت‌مپ ویرسن
     description: جامعه OSM و کاربران با Kreis Viersen و Mönchengladbach ملاقات می کنند
   DF-telegram:
     extendedDescription: برای کسب اطلاعات بیشتر در مورد اُپِن‌استریت‌مپ به انجمن بپیوندید ، سؤال کنید یا در جلسات ما شرکت کنید. همه خوش امدید!
-  fr-35-wiki:
-    description: صفحه ویکی گروه محلی Rennes OSM
-  fr-38-wiki:
-    name: صفحه ویکی اوپن‌استریت‌مپ گرنوبل
-    description: صفحه ویکی گروه محلی OSM گرنوبل
   fr-bzh-website:
     description: نقشه ای که به زبان برتون صحبت می کند
   fr-chapter:
@@ -333,8 +341,6 @@ fa:
     extendedDescription: 'به #{account} در irc.oftc.net (پورت 6667) بپیوندید، لطفا صبور باشید و در صورت پرسیدن چند دقیقه منتظر بمانید'
   gb-mailinglist:
     description: Talk-gb اصلی ترین انجمن ارتباطات برای جامعه OSM انگلستان (از جمله ایرلند شمالی) است
-  geogeeks_perth_meetup:
-    description: گروه ملاقات مبتنی بر Perth برای افرادی که علاقه مند به نقشه برداری ، داده های زمین فضایی و منبع باز هستند. ما روی هر چیزی که شامل حس مکان باشد کار خواهیم کرد.
   GeoPhilly:
     name: ژئوفیلی
     description: Meetup برای علاقمندان به نقشه در منطقه فیلادلفیا
@@ -349,6 +355,11 @@ fa:
     extendedDescription: چت اوپن‌استریت‌مپ برای موضوعات نقشه. یکی از انجمن های پشتیبانی انجمن OSM.
   hu-meetup:
     description: پلتفرم سازماندهی نشست ها در مجارستان
+  hu-mobilizon:
+    name: '{community} در Mobilizon'
+    description: رویدادهای آینده برای جامعه اوپن‌استریت‌مپ مجارستان
+  hu-tm:
+    description: کاوش وظایف نقشه‌برداری فعال در مجارستان
   humanitarian-osm-tr-slack:
     description: در سرور Slack HOTOSM در آدرس {url} به کانال بشردوستانه اوپن‌استریت‌مپ ترکیه بپیوندید
   id-facebook:
@@ -391,9 +402,6 @@ fa:
   MapColabora-mailinglist:
     name: نقشه برداری مشاغل / نگرانی های جغرافیایی ساراگوسا (پایتخت آراگون در اسپانیا)
     description: نقشه برداری مشاغل / نگرانی های جغرافیایی لیست پستی ساراگوسا (پایتخت آراگون در اسپانیا)
-  MapColabora-meetup:
-    name: نقشه برداری مشاغل / نگرانی های جغرافیایی ساراگوسا (پایتخت آراگون در اسپانیا)
-    description: نقشه برداری مشاغل / نگرانی های جغرافیایی صفحه ملاقات ساراگوسا (پایتخت آراگون در اسپانیا)
   MapColabora-twitter:
     name: نقشه برداری مشاغل / نگرانی های جغرافیایی ساراگوسا (پایتخت آراگون در اسپانیا)
     description: نقشه برداری مشاغل / نگرانی های جغرافیایی اکانت توییتری ساراگوسا (پایتخت آراگون در اسپانیا)
@@ -408,10 +416,6 @@ fa:
   MappingWR:
     name: نقشه برداری WR
     description: یافتن مسیرهای با زغال سنگ کم در اطراف واترلو  (در کانادا)به راحتی انجام می شود.
-  Maptime-Bogota:
-    name: زمان نگاشتن بوگوتا (در کلمبیا)
-    description: ما گروهی از نقشه نویسان علاقه مند به نقشه برداری در اُپِن‌استریت‌مپ در اطراف بوگوتا (در کلمبیا) هستیم.
-    extendedDescription: بیاموزید که داده ها را در این قسمت جمع آوری و دیجیتالی کرده و روی اُپِن‌استریت‌مپ جمع کنید. لازم نیست که دانش قبلی داشته باشید! شما فقط به اشتیاق به مشارکت ، یادگیری و تفریح نیاز دارید.
   Maptime-ME-meetup:
     name: زمان نگاشتن ME
     description: نقشه برداران و کاربران اُپِن‌استریت‌مپ ، در اطراف پورتلند ، ME
@@ -427,9 +431,6 @@ fa:
     extendedDescription: نقشه برداری در مغولستان؟ آیا سوالی دارید ، می خواهید در اینجا با جامعه ارتباط برقرار کنید؟ در {آدرس اینترنتی} به ما بپیوندید. همه خوش آمدید!
   mt-irc:
     extendedDescription: 'به #{حساب} در irc.oftc.net (پورت 6667) بپیوندید ، لطفا صبور باشید و در صورت پرسیدن چند دقیقه منتظر بمانید'
-  nl-wonderme:
-    name: '{انجمن} در Wonder.me'
-    description: اتاق جلسات مجازی
   no-irc:
     description: اتاق چت برای نقشه برداران و کاربران کاربران اوپن‌استریت‌مپ، توسعه دهندگان و علاقه مندان در نروژ
   no-mailinglist:
@@ -448,16 +449,8 @@ fa:
     name: OSGeo اقیانوسیه
     description: ما از توسعه جامعه اوپن‌استریت‌مپ در اقیانوسیه حمایت می کنیم.
     extendedDescription: هدف OSGeo اقیانوسیه حمایت و رشد جامعه زمین فضایی باز در منطقه اقیانوسیه از جمله نظارت و سرپرستی مجموعه کنفرانس های FOSS4G SotM اقیانوسیه است.
-  OSM-AR-forum:
-    extendedDescription: ایده آل برای بحث های طولانی یا مهم. زمان پاسخگویی کند.
   OSM-AR-geolibres:
     extendedDescription: ما ایجاد و استفاده از داده های جغرافیایی دسترسی آزاد ، پذیرش استانداردهای جغرافیایی و استفاده از نرم افزارهای رایگان و منبع باز را ترویج می کنیم.
-  OSM-AR-irc:
-    extendedDescription: ممکن است شما شیک ترین کاربر در انجمن را پیدا کنید.
-  OSM-AR-mailinglist:
-    description: لیست پستی تاریخی امروز تقریباً استفاده نشده است.
-  OSM-AR-telegram:
-    extendedDescription: فعال ترین کانال در جامعه ، ایده آل برای چت و دریافت فوری پاسخ سوالات شما. همه خوش امدید!
   OSM-AR-twitter:
     extendedDescription: اخبار از جامعه محلی و به طور کلی اوپن‌استریت‌مپ.
   osm-at:
@@ -479,8 +472,6 @@ fa:
   OSM-Chattanooga:
     name: OSM چاتانوگا
     description: گروه کاربران OpenStreetMap برای چاتانوگا
-  OSM-CO:
-    description: اخبار جامعه اوپن‌استریت‌مپ کلمبیا و بنیاد OSMCo
   OSM-Colorado:
     name: اوپن‌استریت‌مپ کلرادو
     description: نقشه برداران و کاربران کاربران اوپن‌استریت‌مپ در ایالت کلرادو ، ایالات متحده
@@ -489,9 +480,6 @@ fa:
     description: بستری برای اطلاعات در اوپن‌استریت‌مپ در آلمان
   OSM-Discord:
     name: دیسکورد جهانی اوپن‌استریت‌مپ
-  osm-east-africa-forum:
-    name: اوپن‌استریت‌مپ فروم شرق آفریقا
-    description: با سایر اعضای جامعه OSM شرق آفریقا چت کنید
   OSM-Facebook:
     description: اخبار و نوشته‌های اوپن‌استریت‌مپی ما را در فیسبوک دنبال کنید!
   osm-gh-facebook:
@@ -527,8 +515,6 @@ fa:
     extendedDescription: این کانال منبع خوبی از فیلم‌های آموزشی دربارهٔ اُپِن‌استریت‌مپ برای فارسی‌زبانان است.
   osm-iran-discord:
     extendedDescription: سرور دیسکورد برای اوپن‌استریت‌مپ ایران. با خیال راحت بپیوندید!
-  osm-iran-forum:
-    extendedDescription: یک انجمن اینترنتی برای کاربران اُپِن‌استریت‌مپ ایران. سؤال بپرسید و با دیگران گفت‌وگو کنید!
   osm-iran-telegram:
     extendedDescription: از شما دعوت می‌کنیم به کانال تلگرامی اُپِن‌استریت‌مپ ایران به نشانی {url} بیپوندید. کاربران اوپن‌استریت‌مپ ایران یک گروه تلگرامی نیز دارند که لینک آن را در توضیحات کانال خواهید یافت. خوش آمدید!
   OSM-japan-facebook:
@@ -550,8 +536,6 @@ fa:
     extendedDescription: اتاق چت غیر رسمی برای OSM کرالا ، همچنین به گروه تلگرام osmkerala متصل می شود
   osm-kerala-telegram:
     description: نقشه کرالا را با هم ترسیم می کنیم. به گروه تلگرام ما بپیوندید {آدرس اینترنتی}
-  osm-kerala-wiki:
-    description: 'می خواهید درباره نقشه برداری کرالا بیشتر بدانید: {آدرس اینترنتی}'
   osm-mg-facebook:
     description: گروه فیس بوک مالاگاسی برای افرادی که به اوپن‌استریت‌مپ علاقه دارند.
   osm-ni:
@@ -563,7 +547,6 @@ fa:
   OSM-PH-telegram:
     extendedDescription: یک گروه تلگرام دوستانه و بسیار فعال برای نقشه برداران OSM و دوستان در فیلیپین برای صحبت های کوچک ، مزاحمت های سبک ، و پرسش و پاسخ سریع.
   OSM-PL-chapter:
-    name: اوپن‌استریت‌مپ لهستان
     description: خانه جامعه لهستانی اوپن‌استریت‌مپ
   OSM-PL-discord:
     description: مکان اصلی برای چت صوتی در میان جامعه لهستانی اوپن‌استریت‌مپ، کانال های متنی فعال
@@ -581,13 +564,9 @@ fa:
     name: جنبش سخت افزاری نرم افزار آزاد - لیست پستی
     description: لیست پستی FSHM پوندیچری برای بحث در مورد نقشه برداری در پوندیچری و موارد دیگر.
     extendedDescription: FSHM رویدادهای مربوط به نرم افزار/سخت افزار رایگان ، فناوری ، فعالسازی و اوپن‌استریت‌مپ را سازماندهی می کند.
-  OSM-Reddit:
-    description: /r/{حساب} مکانی عالی برای کسب اطلاعات بیشتر در مورد اوپن‌استریت‌مپ است. از ما هر چیزی بخواهید!
   OSM-Rome-meetup:
     description: اوپن‌استریت‌مپ را در منطقه رم بهبود بخشید
     extendedDescription: هدف ما این است که منبعی برای مردم برای بحث و تبادل دانش در مورد استفاده از مجموعه داده های جغرافیایی رایگان به ویژه اوپن‌استریت‌مپ و نرم افزارهای جغرافیایی باز که داده های جغرافیایی را مدیریت ، ویرایش و نمایش می دهد و از استفاده از آن در لاتزیو حمایت می کنیم ، باشیم.
-  osm-se:
-    description: ارائه خدمات و اطلاعات OSM برای جامعه محلی سوئد
   OSM-Seattle:
     name: اُپِن‌استریت‌مپ سیاتل
     description: نقشه برداران و کاربران اُپِن‌استریت‌مپ در منطقه سیاتل
@@ -597,8 +576,6 @@ fa:
     name: اوپن‌استریت‌مپ جنوب کالیفرنیا
     description: بیایید کمی سرگرم شویم ، چیزی به لس آنجلس کمک کنیم و در مورد نقشه برداری بیاموزیم!
     extendedDescription: اوپن‌استریت‌مپ (OSM) کالیفرنیای جنوبی برای همه کسانی است که علاقه مند به نقشه برداری هستند تا بتوانند برای کار با اوپن‌استریت‌مپ دور هم جمع شوند. اوپن‌استریت‌مپ، ویکی پدیا نقشه ها ، یک نقشه منبع باز رایگان جهان است که توسط بیش از 1،000،000 داوطلب در سراسر جهان ایجاد شده است. همه خوش امدید. اگر اوپن‌استریت‌مپ را نمی شناسید ، ما به شما آموزش می دهیم. اگر ایده ای برای یک پروژه نقشه برداری یا حتی یک سفر میدانی دارید که گروه می تواند انجام دهد ، عالی است!
-  OSM-South-Bay:
-    description: نقشه شب ها توسط Code for San Jose میزبانی شده است
   OSM-Tampa-Bay:
     name: اوپن‌استریت‌مپ خلیج تمپا
     description: نقشه برداران و کاربران اوپن‌استریت‌مپ در منطقه خلیج تمپا
@@ -616,21 +593,18 @@ fa:
   OSM-US-Slack:
     description: همگی خوش آمدید! ثبت نام کنید در {signupUrl}
   OSM-Utah:
+    name: اوپن‌استریت‌مپ یوتا
     description: نقشه برداران و کاربران کاربران اوپن‌استریت‌مپ در منطقه سالت لیک سیتی
     extendedDescription: فعالیتها ممکن است شامل مواردی مانند کارگاههای آموختن نقشه برداری ، مهمانیهای نگاشت و جمع آوری داده در فضای باز باشد. این رویدادها حداقل در ابتدا در منطقه SLC برگزار می شود. ما به دنبال نقشه نگاران با تجربه و همچنین افراد تازه کار در OSM هستیم. بپیوندید و اجازه دهید نقشه برداری انجام دهیم!
   OSM-Wyoming:
+    name: اوپن‌استریت‌مپ وایومینگ
     description: نقشه برداران و کاربران اوپن‌استریت‌مپ در ایالت وایومینگ
     extendedDescription: اوپن‌استریت‌مپ (OSM) وایومینگ یک همکاری محلی از افرادی است که علاقمند به مشارکت در ایجاد نقشه های رایگان هستند. ما همه نقشه برداران خود را تشویق می کنیم تا رویدادهای نقشه برداری را در سراسر ایالت سازماندهی یا پیشنهاد دهند. فعالیت های ملاقات می تواند میکسرهای ساده اجتماعی ، OSM پایه تا آموزش پیشرفته یا مهمانی های نگاشت جامعه باشد.
-  osmcz-facebook:
-    description: انجمن چک را در فیس بوک دنبال کنید - از جمله WeeklyOSM ترجمه شده!
   osmcz-twitter:
     description: انجمن چک را در توییتر دنبال کنید - از جمله WeeklyOSM ترجمه شده!
   OSMF:
     name: بنیاد اُپِن‌استریت‌مپ
     description: بنیاد اوپن‌استریت‌مپ بنیادی ناسودبر در بریتانیاست که از پروژهٔ اوپن‌استریت‌مپ پشتیبانی می‌کند
-    extendedDescription: 'بنیاد OSM با جذب منابع مالی، نگهداری میزبان‌های OSM، سامان‌دادن نشست سالانهٔ State of the Map و ایجاد هماهنگی بین مشتاقان بقای این پروژه، از اوپن‌استریت‌مپ پشتیبانی می‌کند. شما نیز می‌توانید از طریق پیوند زیر به عضویت OSMF درآیید تا حمایت خود را ابراز کرده و در جهت‌گیری‌های اوپن‌استریت‌مپ نقش داشته باشید: {signupUrl}'
-  osmgraz-meetup:
-    description: جلسه ماهانه انجمن اوپن‌استریت‌مپ در گراتس
   PHXGeo-meetup:
     description: نقشه برداران و کاربران اوپن‌استریت‌مپ در منطقه فینیکس، آریزونا
     extendedDescription: این یک گروه ملاقات برای کسانی است که در منطقه ققنوس هستند و نقشه ها ، GIS ، اوپن‌استریت‌مپ ، نقشه برداری و هر چیز دیگری را دوست دارند.
@@ -645,10 +619,7 @@ fa:
   rs-wiki:
     description: صفحه ویکی پروژه برای صربستان
   sk-freemap:
-    name: وب سایت اوپن‌استریت‌مپ نقشه آزاد اسلواکی
     description: وب سایت نقشه اوپن‌استریت‌مپ با ابزارهایی در اسلواکی و مناطق اطراف آن
-  sk-freemap-wiki:
-    description: ویکی اوپن‌استریت‌مپ برای نقشه برداران و جامعه اسلواکی
   talk-au:
     description: مکانی برای چت نقشه برداران استرالیایی
   talk-bo:
@@ -657,6 +628,8 @@ fa:
     description: مکانی برای مشارکت کنندگان اوپن‌استریت‌مپ، اجتماعات و کاربران مشارکت کنندگان اوپن‌استریت‌مپ در ماداگاسکار برای اشتراک گذاری و بحث.
   talk-nz:
     description: بحث انجمن OSM نیوزلند
+  talk-pacific:
+    extendedDescription: ما می‌خواهیم این لیست پستی از همه مردم اقیانوس آرام، برای همه تنوع‌ها و آرزوهایمان، برای به اشتراک گذاشتن افکار، سؤالات، پروژه‌ها و هر چیزی که به اوپن‌استریت‌مپ در دریای جزایر ما مربوط می‌شود، پشتیبانی کند.
   ua-github:
     description: اوپن‌استریت‌مپ اوکراین گیت هاب
   ua-osm:
@@ -669,17 +642,62 @@ fa:
   uk-london-twitter:
     name: اوپن‌استریت‌مپ لندن در توییتر
     description: 'اوپن‌استریت‌مپ لندن در توییتر: {آدرس اینترنتی}'
-  us-ma-mailinglist:
-    description: لیست پستی برای انجمن OSM ماساچوست
-  US-MI-Wiki:
-    description: اطلاعات مربوط به نقشه برداری در میشیگان.
   uy-irc:
     description: 'به #{حساب} در irc.freenode.org (پورت 6667) بپیوندید'
     extendedDescription: 'به #{حساب} در irc.freenode.org بپیوندید'
-  Western-Slope-facebook:
-    description: نقشه برداران و کاربران اوپن‌استریت‌مپ در اطراف گراند جانکشن
-  Western-Slope-meetup:
-    description: نقشه برداران و کاربران اوپن‌استریت‌مپ در اطراف گراند جانکشن
+  vn-mailinglist:
+    description: لیست پستی درباره اوپن‌استریت‌مپ در ویتنام یا ویتنامی
+  ym-Ardhi-University:
+    description: بخش نقشه برداران جوان در دانشگاه اردی
+    extendedDescription: به‌عنوان مشاور داده‌های جغرافیایی آینده، ما به دنبال آموزش و ارائه مشاوره به جامعه هستیم که چگونه می‌توانند از داده‌های مکانی نه تنها به‌عنوان شکلی از مکان، بلکه ابزاری برای تصمیم‌گیری استفاده کنند و تغییرات خطرناک و اقلیمی مختلفی را که ممکن است به آنها یا نسل‌های آینده آسیب برساند، پیش‌بینی کنند.
+  ym-Asian-University-for-Women:
+    description: بخش نقشه برداران جوان در دانشگاه آسیایی زنان
+    extendedDescription: دانشگاه آسیایی زنان به دنبال فارغ التحصیل زنانی است که متخصصان ماهر و مبتکر، رهبران خدمات گرا در مشاغل و جوامعی که در آن کار و زندگی خواهند کرد، و مروج تفاهم بین فرهنگی و توسعه انسانی و اقتصادی پایدار در آسیا و سراسر جهان خواهند بود.
+  ym-Ball-State-University:
+    description: بخش نقشه برداران جوان در دانشگاه ایالتی بال
+    extendedDescription: بخش ما یک بخش بسیار فعال است. ما در درجه اول بر رویدادهای اجتماعی، جمع آوری کمک مالی و سفرهای میدانی تمرکز می‌کنیم. ما در حال حاضر به دنبال توسعه فعالیت‌های مرتبط با نقشه‌برداری هستیم تا دانشجویان دیگری را که ممکن است علاقه‌مند به مشارکت باشند، جذب کنیم.
+  ym-Busitema-University:
+    name: نقشه برداران خوب
+    description: بخش نقشه برداران جوان در دانشگاه بوسیما
+    extendedDescription: نقشه برداران خوب تیمی از دانشجویان در دانشگاه بوسیما هستند. هدف اصلی آن ایجاد جامعه‌ای از نقشه برداران با تجربه است که می‌توانند در نقشه جهان مشارکت کنند.
+  ym-California-University-of-Pennsylvania:
+    name: باشگاه CalU PA GIS
+    description: بخش نقشه برداران جوان در دانشگاه کالیفرنیا پنسیلوانیا
+    extendedDescription: دانش‌آموزان GIS در Cal U یاد می‌گیرند که تئوری فضایی را در دنیای واقعی اعمال کنند. برنامه مدرک دانشگاهی بر روی جغرافیا و همچنین استفاده از GIS در مدیریت اضطراری متمرکز است.
+  ym-Central-Washington-University:
+    name: باشگاه جغرافیا
+    description: بخش نقشه برداران جوان در دانشگاه مرکزی واشنگتن
+    extendedDescription: هدف ما از همکاری با نقشه برداران جوان کمک رسانی به مناطقی است که نیاز به نقشه‌برداری بشردوستانه دارند. با انجام این کار، ما به برادران و خواهران همکار خود در سراسر جهان خدمت می‌کنیم و همچنین مهارت‌های کارتوگرافی خود را ارتقا می‌دهیم.
+  ym-Clemson-University:
+    name: نقشه‌بردارهای کلمسون
+    description: بخش نقشه برداران جوان در دانشگاه کلمسون
+    extendedDescription: دانش‌آموزان در کلمسون توسط مرکز فناوری‌های زمین‌فضایی، جامعه‌ای متشکل از متخصصان علوم زمین‌فضایی بین‌رشته‌ای که از فعالیت‌های تحقیقاتی، آموزشی و توسعه‌ای با استفاده از فناوری‌هایی که امکان جمع‌آوری، تجزیه و تحلیل و کاربرد داده‌های مکانی را فراهم می‌کنند، حمایت می‌کنند. دانش‌آموزان فناوری‌های زمین فضایی را در فعالیت‌های علمی خود در تمام رشته‌ها ادغام می‌کنند و ارتباطات را در سراسر جهان ایجاد می‌کنند.
+  ym-College-of-William-and-Mary:
+    name: سراسر نقشه!
+    description: بخش نقشه برداران جوان در کالج ویلیام و مری
+    extendedDescription: دانشجویانی که در سراسر نقشه هستند توسط مرکز تجزیه و تحلیل جغرافیایی پشتیبانی می‌شوند، گروهی که GIS را در سراسر برنامه درسی یکپارچه می‌کند و سخت‌افزار، نرم‌افزار و تخصص را برای دانشجویان و اساتید فراهم می‌کند. دانش‌آموزان با هر زمینه‌ای از GIS در سراسر محوطه دانشگاه، از جمله علم و سیاست محیطی، زمین‌شناسی، تاریخ، تجارت، جامعه‌شناسی، زیست‌شناسی، مردم‌شناسی، سیاست عمومی و علوم دریایی استفاده می‌کنند.
+  ym-Cornell-University:
+    name: جامعه نقشه برداری
+    description: بخش نقشه برداران جوان در دانشگاه کرنل
+    extendedDescription: دانشجویان و اساتید دانشگاه کرنل از داده‌های باز و نرم‌افزار منبع‌باز برای رسیدگی به چالش‌ها در مقیاس محلی، ملی و جهانی استفاده می‌کنند. با انجام این کار، ما اهداف آکادمیک و شخصی خود را برای توسعه مهارت‌های خود در مورد GIS و سواد فضایی پیش می‌بریم.
+  ym-CURAT:
+    name: نقشه برداران جوان کورات
+    description: بخش نقشه برداران جوان در مرکز دانشگاهی برای تحقیقات و کاربرد در سنجش از دور (CURAT) دانشگاه فلیکس هوفوئت بوینی
+    extendedDescription: هدف بخش ما ترویج استفاده از نقشه برداری رایگان مشترک و استفاده از داده‌های اوپن‌استریت‌مپ در زمینه تحقیق و کاربرد آنها در اجرای ابزارهای تصمیم گیری است. به دانش آموزان کمک کنید تا داده‌های تحقیقاتی خود را تولید کنند.
+  ym-Cuttington-University:
+    name: نقشه‌برداران جوان دانشگاه کاتینگتون
+    description: بخش نقشه برداران جوان در دانشگاه کاتینگتون
+    extendedDescription: نقشه برداران جوان در دانشگاه کاتینگتون، سواکوکو، و شهرستان بونگ متشکل از دانشجویان از سه بخش مختلف است. یعنی دپارتمان مدیریت منابع طبیعی "DONRM"، دپارتمان علوم محیطی و دپارتمان علوم طبیعی. از زمان تأسیس این بخش در فوریه 2017، اعضای کلی 20 دانشجو هستند که هر بخش شامل 5 دانشجو است.
+  ym-Dedan-Kimathi-University-of-Technology:
+    name: GDEV
+    description: بخش نقشه برداران جوان در دانشگاه صنعتی ددان کیماثی
+    extendedDescription: GDEV گروهی از گروه GIS مشتاق در DeKUT است که هدف آن کمک به دانش‌آموزان برای اشتراک‌گذاری، مشارکت و یادگیری از یکدیگر در زمینه‌های مکانی است.
+  ym-Dhaka-College:
+    name: نقشه برداران جوان دانشگاه داکا
+    description: بخش نقشه برداران جوان در دانشگاه داکا
+    extendedDescription: YouthMappers DhakaCollege رویکردی توسط دانشجویان برای کمک به نقشه برداری از مناطق آسیب پذیر جهان به عنوان بخشی از اقدام بشردوستانه است. نقشه برداران جوان این فرصت را به دانش آموزان می‌دهد تا به مردم کمک کنند و از نقشه برداری برای اهداف بشردوستانه استفاده کنند. این داده‌های جغرافیایی باز را می‌توان برای اهداف آموزشی، ناوبری و سایر اهداف بشردوستانه استفاده کرد. نقشه برداری مبارک
+  ym-Dhaka-University:
+    name: نقشه برداران جوان اوپن‌استریت‌مپ
   ym-Heidelberg-University:
     name: نقشه برداران فاجعه هیدلبرگ
     description: نقشه برداران جوان فصل در دانشگاه هایدلبرگ

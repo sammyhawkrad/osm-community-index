@@ -1,0 +1,12 @@
+{
+  "id": "vn-facebook",
+  "type": "facebook",
+  "locationSet": {"include": ["vn"]},
+  "languageCodes": ["en", "vn"],
+  "order": 3,
+  "strings": {
+    "community": "OpenStreetMap Vietnam",
+    "communityID": "openstreetmapvietnam",
+    "url": "https://www.facebook.com/groups/openstreetmapvietnam/"
+  }
+}

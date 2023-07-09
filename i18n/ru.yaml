@@ -1,4 +1,115 @@
 ru:
+  _communities:
+    geolibres: GeoLibres
+    kiribatiwomeninmapping: Kiribati Women in Mapping
+    mappingbotswana: Картографировать Ботсвану
+    maptimebogota: MaptimeBogota
+    maptimehrva: MaptimeHRVA
+    openstreetmap: OpenStreetMap
+    openstreetmapafghanistan: OpenStreetMap Афганистан
+    openstreetmapafrica: OpenStreetMap Африка
+    openstreetmapalba: OpenStreetMap Альба
+    openstreetmapalbania: OpenStreetMap Албания
+    openstreetmapargentina: OpenStreetMap Аргентина
+    openstreetmaparmenia: OpenStreetMap Армения
+    openstreetmapasia: OpenStreetMap Азия
+    openstreetmapasti: OpenStreetMap Асти
+    openstreetmapaustria: OpenStreetMap Австрия
+    openstreetmapbahia: OpenStreetMap Баия
+    openstreetmapbangladesh: OpenStreetMap Бангладеш
+    openstreetmapbelarus: OpenStreetMap Беларусь
+    openstreetmapbelgium: OpenStreetMap Бельгия
+    openstreetmapbenin: OpenStreetMap Бенин
+    openstreetmapberlin: OpenStreetMap Берлин
+    openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
+    openstreetmapbochum: OpenStreetMap Бохум
+    openstreetmapbolivia: OpenStreetMap Боливия
+    openstreetmapbonn: OpenStreetMap Бонн
+    openstreetmapbosniaandherzegovina: OpenStreetMap Босния и Герцеговина
+    openstreetmapbrasil: OpenStreetMap Бразилия
+    openstreetmapbrasilia: OpenStreetMap Бразилиа
+    openstreetmapbremen: OpenStreetMap Бремен
+    openstreetmapbulgaria: OpenStreetMap Болгария
+    openstreetmapburkinafaso: OpenStreetMap Буркина-Фасо
+    openstreetmapburundi: OpenStreetMap Бурунди
+    openstreetmapbzh: OpenStreetMap БЖ
+    openstreetmapcambodia: OpenStreetMap Камбоджа
+    openstreetmapcameroon: OpenStreetMap Камерун
+    openstreetmapcanada: OpenStreetMap Канада
+    openstreetmapcastillayleon: OpenStreetMap Кастилия и Леон
+    openstreetmapcatalancountries: OpenStreetMap Каталонские Страны
+    openstreetmapchad: OpenStreetMap Чад
+    openstreetmapchile: OpenStreetMap Чили
+    openstreetmapchina: OpenStreetMap Китай
+    openstreetmapcologne: OpenStreetMap Кёльн
+    openstreetmapcolombia: OpenStreetMap Колумбия
+    openstreetmapcomunitatvalenciana: OpenStreetMap Валенсийское сообщество
+    openstreetmapcostarica: OpenStreetMap Коста-Рика
+    openstreetmapcotedivoire: OpenStreetMap Кот-д’Ивуар
+    openstreetmapcroatia: OpenStreetMap Хорватия
+    openstreetmapcuba: OpenStreetMap Куба
+    openstreetmapcuneo: OpenStreetMap Кунео
+    openstreetmapcz: OpenStreetMap Чехия
+    openstreetmapdeepsouth: OpenStreetMap Глубокий Юг
+    openstreetmapdenmark: OpenStreetMap Дания
+    openstreetmapdjibouti: OpenStreetMap Джибути
+    openstreetmapdominicanrepublic: OpenStreetMap Доминиканская Республика
+    openstreetmapdresden: OpenStreetMap Дрезден
+    openstreetmapdusseldorf: OpenStreetMap Дюссельдорф
+    openstreetmapecuador: OpenStreetMap Эквадор
+    openstreetmapegypt: OpenStreetMap Египет
+    openstreetmaperitrea: OpenStreetMap Эритрея
+    openstreetmapespana: OpenStreetMap Испания
+    openstreetmapestonia: OpenStreetMap Эстония
+    openstreetmapethiopia: OpenStreetMap Эфиопия
+    openstreetmapfiji: OpenStreetMap Фиджи
+    openstreetmapfinland: OpenStreetMap Финляндия
+    openstreetmapfrance: OpenStreetMap Франция
+    openstreetmapfreemapslovakia: OpenStreetMap Freemap Словакия
+    openstreetmapfrenchguiana: OpenStreetMap Гвиана
+    openstreetmapfrenchpolynesia: OpenStreetMap Французская Полинезия
+    openstreetmapgabon: OpenStreetMap Габон
+    openstreetmapgalicia: OpenStreetMap Галисия
+    openstreetmapgeorgia: OpenStreetMap Грузия
+    openstreetmapgermany: OpenStreetMap Германия
+    openstreetmapghana: OpenStreetMap Гана
+    openstreetmapgorakalwaria: OpenStreetMap Гура-Кальвария
+    openstreetmapgreece: OpenStreetMap Греция
+    openstreetmapireland: OpenStreetMap Ирландия
+    openstreetmapisrael: OpenStreetMap Израиль
+    openstreetmapitaly: OpenStreetMap Италия
+    openstreetmaprussia: Cообщество OpenStreetMap России
+  _defaults:
+    discord:
+      name: '{community} в Discord'
+      description: Свяжитесь с другими картографами через Discord
+      url: https://discord.gg/{account}
+    facebook:
+      name: '{community} в Facebook'
+      description: Присоединяйтесь к нашему сообществу на Facebook
+    forum:
+      name: 'Форум OpenStreetMap России'
+      description: Официальный форум сообщества OpenStreetMap России
+    irc:
+      name: '{community} в IRC'
+      description: 'Подключайтесь к #{account} на irc.oftc.net (порт 6667)'
+    linkedin:
+      name: '{community} на LinkedIn'
+    mailinglist:
+      name: 'Список рассылки {account}'
+      description: Официальный список рассылки
+    reddit:
+      name: '{community} в Reddit'
+      url: https://www.reddit.com/r/{account}
+    telegram:
+      name: '{community} в Telegram'
+      description: Присоединяйтесь к нашему Telegram чату
+    twitter:
+      name: '{community} в Twitter'
+      description: Подписывайтесь на нас в Twitter
+      url: https://twitter.com/{account}
+  al-maptime-tirana:
+    description: Общественные мероприятия, организованные вокруг темы картографирования — новички приветствуются!
   Bahia-telegram:
     extendedDescription: Присоединиться к сообществу, чтобы узнать больше об OSM, задавать вопросы или участвовать в наших встречах. Всем добро пожаловать!
   Bay-Area-OpenStreetMappers:
@@ -7,6 +118,12 @@ ru:
     description: 'Подписывайтесь на нас в Twitter {url}'
   Galicia-Xeoinquedos-Twitter:
     description: Подписывайтесь на нас в Twitter {url}
+  latam-facebook:
+    description: Мапперы и сообщество OpenStreetMap Латинской америки в Facebook
+  Maptime-Oceania-Slack:
+    description: Войдите на {signupUrl}
+  mt-irc:
+    extendedDescription: 'Подключайтесь к #{account} на irc.oftc.net (порт 6667), будьте терпеливы, ответов на вопрос обычно нужно ждать'
   OSM-Boston:
     name: OpenStreetMap Бостон
   OSM-Chattanooga:
@@ -28,11 +145,10 @@ ru:
   OSMF:
     name: Фонд OpenStreetMap
     description: OSMF — это зарегистрированная в Великобритании бесприбыльная организация, поддерживающая проект OpenStreetMap.
-    extendedDescription: 'OSMF поддерживает OpenStreetMap, собирая деньги, поддерживая работоспособность серверов, на которых работает OSM, организуя ежегодную конференцию State of the Map, координируя волонтёров, что держат OSM на плаву. Вы можете выразить свою поддержку и принять участие в судьбе OpenStreetMap, приосединившись как участник OSMF по ссылке: {signupUrl}'
   PHXGeo-twitter:
     description: Подписывайтесь на нас в Twitter {url}
   RS-telegram:
     extendedDescription: Присоединиться к сообществу, чтобы узнать больше об OpenStreetMap, задавать вопросы или участвовать в наших встречах. Всем добро пожаловать!
-  us-ma-mailinglist:
-    name: Список рассылки Talk-us-massachusetts
-    description: Список рассылки сообщества OSM штата Массачусетс
+  uy-irc:
+    description: 'Подключайтесь к #{account} на irc.freenode.org (порт 6667)'
+    extendedDescription: 'Подключайтесь к #{account} на irc.freenode.org'

@@ -1,10 +1,10 @@
 // External
-import colors from 'colors/safe.js';
+import chalk from 'chalk';
 import fs from 'node:fs';
-import glob from 'glob';
+import { globSync } from 'glob';
 import JSON5 from 'json5';
 import jsonschema from 'jsonschema';
-import LocationConflation from '@ideditor/location-conflation';
+import LocationConflation from '@rapideditor/location-conflation';
 import localeCompare from 'locale-compare';
 import path from 'node:path';
 import geojsonArea from '@mapbox/geojson-area';
@@ -23,9 +23,9 @@ import { simplify } from '../lib/simplify.js';
 import { writeFileWithMeta } from '../lib/write_file_with_meta.js';
 
 // JSON
-import geojsonSchemaJSON from '../schema/geojson.json';
-import featureSchemaJSON from '../schema/feature.json';
-import resourceSchemaJSON from '../schema/resource.json';
+import geojsonSchemaJSON from '../schema/geojson.json' assert {type: 'json'};
+import featureSchemaJSON from '../schema/feature.json' assert {type: 'json'};
+import resourceSchemaJSON from '../schema/resource.json' assert {type: 'json'};
 
 const Validator = jsonschema.Validator;
 let v = new Validator();
@@ -40,8 +40,8 @@ buildAll();
 
 
 function buildAll() {
-  const START = '🏗   ' + colors.yellow('Building data...');
-  const END = '👍  ' + colors.green('data built');
+  const START = '🏗   ' + chalk.yellow('Building data...');
+  const END = '👍  ' + chalk.green('data built');
 
   console.log('');
   console.log(START);
@@ -79,14 +79,14 @@ function collectDefaults() {
   try {
     defaults = JSON5.parse(contents).defaults;
   } catch (jsonParseError) {
-    console.error(colors.red(`Error - ${jsonParseError.message} in:`));
-    console.error('  ' + colors.yellow('./defaults.json'));
+    console.error(chalk.red(`Error - ${jsonParseError.message} in:`));
+    console.error('  ' + chalk.yellow('./defaults.json'));
     process.exit(1);
   }
 
   Object.keys(defaults).forEach(k => _tstrings._defaults[k] = defaults[k]);
 
-  process.stdout.write(colors.green('✓') + ' 1\n');
+  process.stdout.write(chalk.green('✓') + ' 1\n');
   return defaults;
 }
 
@@ -99,10 +99,10 @@ function collectFeatures() {
   let files = {};
   process.stdout.write('📦  Features: ');
 
-  glob.sync('./features/**/*', { nodir: true }).forEach(file => {
+  globSync('./features/**/*', { nodir: true }).forEach(file => {
     if (!/\.geojson$/.test(file)) {
-      console.error(colors.red(`Error - file should have a .geojson extension:`));
-      console.error('  ' + colors.yellow(file));
+      console.error(chalk.red(`Error - file should have a .geojson extension:`));
+      console.error('  ' + chalk.yellow(file));
       process.exit(1);
     }
 
@@ -111,8 +111,8 @@ function collectFeatures() {
     try {
       parsed = JSON5.parse(contents);
     } catch (jsonParseError) {
-      console.error(colors.red(`Error - ${jsonParseError.message} in:`));
-      console.error('  ' + colors.yellow(file));
+      console.error(chalk.red(`Error - ${jsonParseError.message} in:`));
+      console.error('  ' + chalk.yellow(file));
       process.exit(1);
     }
 
@@ -132,8 +132,8 @@ function collectFeatures() {
       const lon = ((extent[0] + extent[2]) / 2).toFixed(4);
       const lat = ((extent[1] + extent[3]) / 2).toFixed(4);
       console.warn('');
-      console.warn(colors.yellow(`Warning - GeoJSON feature for small area (${area} km²).  Consider circular include location instead: [${lon}, ${lat}]`));
-      console.warn('  ' + colors.yellow(file));
+      console.warn(chalk.yellow(`Warning for ` + chalk.yellow(file) + `:`));
+      console.warn(chalk.yellow(`GeoJSON feature for small area (${area} km²).  Consider circular include location instead: [${lon}, ${lat}]`));
     }
 
     // use the filename as the feature.id
@@ -152,15 +152,15 @@ function collectFeatures() {
     prettifyFile(file, feature, contents);
 
     if (files[id]) {
-      console.error(colors.red('Error - Duplicate filenames: ') + colors.yellow(id));
-      console.error('  ' + colors.yellow(files[id]));
-      console.error('  ' + colors.yellow(file));
+      console.error(chalk.red('Error - Duplicate filenames: ') + chalk.yellow(id));
+      console.error('  ' + chalk.yellow(files[id]));
+      console.error('  ' + chalk.yellow(file));
       process.exit(1);
     }
     features.push(feature);
     files[id] = file;
 
-    process.stdout.write(colors.green('✓'));
+    process.stdout.write(chalk.green('✓'));
   });
 
   process.stdout.write(' ' + Object.keys(files).length + '\n');
@@ -178,10 +178,10 @@ function collectResources(featureCollection) {
   const loco = new LocationConflation(featureCollection);
   process.stdout.write('📦  Resources: ');
 
-  glob.sync('./resources/**/*.json', { nodir: true }).forEach(file => {
+  globSync('./resources/**/*.json', { nodir: true }).forEach(file => {
     if (!/\.json$/.test(file)) {
-      console.error(colors.red(`Error - file should have a .json extension:`));
-      console.error('  ' + colors.yellow(file));
+      console.error(chalk.red(`Error - file should have a .json extension:`));
+      console.error('  ' + chalk.yellow(file));
       process.exit(1);
     }
 
@@ -190,8 +190,8 @@ function collectResources(featureCollection) {
     try {
       item = JSON5.parse(contents);
     } catch (jsonParseError) {
-      console.error(colors.red(`Error - ${jsonParseError.message} in:`));
-      console.error('  ' + colors.yellow(file));
+      console.error(chalk.red(`Error - ${jsonParseError.message} in:`));
+      console.error('  ' + chalk.yellow(file));
       process.exit(1);
     }
 
@@ -203,8 +203,8 @@ function collectResources(featureCollection) {
         throw new Error(`locationSet ${resolved.id} resolves to an empty feature.`);
       }
     } catch (err) {
-      console.error(colors.red(`Error - ${err.message} in:`));
-      console.error('  ' + colors.yellow(file));
+      console.error(chalk.red(`Error - ${err.message} in:`));
+      console.error('  ' + chalk.yellow(file));
       process.exit(1);
     }
 
@@ -214,13 +214,13 @@ function collectResources(featureCollection) {
     let resolvedStrings;
     try {
       resolvedStrings = resolveStrings(item, _defaults);
-
       if (!resolvedStrings.name)         { throw new Error('Cannot resolve a value for name'); }
       if (!resolvedStrings.description)  { throw new Error('Cannot resolve a value for description'); }
       if (!resolvedStrings.url)          { throw new Error('Cannot resolve a value for url'); }
+
     } catch (err) {
-      console.error(colors.red(`Error - ${err.message} in:`));
-      console.error('  ' + colors.yellow(file));
+      console.error(chalk.red(`Error - ${err.message} in:`));
+      console.error('  ' + chalk.yellow(file));
       process.exit(1);
     }
 
@@ -238,14 +238,26 @@ function collectResources(featureCollection) {
     if (item.order)          { obj.order = item.order; }
 
     obj.strings = {};
-    if (item.strings.community)            { obj.strings.community = item.strings.community; }
+
+    // If this item has a "community name" string, generate `communityID` and store it.
+    // https://github.com/osmlab/osm-community-index/issues/616
+    if (item.strings.community) {
+      const communityID = simplify(item.strings.community);
+      if (!communityID) {
+        console.error(chalk.red(`Error - Generated empty communityID in:`));
+        console.error('  ' + chalk.yellow(file));
+        process.exit(1);
+      }
+      _tstrings._communities[communityID] = item.strings.community;
+      obj.strings.community = item.strings.community;
+      obj.strings.communityID = communityID;
+    }
+
     if (item.strings.name)                 { obj.strings.name = item.strings.name; }
     if (item.strings.description)          { obj.strings.description = item.strings.description; }
     if (item.strings.extendedDescription)  { obj.strings.extendedDescription = item.strings.extendedDescription; }
     if (item.strings.signupUrl)            { obj.strings.signupUrl = item.strings.signupUrl; }
     if (item.strings.url)                  { obj.strings.url = item.strings.url; }
-
-    // obj.resolved = resolvedStrings;
 
     if (item.contacts)  { obj.contacts = item.contacts; }
     if (item.events)    { obj.events = item.events; }
@@ -257,9 +269,9 @@ function collectResources(featureCollection) {
 
     const itemID = item.id;
     if (files[itemID]) {
-      console.error(colors.red('Error - Duplicate resource id: ') + colors.yellow(itemID));
-      console.error('  ' + colors.yellow(files[itemID]));
-      console.error('  ' + colors.yellow(file));
+      console.error(chalk.red('Error - Duplicate resource id: ') + chalk.yellow(itemID));
+      console.error('  ' + chalk.yellow(files[itemID]));
+      console.error('  ' + chalk.yellow(file));
       process.exit(1);
     }
 
@@ -268,11 +280,6 @@ function collectResources(featureCollection) {
 
     // Collect translation strings for this resource
     let translateStrings = {};
-
-    if (item.strings.community) {
-      const communityID = simplify(item.strings.community);
-      _tstrings._communities[communityID] = item.strings.community;
-    }
     if (item.strings.name)                 { translateStrings.name = item.strings.name; }
     if (item.strings.description)          { translateStrings.description = item.strings.description; }
     if (item.strings.extendedDescription)  { translateStrings.extendedDescription = item.strings.extendedDescription; }
@@ -288,16 +295,16 @@ function collectResources(featureCollection) {
         // check date
         const d = new Date(event.when);
         if (isNaN(d.getTime())) {
-          console.error(colors.red('Error - Bad date: ') + colors.yellow(event.when));
-          console.error('  ' + colors.yellow(file));
+          console.error(chalk.red('Error - Bad date: ') + chalk.yellow(event.when));
+          console.error('  ' + chalk.yellow(file));
           process.exit(1);
         }
 
         if (!event.i18n) continue;
 
         if (estrings[event.id]) {
-          console.error(colors.red('Error - Duplicate event id: ') + colors.yellow(event.id));
-          console.error('  ' + colors.yellow(file));
+          console.error(chalk.red('Error - Duplicate event id: ') + chalk.yellow(event.id));
+          console.error('  ' + chalk.yellow(file));
           process.exit(1);
         }
 
@@ -317,7 +324,7 @@ function collectResources(featureCollection) {
       _tstrings[itemID] = translateStrings;
     }
 
-    process.stdout.write(colors.green('✓'));
+    process.stdout.write(chalk.green('✓'));
   });
 
   process.stdout.write(' ' + Object.keys(files).length + '\n');
@@ -370,13 +377,13 @@ function convertURLs(item) {
 function validateFile(file, resource, schema) {
   const validationErrors = v.validate(resource, schema).errors;
   if (validationErrors.length) {
-    console.error(colors.red('Error - Schema validation:'));
-    console.error('  ' + colors.yellow(file + ': '));
+    console.error(chalk.red('Error - Schema validation:'));
+    console.error('  ' + chalk.yellow(file + ': '));
     validationErrors.forEach(error => {
       if (error.property) {
-        console.error('  ' + colors.yellow(error.property + ' ' + error.message));
+        console.error('  ' + chalk.yellow(error.property + ' ' + error.message));
       } else {
-        console.error('  ' + colors.yellow(error));
+        console.error('  ' + chalk.yellow(error));
       }
     });
     process.exit(1);

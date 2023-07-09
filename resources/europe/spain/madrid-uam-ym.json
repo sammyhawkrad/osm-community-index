@@ -1,0 +1,13 @@
+{
+  "id": "madrid-uam-ym",
+  "type": "youthmappers",
+  "locationSet": {"include": ["madrid.geojson"]},
+  "strings": {
+    "name": "YouthMappers at UAM",
+    "description": "YouthMappers chapter at Universidad Autonoma de Madrid",
+    "url": "mailto:youthmappersatuam@gmail.com"
+  },
+  "contacts": [
+    {"name": "Organizer", "email": "youthmappersatuam@gmail.com"}
+  ]
+}

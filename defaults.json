@@ -11,17 +11,18 @@
       "url": "https://discord.gg/{account}"
     },
     "discourse": {
-      "name": "{community} Discourse"
+      "name": "{community} Community Forum",
+      "description": "The official forum for {community}",
+      "url": "https://community.openstreetmap.org/c/communities/{account}"
     },
     "facebook": {
       "name": "{community} on Facebook",
       "description": "Join our community on Facebook",
-      "url": "https://facebook.com/{account}"
+      "url": "https://www.facebook.com/{account}"
     },
     "forum": {
       "name": "{community} Forum",
-      "description": "The official forum for {community}",
-      "url": "https://forum.openstreetmap.org/viewforum.php?id={account}"
+      "description": "The official forum for {community}"
     },
     "github": {
       "name": "{community} GitHub",
@@ -42,12 +43,16 @@
     "linkedin": {
       "name": "{community} on LinkedIn",
       "description": "Join our community on LinkedIn",
-      "url": "https://linkedin.com/company/{account}"
+      "url": "https://www.linkedin.com/company/{account}"
     },
     "mailinglist": {
       "name": "{account} Mailing List",
       "description": "The official mailing list for {community}",
       "url": "https://lists.openstreetmap.org/listinfo/{account}"
+    },
+    "mastodon": {
+      "name": "{community} Mastodon Account",
+      "description": "The official Mastodon account for {community}"
     },
     "matrix": {
       "name": "{community} Matrix Chat",
@@ -56,7 +61,10 @@
     },
     "meetup": {
       "name": "{community} Meetup",
-      "url": "https://meetup.com/{account}"
+      "url": "https://www.meetup.com/{account}"
+    },
+    "newsletter": {
+      "name": "{community} Newsletter"
     },
     "osm": {
       "name": "{community}"
@@ -67,6 +75,10 @@
     "reddit": {
       "name": "{community} on Reddit",
       "url": "https://www.reddit.com/r/{account}"
+    },
+    "signal": {
+      "name": "{community} Signal",
+      "description": "Join our community chat on Signal"
     },
     "slack": {
       "name": "{community} Slack"
@@ -81,6 +93,9 @@
       "description": "Follow us on Twitter",
       "url": "https://twitter.com/{account}"
     },
+    "website": {
+      "name": "{community}"
+    },
     "wiki": {
       "name": "{community} WikiProject",
       "url": "https://wiki.openstreetmap.org/wiki/{account}"
@@ -92,6 +107,10 @@
       "name": "{community} on YouTube",
       "description": "Subscribe to our YouTube channel",
       "url": "https://www.youtube.com/channel/{account}"
+    },
+    "zulip": {
+      "name": "{community} Zulip",
+      "description": "Join our community chat on Zulip"
     }
   }
 }

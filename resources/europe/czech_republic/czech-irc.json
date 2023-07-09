@@ -1,0 +1,13 @@
+{
+  "id": "czech-irc",
+  "type": "irc",
+  "account": "#openstreetmapcz",
+  "locationSet": {"include": ["cz"]},
+  "languageCodes": ["cs", "en", "sk"],
+  "strings": {
+    "community": "OpenStreetMap CZ",
+    "communityID": "openstreetmapcz",
+    "description": "OpenStreetMap CZ room bridged with Discord, Jabber, Matrix and Telegram",
+    "url": "https://web.libera.chat/#openstreetmapcz"
+  }
+}

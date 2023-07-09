@@ -1,0 +1,12 @@
+{
+  "id": "lv-twitter",
+  "type": "twitter",
+  "account": "osmlatvija",
+  "locationSet": {"include": ["lv"]},
+  "languageCodes": ["en", "lv"],
+  "order": 3,
+  "strings": {
+    "community": "OpenStreetMap Latvia",
+    "communityID": "openstreetmaplatvia"
+  }
+}

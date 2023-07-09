@@ -1,6 +1,6 @@
 [![build](https://github.com/osmlab/osm-community-index/workflows/build/badge.svg)](https://github.com/osmlab/osm-community-index/actions?query=workflow%3A%22build%22)
 [![npm version](https://badge.fury.io/js/osm-community-index.svg)](https://badge.fury.io/js/osm-community-index)
-[![](https://data.jsdelivr.com/v1/package/gh/osmlab/osm-community-index/badge?style=rounded)](https://www.jsdelivr.com/package/gh/osmlab/osm-community-index)
+[![](https://data.jsdelivr.com/v1/package/npm/osm-community-index/badge?style=rounded)](https://www.jsdelivr.com/package/npm/osm-community-index)
 
 # osm-community-index ("OCI")
 
@@ -39,11 +39,11 @@ We're always looking for help!
 - See [the project wiki](https://github.com/osmlab/osm-community-index/wiki) for info about how to contribute to this index.
 
 If you have any questions or want to reach out to a maintainer, ping
-[@bhousel][@bhousel] or [@awiseman][@awiseman] on:
+[@bhousel][@bhousel] or [@aawiseman][@aawiseman] on:
 - [OpenStreetMap US Slack](https://slack.openstreetmap.us/) (`#general` channel)
 
 [@bhousel]: https://github.com/bhousel
-[@awiseman]: https://github.com/awiseman
+[@aawiseman]: https://github.com/aawiseman
 
 
 ## License

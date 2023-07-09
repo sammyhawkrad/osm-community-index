@@ -1,0 +1,11 @@
+{
+  "id": "castilla-y-leon-telegram",
+  "type": "telegram",
+  "account": "osmcyl",
+  "locationSet": {"include": ["castilla-y-leon.geojson"]},
+  "languageCodes": ["es"],
+  "strings": {
+    "community": "OpenStreetMap Castilla y León",
+    "communityID": "openstreetmapcastillayleon"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "lv-wiki",
+  "type": "wiki",
+  "locationSet": {"include": ["lv"]},
+  "languageCodes": ["en", "lv"],
+  "order": 2,
+  "strings": {
+    "community": "OpenStreetMap Latvia",
+    "communityID": "openstreetmaplatvia",
+    "description": "WikiProject Latvia",
+    "url": "https://wiki.openstreetmap.org/wiki/WikiProject_Latvia"
+  }
+}

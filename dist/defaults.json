@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.1.4",
-    "generated": "2021-11-29T18:13:48.463Z",
+    "version": "5.5.3",
+    "generated": "2023-06-20T15:55:22.903Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/defaults.json",
-    "hash": "52c2849ba86d2498086527a9651c0504"
+    "hash": "fd66401c736bd865b0a32b1a7de84544"
   },
   "defaults": {
     "aparat": {
@@ -16,16 +16,19 @@
       "description": "Get in touch with other mappers on Discord",
       "url": "https://discord.gg/{account}"
     },
-    "discourse": {"name": "{community} Discourse"},
+    "discourse": {
+      "name": "{community} Community Forum",
+      "description": "The official forum for {community}",
+      "url": "https://community.openstreetmap.org/c/communities/{account}"
+    },
     "facebook": {
       "name": "{community} on Facebook",
       "description": "Join our community on Facebook",
-      "url": "https://facebook.com/{account}"
+      "url": "https://www.facebook.com/{account}"
     },
     "forum": {
       "name": "{community} Forum",
-      "description": "The official forum for {community}",
-      "url": "https://forum.openstreetmap.org/viewforum.php?id={account}"
+      "description": "The official forum for {community}"
     },
     "github": {
       "name": "{community} GitHub",
@@ -44,12 +47,16 @@
     "linkedin": {
       "name": "{community} on LinkedIn",
       "description": "Join our community on LinkedIn",
-      "url": "https://linkedin.com/company/{account}"
+      "url": "https://www.linkedin.com/company/{account}"
     },
     "mailinglist": {
       "name": "{account} Mailing List",
       "description": "The official mailing list for {community}",
       "url": "https://lists.openstreetmap.org/listinfo/{account}"
+    },
+    "mastodon": {
+      "name": "{community} Mastodon Account",
+      "description": "The official Mastodon account for {community}"
     },
     "matrix": {
       "name": "{community} Matrix Chat",
@@ -58,13 +65,18 @@
     },
     "meetup": {
       "name": "{community} Meetup",
-      "url": "https://meetup.com/{account}"
+      "url": "https://www.meetup.com/{account}"
     },
+    "newsletter": {"name": "{community} Newsletter"},
     "osm": {"name": "{community}"},
     "osm-lc": {"name": "{community}"},
     "reddit": {
       "name": "{community} on Reddit",
       "url": "https://www.reddit.com/r/{account}"
+    },
+    "signal": {
+      "name": "{community} Signal",
+      "description": "Join our community chat on Signal"
     },
     "slack": {"name": "{community} Slack"},
     "telegram": {
@@ -77,6 +89,7 @@
       "description": "Follow us on Twitter",
       "url": "https://twitter.com/{account}"
     },
+    "website": {"name": "{community}"},
     "wiki": {
       "name": "{community} WikiProject",
       "url": "https://wiki.openstreetmap.org/wiki/{account}"
@@ -86,6 +99,10 @@
       "name": "{community} on YouTube",
       "description": "Subscribe to our YouTube channel",
       "url": "https://www.youtube.com/channel/{account}"
+    },
+    "zulip": {
+      "name": "{community} Zulip",
+      "description": "Join our community chat on Zulip"
     }
   }
 }

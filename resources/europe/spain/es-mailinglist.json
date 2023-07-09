@@ -1,0 +1,15 @@
+{
+  "id": "es-mailinglist",
+  "type": "mailinglist",
+  "account": "talk-es",
+  "locationSet": {"include": ["es"]},
+  "languageCodes": ["es"],
+  "order": -3,
+  "strings": {
+    "community": "OpenStreetMap España",
+    "communityID": "openstreetmapespana"
+  },
+  "contacts": [
+    {"name": "Iván Sánchez", "email": "ivansanchez@escomposlinux.org"}
+  ]
+}

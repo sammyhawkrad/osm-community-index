@@ -1,7 +1,7 @@
 import bytes from 'bytes';
-import colors from 'colors/safe.js';
+import chalk from 'chalk';
 import fs from 'node:fs';
-import glob from 'glob';
+import { globSync } from 'glob';
 import path from 'node:path';
 import Table from 'easy-table';
 
@@ -18,7 +18,7 @@ function getStats() {
   let t = new Table;
   currSize = 0;
   currFiles = 0;
-  glob.sync('./features/**/*.geojson').forEach(addRow);
+  globSync('./features/**/*.geojson').forEach(addRow);
   t.sort(['Size|des']);
   console.log(t.toString());
   featureSize = bytes(currSize, { unitSeparator: ' ' });
@@ -27,7 +27,7 @@ function getStats() {
   t = new Table;
   currSize = 0;
   currFiles = 0;
-  glob.sync('./resources/**/*.json').forEach(addRow);
+  globSync('./resources/**/*.json').forEach(addRow);
   t.sort(['Size|des']);
   console.log(t.toString());
   resourceSize = bytes(currSize, { unitSeparator: ' ' });
@@ -35,8 +35,8 @@ function getStats() {
 
   console.info(`\nTotals:`);
   console.info(`-------`);
-  console.info(colors.blue.bold(`Features:   ${featureSize} in ${featureFiles} files.`));
-  console.info(colors.blue.bold(`Resources:  ${resourceSize} in ${resourceFiles} files.`));
+  console.info(chalk.blue.bold(`Features:   ${featureSize} in ${featureFiles} files.`));
+  console.info(chalk.blue.bold(`Resources:  ${resourceSize} in ${resourceFiles} files.`));
   console.info('');
 
 
@@ -56,11 +56,11 @@ function getStats() {
 
   function colorBytes(size) {
     if (size > 1024 * 10) {  // 10 KB
-      return colors.red;
+      return chalk.red;
     } else if (size > 1024 * 2) {  // 2 KB
-      return colors.yellow;
+      return chalk.yellow;
     } else {
-      return colors.green;
+      return chalk.green;
     }
   }
 }
