@@ -19,7 +19,7 @@ tr:
     openstreetmapaustria: OpenStreetMap Avusturya
     openstreetmapbahia: OpenStreetMap Bahia
     openstreetmapbangladesh: OpenStreetMap Bangladeş
-    openstreetmapbelarus: OpenStreetMap Beyaz Rusya
+    openstreetmapbelarus: OpenStreetMap Belarus
     openstreetmapbelgium: OpenStreetMap Belçika
     openstreetmapbelize: OpenStreetMap Belize
     openstreetmapbenin: OpenStreetMap Benin
@@ -41,6 +41,7 @@ tr:
     openstreetmapcanada: OpenStreetMap Kanada
     openstreetmapcastillayleon: OpenStreetMap Kastilya ve Leon
     openstreetmapcatalancountries: OpenStreetMap Katalan Ülkeleri
+    openstreetmapceara: OpenStreetMap Ceará
     openstreetmapchad: OpenStreetMap Çad
     openstreetmapchile: OpenStreetMap Şili
     openstreetmapchina: OpenStreetMap Çin
@@ -144,6 +145,7 @@ tr:
     openstreetmapnorthkorea: OpenStreetMap Kuzey Kore
     openstreetmapnorway: OpenStreetMap Norveç
     openstreetmapoceania: OpenStreetMap Oceania
+    openstreetmapohio: OpenStreetMap Ohio
     openstreetmapottawa: OpenStreetMap Ottava
     openstreetmappakistan: OpenStreetMap Pakistan
     openstreetmappanama: OpenStreetMap Panama
@@ -225,7 +227,6 @@ tr:
       name: '{community}'
     irc:
       name: '{community} on IRC'
-      description: 'Join #{account} on irc.oftc.net (port 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} on LinkedIn'
@@ -236,7 +237,6 @@ tr:
       description: The official mailing list for {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: '{community} Mastodon Account'
       description: The official Mastodon account for {community}
     matrix:
       name: '{community} Matrix Chat'
@@ -264,8 +264,6 @@ tr:
       description: Join our community Telegram chat
       url: https://t.me/{account}
     twitter:
-      name: '{community} on Twitter'
-      description: Follow us on Twitter
       url: https://twitter.com/{account}
     website:
       name: '{community}'
@@ -355,12 +353,6 @@ tr:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
   co-facebook:
     extendedDescription: Join the community to learn more about OpenStreetMap. Everyone is welcome!
-  Code-for-San-Jose-Discord:
-    name: Code for San José Discord
-    description: 'Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel.'
-  Code-for-San-Jose-Slack:
-    name: Code for San José Slack
-    description: 'All are welcome! Sign up at {signupUrl}, then join the #proj-osm channel.'
   comunitat-valenciana-wiki:
     description: 'Everything you need to know about mapping in Valencian Community: {url}'
   czech-community:
@@ -670,8 +662,6 @@ tr:
     name: Boston OpenStreetMap
     description: 'Boston bölgesindeki haritacılar ve OpenStreetMap kullanıcıları '
     extendedDescription: OpenStreetMap, her gün sizin gibi insanlardan yüz binlerce katkı sağlayan ücretsiz ve açık, wiki tarzı dünya haritasıdır. Haritayı düzenlemek basit ve eğlencelidir! Boston bölgesinin ve dünyanın geri kalanının en iyi haritasını oluşturma çabamızda hem içeride hem dışarıda bize katılın!
-  OSM-CA-Slack:
-    description: Hoşgeldiniz! {SignupUrl} adresinde kaydolun.
   OSM-Central-Salish-Sea:
     name: OpenStreetMap Orta Salish Denizi
     description: Washington Vernon Dağı civarındaki OpenStreetMap kullanıcıları ve haritacılar
@@ -776,6 +766,8 @@ tr:
   osm-ni:
     name: MapaNica.net
     description: Nikaraguadaki yerel topluluk için OSM servisleri ve bilgi sağla
+  osm-ohio-wiki:
+    description: '{community} Wiki sayfası'
   OSM-Ottawa-meetup:
     description: 'Ottawa bölgesindeki haritacılar ve OpenStreetMap kullanıcıları '
   OSM-PE:
@@ -815,8 +807,6 @@ tr:
     extendedDescription: OpenStreetMap (OSM) Güney California, OpenStreetMap ile çalışmak için bir araya gelmek üzere haritalama ile ilgilenen herkes içindir. Haritaların Wikipedia'sı olan OpenStreetMap, dünya çapında 1.000.000'dan fazla gönüllü tarafından oluşturulan dünyanın ücretsiz bir açık kaynaklı haritasıdır. Herkese açığız. OpenStreetMap'i bilmiyorsanız size öğreteceğiz. Bir haritalama projesi hatta grubun yapabileceği bir okul gezisi fikriniz varsa, harika!
   OSM-South-Bay:
     name: OSM Güney Körfezi
-    description: Map Nights hosted by Code for San José
-    extendedDescription: Code for San José hosts biweekly Map Nights on Tuesday nights. Meet fellow South Bay mappers, help out with local mapping projects, and hear about other civic tech projects. Programming and GIS skills are not required.
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Körfezi
     description: 'Tampa Körfezi bölgesindeki haritacılar ve OpenStreetMap kullanıcıları '
@@ -1146,10 +1136,6 @@ tr:
   ym-Monroe-Community-College:
     name: MCC Mapping Corps
     description: Monroe Topluluk Koleji'nde YouthMappers derneği
-  ym-Montgomery-College:
-    name: GeoMC
-    description: Montgomery Kolejindeki YouthMappers derneğ
-    extendedDescription: GeoMC’nin misyonu, öğrencilere jeo-uzamsal araçları uygulama, veri toplama ve proje yönetimi konularında uygulamalı deneyim sağlamaktır. Öğrencilerimizin çoğu CBS konusunda bir geçmişe sahiptir ve coğrafya branşlarıdır. Derneğimizin üyeleri farklı geçmişlerden geliyor ve yaşadığımız Dünya'da olumlu bir etki yaratmak için hepimiz birlikte çalışıyoruz.
   ym-Namibia-University-of-Science-and-Technology:
     name: Coğrafi Bilgiler Teknolojisi Öğrenci Topluluğu
     description: Namibia Bilim ve Teknoloji Üniversitesi'nde YouthMappers derneğ
@@ -1191,9 +1177,6 @@ tr:
     name: RUET'te YouthMappers
     description: Rajshahi Mühendislik ve Teknoloji Üniversitesi'nde YouthMappers derneğ
     extendedDescription: '"RUET''te YouthMappers", CBS bilgilerini paylaşmak, geliştirmek ve uygulamak için Rajshahi Mühendislik ve Teknoloji Üniversitesi (RUET) öğrencilerinden oluşan insani bir haritalama grubudur. Bu grup, dünyanın en savunmasız grubuna ulaşmak için çözüm üretmek için açık kaynaklı jeo-uzamsal verileri ve platformu kullanmayı teşvik ediyor.'
-  ym-Sacred-Heart-Junior-College:
-    name: Sacred Heart Junior College'da YouthMappers
-    description: Sacred Heart Junior College'daki YouthMappers derneği
   ym-Sherubtse-College:
     name: Coğrafya Topluluğu
     description: Sherubtse Koleji'nde YouthMappers derneği
@@ -1301,13 +1284,6 @@ tr:
     name: Mozambik YouthMappers Topluluğu
     description: Eduardo Mondlane Üniversitesi'ndeki YouthMappers bölümü
     extendedDescription: Esnek bir insani haritalama topluluğu oluşturmak için Mozambik toplumuna katılmayı amaçlayan bir öğrenci grubuyuz. Topluluk, ülkemizin fiziksel haritasını çıkarmayı; halk tarafından erişilebilen ve ilişkili maliyetler olmadan çeşitli alanlarda kullanılabilen açık coğrafi veriler oluşturmayı amaçlamaktadır.
-  ym-Universit-de-NZrkor:
-    name: Youthmappers à N'Zérékoré
-    description: N'Zérékoré Üniversitesi'ndeki YouthMappers bölümü
-    extendedDescription: YouthMappers, denize kıyısı olmayan toplulukların haritalanmasını ve afet veya salgın hastalık durumunda karar alınmasını sağlayan bir gruptur. Ayrıca ücretsiz veri üretimine ve kullanımına da olanak tanır.
-  ym-Universit-des-Sciences-Sociale-et-de-Gestion-de-Bamako:
-    name: Etudiant au Laboratoire HoPE
-    description: Bamako Sosyal Bilimler ve Yönetim Üniversitesi'ndeki YouthMappers bölümü
   ym-Universit-Gaston-Berger:
     name: UGB'de YouthMappers
     description: Gaston Berger Üniversitesi'ndeki YouthMappers bölümü

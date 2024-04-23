@@ -162,7 +162,7 @@ nl:
     openstreetmapsrilanka: OpenStreetMap Sri Lanka
     openstreetmapsudan: OpenStreetMap Soedan
     openstreetmapsweden: OpenStreetMap Zweden
-    openstreetmapswitzerland: OpenStreetMap Zwitzerland
+    openstreetmapswitzerland: OpenStreetMap Zwitserland
     openstreetmapsyria: OpenStreetMap Syrië
     openstreetmaptaiwan: OpenStreetMap Taiwan
     openstreetmaptanzania: OpenStreetMap Tanzania
@@ -209,7 +209,6 @@ nl:
       name: '{community}'
     irc:
       name: '{community} op IRC'
-      description: 'Kom erbij op #{account} op irc.oftc.net (poort 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} op LinkedIn'
@@ -240,8 +239,7 @@ nl:
       description: Kom erbij op de Telegram chat van onze community
       url: https://t.me/{account}
     twitter:
-      name: '{community} op Twitter'
-      description: Volg ons op Twitter
+      name: '{community} op 𝕏'
       url: https://twitter.com/{account}
     wiki:
       name: '{community} WikiProject'
@@ -314,8 +312,6 @@ nl:
     extendedDescription: Sluit je aan bij onze gemeenschap om meer te leren over OpenStreetMap, om vragen te stellen of om deel te nemen aan onze bijeenkomsten. Iedereen is welkom!
   co-facebook:
     extendedDescription: 'Sluit je aan bij de gemeenschap om meer te leren over OpenStreetMap. Iedereen is welkom! '
-  Code-for-San-Jose-Slack:
-    description: 'Iedereen is welkom! Meld je aan op {signupUrl}, en kies daarna het #proj-osm kanaal. '
   czech-community:
     description: Kaartportaal, website en contactgegevens van OSM leden in Tsjechie
   de-berlin-mailinglist:
@@ -520,8 +516,6 @@ nl:
     name: OpenStreetMap Boston
     description: Mappers en OpenStreetMap-gebruikers in de omgeving van Boston
     extendedDescription: OpenStreetMap is een vrije en open, wiki-achtige map van de wereld, met honderdduizenden bijdragen elke dag door mensen zoals jou. De map bewerken is simpel, en leuk! Doe met ons mee, zowel binnen als buiten, om de beste map van de Boston regio en de rest van de wereld te maken!
-  OSM-CA-Slack:
-    description: Iedereen is welkom! Meld je aan op {signupUrl}.
   OSM-Central-Salish-Sea:
     name: OpenStreetMap Central Salish Sea
     description: Mappers en OpenStreetMap-gebruikers in de omgeving van Mount Vernon, WA
@@ -826,8 +820,6 @@ nl:
     description: YouthMappers-afdeling aan de Moi University
   ym-Monroe-Community-College:
     description: YouthMappers-afdeling aan het Monroe Community College
-  ym-Montgomery-College:
-    description: YouthMappers-afdeling aan het Montgomery College
   ym-Namibia-University-of-Science-and-Technology:
     description: YouthMappers-afdeling aan de Namibia University of Science and Technology
   ym-Nimba-County-Community-College:
@@ -853,8 +845,6 @@ nl:
   ym-Rajshahi-University-of-Engineering-Technology:
     name: YouthMappers aan de RUET
     description: YouthMappers-afdeling aan de Rajshahi University of Engineering & Technology
-  ym-Sacred-Heart-Junior-College:
-    description: YouthMappers-afdeling aan het Sacred Heart Junior College
   ym-Sherubtse-College:
     description: YouthMappers-afdeling aan het Sherubtse College
   ym-Sokoine-University-of-Agriculture:
@@ -937,15 +927,10 @@ nl:
   ym-Universidade-Eduardo-Mondlane:
     name: Comunidade YouthMappers Moçambique
     description: YouthMappers-afdeling aan de Universidade Eduardo Mondlane
-  ym-Universit-de-NZrkor:
-    name: Youthmappers in N'Zérékoré
-    description: YouthMappers-afdeling aan de Université de N'Zérékoré
-  ym-Universit-des-Sciences-Sociale-et-de-Gestion-de-Bamako:
-    name: Etudiant au Laboratoire HoPE
-    description: YouthMappers-afdeling aan de Université des Sciences Sociale et de Gestion de Bamako
   ym-Universit-Gaston-Berger:
     name: YouthMappers aan de UGB
     description: YouthMappers-afdeling aan de Université Gaston Berger
+    extendedDescription: YouthMappers UGB bestaat uit jonge studenten en onderzoekers die gepassioneerd zijn over cartografie. Ons doel is om de vaardigheden van studenten op het gebied van cartografie te verbeteren en deel te nemen aan de creatie van open geografische gegevens die reageren op ontwikkelingsuitdagingen over de hele wereld en met name in Afrika.
   ym-Universit-Mohammed-V-Rabat:
     name: Brahmapoutre at Rabat
     description: YouthMappers-afdeling aan de Université Mohammed V Rabat

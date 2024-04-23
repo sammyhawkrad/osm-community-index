@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.5.3",
-    "generated": "2023-06-20T15:55:23.510Z",
+    "version": "5.6.2",
+    "generated": "2024-02-26T16:41:57.186Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "16369b9d5b695d90c71c2aa4a0b22297"
+    "hash": "b5d33514520817daa8bb91ad23537391"
   },
   "type": "FeatureCollection",
   "features": [
@@ -508,32 +508,12 @@
               "communityID": "openstreetmapalbania"
             },
             "resolved": {
-              "name": "OpenStreetMap Albania on Twitter",
+              "name": "OpenStreetMap Albania on 𝕏",
               "url": "https://twitter.com/Osm_Albania",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/Osm_Albania\">OpenStreetMap Albania on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/Osm_Albania\">OpenStreetMap Albania on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/Osm_Albania\">https://twitter.com/Osm_Albania</a>",
-              "descriptionHTML": "Follow us on Twitter"
-            }
-          },
-          "talk-al": {
-            "id": "talk-al",
-            "type": "mailinglist",
-            "account": "talk-al",
-            "locationSet": {"include": ["al"]},
-            "languageCodes": ["en"],
-            "order": 2,
-            "strings": {
-              "community": "OpenStreetMap Albania",
-              "communityID": "openstreetmapalbania"
-            },
-            "resolved": {
-              "name": "talk-al Mailing List",
-              "url": "https://lists.openstreetmap.org/listinfo/talk-al",
-              "description": "The official mailing list for OpenStreetMap Albania",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-al\">talk-al Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-al\">https://lists.openstreetmap.org/listinfo/talk-al</a>",
-              "descriptionHTML": "The official mailing list for OpenStreetMap Albania"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -744,6 +724,26 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osm_armenia\">OpenStreetMap Armenia Telegram</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osm_armenia\">https://t.me/osm_armenia</a>",
               "descriptionHTML": "Join our community Telegram chat"
+            }
+          },
+          "am-wiki": {
+            "id": "am-wiki",
+            "type": "wiki",
+            "account": "Armenia",
+            "locationSet": {"include": ["am"]},
+            "order": 4,
+            "strings": {
+              "community": "OpenStreetMap Armenia",
+              "communityID": "openstreetmaparmenia",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Armenia WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Armenia",
+              "description": "OpenStreetMap Armenia Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Armenia\">OpenStreetMap Armenia WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Armenia\">https://wiki.openstreetmap.org/wiki/Armenia</a>",
+              "descriptionHTML": "OpenStreetMap Armenia Wiki page"
             }
           }
         }
@@ -1001,10 +1001,10 @@
             "resolved": {
               "name": "OpenStreetMap Austria on IRC",
               "url": "https://webchat.oftc.net/?channels=osm-at",
-              "description": "Join #osm-at on irc.oftc.net (port 6667)",
+              "description": "Join #osm-at on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-at\">OpenStreetMap Austria on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-at\">https://webchat.oftc.net/?channels=osm-at</a>",
-              "descriptionHTML": "Join #osm-at on irc.oftc.net (port 6667)"
+              "descriptionHTML": "Join #osm-at on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)"
             }
           },
           "at-mailinglist": {
@@ -1044,10 +1044,10 @@
               {"name": "AT Community", "email": "info@openstreetmap.at"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Austria Mastodon Account",
+              "name": "OpenStreetMap Austria on Mastodon",
               "url": "https://mastodon.social/@osm_at",
               "description": "The official Mastodon account for OpenStreetMap Austria",
-              "nameHTML": "<a target=\"_blank\" href=\"https://mastodon.social/@osm_at\">OpenStreetMap Austria Mastodon Account</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://mastodon.social/@osm_at\">OpenStreetMap Austria on Mastodon</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://mastodon.social/@osm_at\">https://mastodon.social/@osm_at</a>",
               "descriptionHTML": "The official Mastodon account for OpenStreetMap Austria"
             }
@@ -1076,28 +1076,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm-at:matrix.org\">OpenStreetMap Austria Matrix Chat</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm-at:matrix.org\">https://matrix.to/#/#osm-at:matrix.org</a>",
               "descriptionHTML": "Unofficial German Matrix channel for Austria"
-            }
-          },
-          "at-twitter": {
-            "id": "at-twitter",
-            "type": "twitter",
-            "account": "osm_at",
-            "locationSet": {"include": ["at"]},
-            "languageCodes": ["de"],
-            "strings": {
-              "community": "OpenStreetMap Austria",
-              "communityID": "openstreetmapaustria"
-            },
-            "contacts": [
-              {"name": "AT Community", "email": "info@openstreetmap.at"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Austria on Twitter",
-              "url": "https://twitter.com/osm_at",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_at\">OpenStreetMap Austria on Twitter</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_at\">https://twitter.com/osm_at</a>",
-              "descriptionHTML": "Follow us on Twitter"
             }
           },
           "at-wiki": {
@@ -2047,7 +2025,6 @@
               "description": "Improve OpenStreetMap in the Bay Area",
               "extendedDescription": "This group is about growing the OpenStreetMap community here in the Bay Area. Our events are open to everyone, from open source enthusiasts, cyclists, GIS professionals, geocachers, and beyond. Anyone and everyone who is interested in maps, map making and free map data is welcome to join our group as well as attend our events."
             },
-            "contacts": [{"name": "Ben Discoe", "email": "bdiscoe@gmail.com"}],
             "resolved": {
               "name": "Bay Area OpenStreetMappers",
               "url": "https://www.meetup.com/Bay-Area-OpenStreetMappers",
@@ -2401,11 +2378,11 @@
             "resolved": {
               "name": "OpenStreetMap Belgium on IRC",
               "url": "https://webchat.oftc.net/?channels=osmbe",
-              "description": "Join #osmbe on irc.oftc.net (port 6667)",
+              "description": "Join #osmbe on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "extendedDescription": "Join #osmbe on irc.oftc.net (port 6667), it is bridged with the Matrix chat channel",
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osmbe\">OpenStreetMap Belgium on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osmbe\">https://webchat.oftc.net/?channels=osmbe</a>",
-              "descriptionHTML": "Join #osmbe on irc.oftc.net (port 6667)",
+              "descriptionHTML": "Join #osmbe on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "extendedDescriptionHTML": "Join #osmbe on irc.oftc.net (port 6667), it is bridged with the Matrix chat channel"
             }
           },
@@ -2422,10 +2399,10 @@
             },
             "contacts": [{"name": "BE community", "email": "community@osm.be"}],
             "resolved": {
-              "name": "OpenStreetMap Belgium Mastodon Account",
+              "name": "OpenStreetMap Belgium on Mastodon",
               "url": "https://en.osm.town/@osm_be",
               "description": "The official Mastodon account for OpenStreetMap Belgium",
-              "nameHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@osm_be\">OpenStreetMap Belgium Mastodon Account</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@osm_be\">OpenStreetMap Belgium on Mastodon</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@osm_be\">https://en.osm.town/@osm_be</a>",
               "descriptionHTML": "The official Mastodon account for OpenStreetMap Belgium"
             }
@@ -2515,12 +2492,12 @@
             },
             "contacts": [{"name": "BE community", "email": "community@osm.be"}],
             "resolved": {
-              "name": "OpenStreetMap Belgium on Twitter",
+              "name": "OpenStreetMap Belgium on 𝕏",
               "url": "https://twitter.com/osm_be",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_be\">OpenStreetMap Belgium on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_be\">OpenStreetMap Belgium on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_be\">https://twitter.com/osm_be</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -3186,12 +3163,12 @@
               "communityID": "openstreetmapburundi"
             },
             "resolved": {
-              "name": "OpenStreetMap Burundi on Twitter",
+              "name": "OpenStreetMap Burundi on 𝕏",
               "url": "https://twitter.com/osmburundi",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmburundi\">OpenStreetMap Burundi on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmburundi\">OpenStreetMap Burundi on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmburundi\">https://twitter.com/osmburundi</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "OSM-bi-mailinglist": {
@@ -3436,12 +3413,12 @@
               "communityID": "openstreetmapbolivia"
             },
             "resolved": {
-              "name": "OpenStreetMap Bolivia on Twitter",
+              "name": "OpenStreetMap Bolivia on 𝕏",
               "url": "https://twitter.com/OsmBolivia",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OsmBolivia\">OpenStreetMap Bolivia on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OsmBolivia\">OpenStreetMap Bolivia on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OsmBolivia\">https://twitter.com/OsmBolivia</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "talk-bo": {
@@ -3665,6 +3642,7 @@
             "account": "br",
             "locationSet": {"include": ["br"]},
             "languageCodes": ["pt"],
+            "order": 4,
             "strings": {
               "community": "OpenStreetMap Brasil",
               "communityID": "openstreetmapbrasil"
@@ -3684,7 +3662,7 @@
             "account": "OSMBrasil_Comunidade",
             "locationSet": {"include": ["br"]},
             "languageCodes": ["pt"],
-            "order": 1,
+            "order": 3,
             "strings": {
               "community": "OpenStreetMap Brasil",
               "communityID": "openstreetmapbrasil",
@@ -3710,7 +3688,7 @@
             "account": "OpenStreetMapBR",
             "locationSet": {"include": ["br"]},
             "languageCodes": ["pt"],
-            "order": 3,
+            "order": 1,
             "strings": {
               "community": "OpenStreetMap Brasil",
               "communityID": "openstreetmapbrasil"
@@ -3719,12 +3697,33 @@
               {"name": "Wille Marcel", "email": "wille@wille.blog.br"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Brasil on Twitter",
+              "name": "OpenStreetMap Brasil on 𝕏",
               "url": "https://twitter.com/OpenStreetMapBR",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapBR\">OpenStreetMap Brasil on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapBR\">OpenStreetMap Brasil on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapBR\">https://twitter.com/OpenStreetMapBR</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
+            }
+          },
+          "br-wiki": {
+            "id": "br-wiki",
+            "type": "wiki",
+            "locationSet": {"include": ["br"]},
+            "languageCodes": ["en", "pt"],
+            "order": 0,
+            "strings": {
+              "community": "OpenStreetMap Brasil",
+              "communityID": "openstreetmapbrasil",
+              "description": "WikiProject with information and coordination guidelines for mapping in Brazil.",
+              "url": "https://wiki.openstreetmap.org/wiki/Brazil"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Brasil WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Brazil",
+              "description": "WikiProject with information and coordination guidelines for mapping in Brazil.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Brazil\">OpenStreetMap Brasil WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Brazil\">https://wiki.openstreetmap.org/wiki/Brazil</a>",
+              "descriptionHTML": "WikiProject with information and coordination guidelines for mapping in Brazil."
             }
           },
           "talk-br": {
@@ -3733,7 +3732,7 @@
             "account": "talk-br",
             "locationSet": {"include": ["br"]},
             "languageCodes": ["pt"],
-            "order": 5,
+            "order": -3,
             "strings": {
               "community": "OpenStreetMap Brasil",
               "communityID": "openstreetmapbrasil"
@@ -4130,12 +4129,12 @@
               }
             ],
             "resolved": {
-              "name": "Mapping Botswana on Twitter",
+              "name": "Mapping Botswana on 𝕏",
               "url": "https://twitter.com/mappingbotswana",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/mappingbotswana\">Mapping Botswana on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/mappingbotswana\">Mapping Botswana on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/mappingbotswana\">https://twitter.com/mappingbotswana</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -4985,10 +4984,10 @@
               {"name": "Carlos Sánchez", "email": "erielkhan@gmail.com"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Catalan Countries Mastodon Account",
+              "name": "OpenStreetMap Catalan Countries on Mastodon",
               "url": "https://mastodont.cat/@osmcatala",
               "description": "The official Mastodon account for OpenStreetMap Catalan Countries",
-              "nameHTML": "<a target=\"_blank\" href=\"https://mastodont.cat/@osmcatala\">OpenStreetMap Catalan Countries Mastodon Account</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://mastodont.cat/@osmcatala\">OpenStreetMap Catalan Countries on Mastodon</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://mastodont.cat/@osmcatala\">https://mastodont.cat/@osmcatala</a>",
               "descriptionHTML": "The official Mastodon account for OpenStreetMap Catalan Countries"
             }
@@ -5040,6 +5039,31 @@
               "descriptionHTML": "Join our community Telegram chat"
             }
           },
+          "cat-twitch": {
+            "id": "cat-twitch",
+            "type": "url",
+            "locationSet": {"include": ["catalan_countries.geojson"]},
+            "languageCodes": ["ca"],
+            "order": 6,
+            "strings": {
+              "community": "OpenStreetMap Catalan Countries",
+              "communityID": "openstreetmapcatalancountries",
+              "name": "Twitch channel of the {community}",
+              "description": "OSM live editing, HOTosm, OpenData and GIS",
+              "url": "https://www.twitch.tv/osmcatala"
+            },
+            "contacts": [
+              {"name": "Carlos Sánchez", "email": "erielkhan@gmail.com"}
+            ],
+            "resolved": {
+              "name": "Twitch channel of the OpenStreetMap Catalan Countries",
+              "url": "https://www.twitch.tv/osmcatala",
+              "description": "OSM live editing, HOTosm, OpenData and GIS",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.twitch.tv/osmcatala\">Twitch channel of the OpenStreetMap Catalan Countries</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.twitch.tv/osmcatala\">https://www.twitch.tv/osmcatala</a>",
+              "descriptionHTML": "OSM live editing, HOTosm, OpenData and GIS"
+            }
+          },
           "cat-twitter": {
             "id": "cat-twitter",
             "type": "twitter",
@@ -5056,12 +5080,12 @@
               {"name": "Jose Luis Infante", "email": "jlinfante@llefia.org"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Catalan Countries on Twitter",
+              "name": "OpenStreetMap Catalan Countries on 𝕏",
               "url": "https://twitter.com/OSMcatala",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMcatala\">OpenStreetMap Catalan Countries on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMcatala\">OpenStreetMap Catalan Countries on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMcatala\">https://twitter.com/OSMcatala</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "cat-wiki": {
@@ -5223,12 +5247,12 @@
               "communityID": "openstreetmaprdc"
             },
             "resolved": {
-              "name": "OpenStreetMap RDC on Twitter",
+              "name": "OpenStreetMap RDC on 𝕏",
               "url": "https://twitter.com/OSM_CD",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_CD\">OpenStreetMap RDC on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_CD\">OpenStreetMap RDC on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_CD\">https://twitter.com/OSM_CD</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -6036,10 +6060,10 @@
             "resolved": {
               "name": "OpenStreetMap Switzerland on IRC",
               "url": "https://webchat.oftc.net/?channels=osm-ch",
-              "description": "Join #osm-ch on irc.oftc.net (port 6667)",
+              "description": "Join #osm-ch on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-ch\">OpenStreetMap Switzerland on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-ch\">https://webchat.oftc.net/?channels=osm-ch</a>",
-              "descriptionHTML": "Join #osm-ch on irc.oftc.net (port 6667)"
+              "descriptionHTML": "Join #osm-ch on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)"
             }
           },
           "ch-mailinglist": {
@@ -6053,14 +6077,14 @@
               "communityID": "openstreetmapswitzerland",
               "name": "Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List",
               "description": "Mailing list for Switzerland",
-              "url": "https://lists.openstreetmap.ch/mailman/listinfo/talk-ch"
+              "url": "https://lists.openstreetmap.ch/mailman3/lists/talk-ch.openstreetmap.ch/"
             },
             "resolved": {
               "name": "Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List",
-              "url": "https://lists.openstreetmap.ch/mailman/listinfo/talk-ch",
+              "url": "https://lists.openstreetmap.ch/mailman3/lists/talk-ch.openstreetmap.ch/",
               "description": "Mailing list for Switzerland",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.ch/mailman/listinfo/talk-ch\">Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.ch/mailman/listinfo/talk-ch\">https://lists.openstreetmap.ch/mailman/listinfo/talk-ch</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.ch/mailman3/lists/talk-ch.openstreetmap.ch/\">Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.ch/mailman3/lists/talk-ch.openstreetmap.ch/\">https://lists.openstreetmap.ch/mailman3/lists/talk-ch.openstreetmap.ch/</a>",
               "descriptionHTML": "Mailing list for Switzerland"
             }
           },
@@ -6081,22 +6105,23 @@
               }
             ],
             "resolved": {
-              "name": "OpenStreetMap Switzerland on Twitter",
+              "name": "OpenStreetMap Switzerland on 𝕏",
               "url": "https://twitter.com/SwissOSM",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/SwissOSM\">OpenStreetMap Switzerland on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/SwissOSM\">OpenStreetMap Switzerland on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/SwissOSM\">https://twitter.com/SwissOSM</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "osm-ch": {
             "id": "osm-ch",
-            "type": "osm-lc",
+            "type": "url",
             "locationSet": {"include": ["ch"]},
             "languageCodes": ["de", "en", "fr", "it"],
             "strings": {
               "community": "OpenStreetMap Switzerland",
               "communityID": "openstreetmapswitzerland",
+              "name": "{community}",
               "description": "The platform for information on OpenStreetMap in Switzerland",
               "url": "https://osm.ch/"
             },
@@ -6113,6 +6138,33 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://osm.ch/\">OpenStreetMap Switzerland</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://osm.ch/\">https://osm.ch/</a>",
               "descriptionHTML": "The platform for information on OpenStreetMap in Switzerland"
+            }
+          },
+          "sosm": {
+            "id": "sosm",
+            "type": "osm-lc",
+            "locationSet": {"include": ["ch"]},
+            "languageCodes": ["de", "en", "fr", "it"],
+            "strings": {
+              "community": "OpenStreetMap Switzerland",
+              "communityID": "openstreetmapswitzerland",
+              "name": "Swiss OpenStreetMap Association",
+              "description": "SOSM was created to further the goals of the OpenStreetMap movement, to strengthen the contacts with authorities and industry, to facilitate the activities of OSM community members in Switzerland, and to represent the Swiss OSM community in other organisations.",
+              "url": "https://sosm.ch/"
+            },
+            "contacts": [
+              {
+                "name": "Swiss OpenStreetMap Association",
+                "email": "board@sosm.ch"
+              }
+            ],
+            "resolved": {
+              "name": "Swiss OpenStreetMap Association",
+              "url": "https://sosm.ch/",
+              "description": "SOSM was created to further the goals of the OpenStreetMap movement, to strengthen the contacts with authorities and industry, to facilitate the activities of OSM community members in Switzerland, and to represent the Swiss OSM community in other organisations.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://sosm.ch/\">Swiss OpenStreetMap Association</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://sosm.ch/\">https://sosm.ch/</a>",
+              "descriptionHTML": "SOSM was created to further the goals of the OpenStreetMap movement, to strengthen the contacts with authorities and industry, to facilitate the activities of OSM community members in Switzerland, and to represent the Swiss OSM community in other organisations."
             }
           }
         }
@@ -6225,12 +6277,12 @@
               {"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Chile on Twitter",
+              "name": "OpenStreetMap Chile on 𝕏",
               "url": "https://twitter.com/osmCL",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmCL\">OpenStreetMap Chile on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmCL\">OpenStreetMap Chile on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmCL\">https://twitter.com/osmCL</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "talk-cl": {
@@ -6428,12 +6480,12 @@
               {"name": "OSM Cameroon", "email": "osmcameroun@gmail.com"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Cameroon on Twitter",
+              "name": "OpenStreetMap Cameroon on 𝕏",
               "url": "https://twitter.com/OSMCameroun",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMCameroun\">OpenStreetMap Cameroon on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMCameroun\">OpenStreetMap Cameroon on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMCameroun\">https://twitter.com/OSMCameroun</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "talk-cm": {
@@ -6662,7 +6714,7 @@
         "roadSpeedUnit": "km/h",
         "roadHeightUnit": "m",
         "callingCodes": ["86", "852", "853"],
-        "area": 10270857.82,
+        "area": 10255583.9,
         "resources": {
           "cn-matrix": {
             "id": "cn-matrix",
@@ -7290,8 +7342,12 @@
               [118.28244, 24.51231],
               [118.35291, 24.51645],
               [118.42453, 24.54644],
-              [118.56434, 24.49266],
-              [120.49232, 25.22863],
+              [118.6333, 24.46259],
+              [119.42295, 25.0886],
+              [119.98511, 25.37624],
+              [119.78816, 26.2348],
+              [120.0693, 26.3959],
+              [120.5128, 26.536],
               [121.03532, 26.8787],
               [123.5458, 31.01942],
               [122.29378, 31.76513],
@@ -7780,12 +7836,12 @@
               {"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Colombia on Twitter",
+              "name": "OpenStreetMap Colombia on 𝕏",
               "url": "https://twitter.com/OpenStreetMapCo",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapCo\">OpenStreetMap Colombia on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapCo\">OpenStreetMap Colombia on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapCo\">https://twitter.com/OpenStreetMapCo</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "talk-co": {
@@ -7943,98 +7999,6 @@
         ]
       },
       "id": "Q739"
-    },
-    {
-      "type": "Feature",
-      "id": "south_sf_bay_area.geojson",
-      "properties": {
-        "id": "south_sf_bay_area.geojson",
-        "area": 4030.01,
-        "resources": {
-          "Code-for-San-Jose-Discord": {
-            "id": "Code-for-San-Jose-Discord",
-            "type": "discord",
-            "account": "3bAd9DAWCp",
-            "locationSet": {"include": ["south_sf_bay_area.geojson"]},
-            "languageCodes": ["en"],
-            "order": 5,
-            "strings": {
-              "name": "Code for San José Discord",
-              "description": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel."
-            },
-            "resolved": {
-              "name": "Code for San José Discord",
-              "url": "https://discord.gg/3bAd9DAWCp",
-              "description": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/3bAd9DAWCp\">Code for San José Discord</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/3bAd9DAWCp\">https://discord.gg/3bAd9DAWCp</a>",
-              "descriptionHTML": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel."
-            }
-          },
-          "Code-for-San-Jose-Slack": {
-            "id": "Code-for-San-Jose-Slack",
-            "type": "slack",
-            "locationSet": {"include": ["south_sf_bay_area.geojson"]},
-            "languageCodes": ["en"],
-            "order": 4,
-            "strings": {
-              "name": "Code for San José Slack",
-              "description": "All are welcome! Sign up at {signupUrl}, then join the #proj-osm channel.",
-              "signupUrl": "https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA",
-              "url": "https://codeforsanjose.slack.com/"
-            },
-            "resolved": {
-              "name": "Code for San José Slack",
-              "url": "https://codeforsanjose.slack.com/",
-              "signupUrl": "https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA",
-              "description": "All are welcome! Sign up at https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA, then join the #proj-osm channel.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://codeforsanjose.slack.com/\">Code for San José Slack</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://codeforsanjose.slack.com/\">https://codeforsanjose.slack.com/</a>",
-              "signupUrlHTML": "<a target=\"_blank\" href=\"https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA\">https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA</a>",
-              "descriptionHTML": "All are welcome! Sign up at <a target=\"_blank\" href=\"https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA\">https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA</a>, then join the #proj-osm channel."
-            }
-          },
-          "OSM-South-Bay": {
-            "id": "OSM-South-Bay",
-            "type": "meetup",
-            "account": "Code-for-San-Jose",
-            "locationSet": {"include": ["south_sf_bay_area.geojson"]},
-            "languageCodes": ["en"],
-            "order": 5,
-            "strings": {
-              "name": "OSM South Bay",
-              "description": "Map Nights hosted by Code for San José",
-              "extendedDescription": "Code for San José hosts biweekly Map Nights on Tuesday nights. Meet fellow South Bay mappers, help out with local mapping projects, and hear about other civic tech projects. Programming and GIS skills are not required."
-            },
-            "resolved": {
-              "name": "OSM South Bay",
-              "url": "https://www.meetup.com/Code-for-San-Jose",
-              "description": "Map Nights hosted by Code for San José",
-              "extendedDescription": "Code for San José hosts biweekly Map Nights on Tuesday nights. Meet fellow South Bay mappers, help out with local mapping projects, and hear about other civic tech projects. Programming and GIS skills are not required.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/Code-for-San-Jose\">OSM South Bay</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/Code-for-San-Jose\">https://www.meetup.com/Code-for-San-Jose</a>",
-              "descriptionHTML": "Map Nights hosted by Code for San José",
-              "extendedDescriptionHTML": "Code for San José hosts biweekly Map Nights on Tuesday nights. Meet fellow South Bay mappers, help out with local mapping projects, and hear about other civic tech projects. Programming and GIS skills are not required."
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-121.4566, 37.48249],
-            [-121.21628, 37.17673],
-            [-121.20529, 36.95757],
-            [-121.49368, 36.95757],
-            [-121.5596, 36.8928],
-            [-121.98257, 37.12419],
-            [-122.27234, 37.39635],
-            [-122.13501, 37.48903],
-            [-121.4566, 37.48249]
-          ]
-        ]
-      }
     },
     {
       "type": "Feature",
@@ -8443,10 +8407,10 @@
             },
             "contacts": [{"name": "osmcz", "email": "dev@openstreetmap.cz"}],
             "resolved": {
-              "name": "OpenStreetMap CZ on Twitter",
+              "name": "OpenStreetMap CZ on 𝕏",
               "url": "https://twitter.com/osmcz",
               "description": "Follow the Czech community on Twitter - including translated WeeklyOSM!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmcz\">OpenStreetMap CZ on Twitter</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmcz\">OpenStreetMap CZ on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmcz\">https://twitter.com/osmcz</a>",
               "descriptionHTML": "Follow the Czech community on Twitter - including translated WeeklyOSM!"
             }
@@ -8964,12 +8928,12 @@
               {"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Berlin on Twitter",
+              "name": "OpenStreetMap Berlin on 𝕏",
               "url": "https://twitter.com/osmberlin",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmberlin\">OpenStreetMap Berlin on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmberlin\">OpenStreetMap Berlin on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmberlin\">https://twitter.com/osmberlin</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "de-berlin-wiki": {
@@ -9345,10 +9309,10 @@
             "resolved": {
               "name": "OpenStreetMap Germany on IRC",
               "url": "https://webchat.oftc.net/?channels=osm-de",
-              "description": "Join #osm-de on irc.oftc.net (port 6667)",
+              "description": "Join #osm-de on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-de\">OpenStreetMap Germany on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-de\">https://webchat.oftc.net/?channels=osm-de</a>",
-              "descriptionHTML": "Join #osm-de on irc.oftc.net (port 6667)"
+              "descriptionHTML": "Join #osm-de on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)"
             }
           },
           "de-mailinglist": {
@@ -12204,10 +12168,10 @@
             "resolved": {
               "name": "OpenStreetMap Denmark on IRC",
               "url": "https://webchat.oftc.net/?channels=osm-dk",
-              "description": "Join #osm-dk on irc.oftc.net (port 6667)",
+              "description": "Join #osm-dk on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-dk\">OpenStreetMap Denmark on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-dk\">https://webchat.oftc.net/?channels=osm-dk</a>",
-              "descriptionHTML": "Join #osm-dk on irc.oftc.net (port 6667)"
+              "descriptionHTML": "Join #osm-dk on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)"
             }
           },
           "talk-dk": {
@@ -12744,12 +12708,12 @@
               "communityID": "openstreetmapespana"
             },
             "resolved": {
-              "name": "OpenStreetMap España on Twitter",
+              "name": "OpenStreetMap España on 𝕏",
               "url": "https://twitter.com/openstreetmapes",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapes\">OpenStreetMap España on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapes\">OpenStreetMap España on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapes\">https://twitter.com/openstreetmapes</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -13444,10 +13408,10 @@
             "resolved": {
               "name": "OpenStreetMap Finland on IRC",
               "url": "https://webchat.oftc.net/?channels=osm-fi",
-              "description": "Join #osm-fi on irc.oftc.net (port 6667)",
+              "description": "Join #osm-fi on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-fi\">OpenStreetMap Finland on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-fi\">https://webchat.oftc.net/?channels=osm-fi</a>",
-              "descriptionHTML": "Join #osm-fi on irc.oftc.net (port 6667)"
+              "descriptionHTML": "Join #osm-fi on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)"
             }
           },
           "fi-telegram": {
@@ -13674,12 +13638,12 @@
               "communityID": "openstreetmapfiji"
             },
             "resolved": {
-              "name": "OpenStreetMap Fiji on Twitter",
+              "name": "OpenStreetMap Fiji on 𝕏",
               "url": "https://twitter.com/OSMFiji",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMFiji\">OpenStreetMap Fiji on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMFiji\">OpenStreetMap Fiji on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMFiji\">https://twitter.com/OSMFiji</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "osm-fj": {
@@ -13879,12 +13843,12 @@
               "communityID": "openstreetmapbzh"
             },
             "resolved": {
-              "name": "OpenStreetMap BZH on Twitter",
+              "name": "OpenStreetMap BZH on 𝕏",
               "url": "https://twitter.com/osm_bzh",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_bzh\">OpenStreetMap BZH on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_bzh\">OpenStreetMap BZH on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_bzh\">https://twitter.com/osm_bzh</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "fr-bzh-website": {
@@ -14114,10 +14078,10 @@
             "resolved": {
               "name": "OpenStreetMap France on IRC",
               "url": "https://webchat.oftc.net/?channels=osm-fr",
-              "description": "Join #osm-fr on irc.oftc.net (port 6667)",
+              "description": "Join #osm-fr on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-fr\">OpenStreetMap France on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-fr\">https://webchat.oftc.net/?channels=osm-fr</a>",
-              "descriptionHTML": "Join #osm-fr on irc.oftc.net (port 6667)"
+              "descriptionHTML": "Join #osm-fr on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)"
             }
           },
           "fr-mailinglist": {
@@ -14215,12 +14179,12 @@
               }
             ],
             "resolved": {
-              "name": "OpenStreetMap France on Twitter",
+              "name": "OpenStreetMap France on 𝕏",
               "url": "https://twitter.com/osm_fr",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_fr\">OpenStreetMap France on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_fr\">OpenStreetMap France on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_fr\">https://twitter.com/osm_fr</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "fr-xmpp": {
@@ -15063,12 +15027,12 @@
               "communityID": "openstreetmapmontrouge"
             },
             "resolved": {
-              "name": "OpenStreetMap Montrouge on Twitter",
+              "name": "OpenStreetMap Montrouge on 𝕏",
               "url": "https://twitter.com/osmontrouge",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmontrouge\">OpenStreetMap Montrouge on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmontrouge\">OpenStreetMap Montrouge on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmontrouge\">https://twitter.com/osmontrouge</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "fr-montrouge-website": {
@@ -15169,12 +15133,12 @@
               "communityID": "openstreetmapgalicia"
             },
             "resolved": {
-              "name": "OpenStreetMap Galicia on Twitter",
+              "name": "OpenStreetMap Galicia on 𝕏",
               "url": "https://twitter.com/osmgalicia",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmgalicia\">OpenStreetMap Galicia on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmgalicia\">OpenStreetMap Galicia on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmgalicia\">https://twitter.com/osmgalicia</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "galicia-wiki": {
@@ -15279,11 +15243,11 @@
             "resolved": {
               "name": "OpenStreetMap UK on IRC",
               "url": "https://webchat.oftc.net/?channels=osm-gb",
-              "description": "Join #osm-gb on irc.oftc.net (port 6667)",
+              "description": "Join #osm-gb on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "extendedDescription": "Join #osm-gb on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question",
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-gb\">OpenStreetMap UK on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-gb\">https://webchat.oftc.net/?channels=osm-gb</a>",
-              "descriptionHTML": "Join #osm-gb on irc.oftc.net (port 6667)",
+              "descriptionHTML": "Join #osm-gb on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "extendedDescriptionHTML": "Join #osm-gb on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question"
             }
           },
@@ -15321,12 +15285,12 @@
               {"name": "OpenStreetMap UK", "email": "board@osmuk.org"}
             ],
             "resolved": {
-              "name": "OpenStreetMap UK on Twitter",
+              "name": "OpenStreetMap UK on 𝕏",
               "url": "https://twitter.com/osmuk",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmuk\">OpenStreetMap UK on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmuk\">OpenStreetMap UK on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmuk\">https://twitter.com/osmuk</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -15732,12 +15696,12 @@
               "communityID": "openstreetmapfrenchguiana"
             },
             "resolved": {
-              "name": "OpenStreetMap French Guiana on Twitter",
+              "name": "OpenStreetMap French Guiana on 𝕏",
               "url": "https://twitter.com/osm_guyane",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_guyane\">OpenStreetMap French Guiana on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_guyane\">OpenStreetMap French Guiana on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_guyane\">https://twitter.com/osm_guyane</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -17128,12 +17092,12 @@
               "communityID": "openstreetmapturkey"
             },
             "resolved": {
-              "name": "OpenStreetMap Turkey on Twitter",
+              "name": "OpenStreetMap Turkey on 𝕏",
               "url": "https://twitter.com/OpenstreetmapTr",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenstreetmapTr\">OpenStreetMap Turkey on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenstreetmapTr\">OpenStreetMap Turkey on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenstreetmapTr\">https://twitter.com/OpenstreetmapTr</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -17543,12 +17507,12 @@
               "communityID": "openstreetmapindonesia"
             },
             "resolved": {
-              "name": "OpenStreetMap Indonesia on Twitter",
+              "name": "OpenStreetMap Indonesia on 𝕏",
               "url": "https://twitter.com/OSM_ID",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_ID\">OpenStreetMap Indonesia on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_ID\">OpenStreetMap Indonesia on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_ID\">https://twitter.com/OSM_ID</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "id-youtube": {
@@ -17976,6 +17940,266 @@
     {
       "type": "Feature",
       "properties": {
+        "iso1A2": "IQ",
+        "iso1A3": "IRQ",
+        "iso1N3": "368",
+        "wikidata": "Q796",
+        "nameEn": "Iraq",
+        "groups": ["145", "142", "UN", "001"],
+        "callingCodes": ["964"],
+        "id": "Q796",
+        "m49": "368",
+        "ccTLD": ".iq",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇮🇶",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 437296.35,
+        "resources": {
+          "iq-telegram": {
+            "id": "iq-telegram",
+            "type": "telegram",
+            "account": "OSM_Iraq",
+            "locationSet": {"include": ["iq"]},
+            "languageCodes": ["ar", "en"],
+            "strings": {
+              "community": "OpenStreetMap Iraq",
+              "communityID": "openstreetmapiraq"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Iraq Telegram",
+              "url": "https://t.me/OSM_Iraq",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/OSM_Iraq\">OpenStreetMap Iraq Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OSM_Iraq\">https://t.me/OSM_Iraq</a>",
+              "descriptionHTML": "Join our community Telegram chat"
+            }
+          },
+          "talk-iq": {
+            "id": "talk-iq",
+            "type": "mailinglist",
+            "account": "talk-iq",
+            "locationSet": {"include": ["iq"]},
+            "strings": {
+              "community": "OpenStreetMap Iraq",
+              "communityID": "openstreetmapiraq"
+            },
+            "resolved": {
+              "name": "talk-iq Mailing List",
+              "url": "https://lists.openstreetmap.org/listinfo/talk-iq",
+              "description": "The official mailing list for OpenStreetMap Iraq",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-iq\">talk-iq Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-iq\">https://lists.openstreetmap.org/listinfo/talk-iq</a>",
+              "descriptionHTML": "The official mailing list for OpenStreetMap Iraq"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [42.78887, 37.38615],
+              [42.56725, 37.14878],
+              [42.35724, 37.10998],
+              [42.36697, 37.0627],
+              [41.81736, 36.58782],
+              [41.40058, 36.52502],
+              [41.28864, 36.35368],
+              [41.2564, 36.06012],
+              [41.37027, 35.84095],
+              [41.38184, 35.62502],
+              [41.26569, 35.42708],
+              [41.21654, 35.1508],
+              [41.2345, 34.80049],
+              [41.12388, 34.65742],
+              [40.97676, 34.39788],
+              [40.64314, 34.31604],
+              [38.79171, 33.37328],
+              [39.08202, 32.50304],
+              [38.98762, 32.47694],
+              [39.04251, 32.30203],
+              [39.26157, 32.35555],
+              [39.29903, 32.23259],
+              [40.01521, 32.05667],
+              [42.97601, 30.72204],
+              [42.97796, 30.48295],
+              [44.72255, 29.19736],
+              [46.42415, 29.05947],
+              [46.5527, 29.10283],
+              [46.89695, 29.50584],
+              [47.15166, 30.01044],
+              [47.37192, 30.10421],
+              [47.7095, 30.10453],
+              [48.01114, 29.98906],
+              [48.06782, 30.02906],
+              [48.17332, 30.02448],
+              [48.40479, 29.85763],
+              [48.59531, 29.66815],
+              [48.83867, 29.78572],
+              [48.61441, 29.93675],
+              [48.51011, 29.96238],
+              [48.44785, 30.00148],
+              [48.4494, 30.04456],
+              [48.43384, 30.08233],
+              [48.38869, 30.11062],
+              [48.38714, 30.13485],
+              [48.41671, 30.17254],
+              [48.41117, 30.19846],
+              [48.26393, 30.3408],
+              [48.24385, 30.33846],
+              [48.21279, 30.31644],
+              [48.19425, 30.32796],
+              [48.18321, 30.39703],
+              [48.14585, 30.44133],
+              [48.02443, 30.4789],
+              [48.03221, 30.9967],
+              [47.68219, 31.00004],
+              [47.6804, 31.39086],
+              [47.86337, 31.78422],
+              [47.64771, 32.07666],
+              [47.52474, 32.15972],
+              [47.57144, 32.20583],
+              [47.37529, 32.47808],
+              [47.17218, 32.45393],
+              [46.46788, 32.91992],
+              [46.32298, 32.9731],
+              [46.17198, 32.95612],
+              [46.09103, 32.98354],
+              [46.15175, 33.07229],
+              [46.03966, 33.09577],
+              [46.05367, 33.13097],
+              [46.11905, 33.11924],
+              [46.20623, 33.20395],
+              [45.99919, 33.5082],
+              [45.86687, 33.49263],
+              [45.96183, 33.55751],
+              [45.89801, 33.63661],
+              [45.77814, 33.60938],
+              [45.50261, 33.94968],
+              [45.42789, 33.9458],
+              [45.41077, 33.97421],
+              [45.47264, 34.03099],
+              [45.56176, 34.15088],
+              [45.58667, 34.30147],
+              [45.53552, 34.35148],
+              [45.49171, 34.3439],
+              [45.46697, 34.38221],
+              [45.43879, 34.45949],
+              [45.51883, 34.47692],
+              [45.53219, 34.60441],
+              [45.59074, 34.55558],
+              [45.60224, 34.55057],
+              [45.73923, 34.54416],
+              [45.70031, 34.69277],
+              [45.65672, 34.7222],
+              [45.68284, 34.76624],
+              [45.70031, 34.82322],
+              [45.73641, 34.83975],
+              [45.79682, 34.85133],
+              [45.78904, 34.91135],
+              [45.86532, 34.89858],
+              [45.89477, 34.95805],
+              [45.87864, 35.03441],
+              [45.92173, 35.0465],
+              [45.92203, 35.09538],
+              [45.93108, 35.08148],
+              [45.94756, 35.09188],
+              [46.06508, 35.03699],
+              [46.07747, 35.0838],
+              [46.11763, 35.07551],
+              [46.19116, 35.11097],
+              [46.15642, 35.1268],
+              [46.16229, 35.16984],
+              [46.19738, 35.18536],
+              [46.18457, 35.22561],
+              [46.11367, 35.23729],
+              [46.15474, 35.2883],
+              [46.13152, 35.32548],
+              [46.05358, 35.38568],
+              [45.98453, 35.49848],
+              [46.01518, 35.52012],
+              [45.97584, 35.58132],
+              [46.03028, 35.57416],
+              [46.01307, 35.59756],
+              [46.0165, 35.61501],
+              [45.99452, 35.63574],
+              [46.0117, 35.65059],
+              [46.01631, 35.69139],
+              [46.23736, 35.71414],
+              [46.34166, 35.78363],
+              [46.32921, 35.82655],
+              [46.17198, 35.8013],
+              [46.08325, 35.8581],
+              [45.94711, 35.82218],
+              [45.89784, 35.83708],
+              [45.81442, 35.82107],
+              [45.76145, 35.79898],
+              [45.6645, 35.92872],
+              [45.60018, 35.96069],
+              [45.55245, 35.99943],
+              [45.46594, 36.00042],
+              [45.38275, 35.97156],
+              [45.33916, 35.99424],
+              [45.37652, 36.06222],
+              [45.37312, 36.09917],
+              [45.32235, 36.17383],
+              [45.30038, 36.27769],
+              [45.26261, 36.3001],
+              [45.27394, 36.35846],
+              [45.23953, 36.43257],
+              [45.11811, 36.40751],
+              [45.00759, 36.5402],
+              [45.06985, 36.62645],
+              [45.06985, 36.6814],
+              [45.01537, 36.75128],
+              [44.84725, 36.77622],
+              [44.83479, 36.81362],
+              [44.90173, 36.86096],
+              [44.91199, 36.91468],
+              [44.89862, 37.01897],
+              [44.81611, 37.04383],
+              [44.75229, 37.11958],
+              [44.78319, 37.1431],
+              [44.76698, 37.16162],
+              [44.63179, 37.19229],
+              [44.42631, 37.05825],
+              [44.38117, 37.05825],
+              [44.35315, 37.04955],
+              [44.35937, 37.02843],
+              [44.30645, 36.97373],
+              [44.25975, 36.98119],
+              [44.18503, 37.09551],
+              [44.22239, 37.15756],
+              [44.27998, 37.16501],
+              [44.2613, 37.25055],
+              [44.13521, 37.32486],
+              [44.02002, 37.33229],
+              [43.90949, 37.22453],
+              [43.84878, 37.22205],
+              [43.82699, 37.19477],
+              [43.8052, 37.22825],
+              [43.7009, 37.23692],
+              [43.63085, 37.21957],
+              [43.56702, 37.25675],
+              [43.50787, 37.24436],
+              [43.33508, 37.33105],
+              [43.30083, 37.30629],
+              [43.11403, 37.37436],
+              [42.93705, 37.32015],
+              [42.78887, 37.38615]
+            ]
+          ]
+        ]
+      },
+      "id": "Q796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "+[Q26,Q27]",
         "area": 180214.72,
         "resources": {
@@ -18060,11 +18284,11 @@
             "resolved": {
               "name": "OpenStreetMap Ireland on IRC",
               "url": "https://webchat.oftc.net/?channels=osm-ie",
-              "description": "Join #osm-ie on irc.oftc.net (port 6667)",
+              "description": "Join #osm-ie on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "extendedDescription": "Join #osm-ie on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question",
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-ie\">OpenStreetMap Ireland on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-ie\">https://webchat.oftc.net/?channels=osm-ie</a>",
-              "descriptionHTML": "Join #osm-ie on irc.oftc.net (port 6667)",
+              "descriptionHTML": "Join #osm-ie on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "extendedDescriptionHTML": "Join #osm-ie on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question"
             }
           },
@@ -18167,12 +18391,12 @@
               "communityID": "openstreetmapireland"
             },
             "resolved": {
-              "name": "OpenStreetMap Ireland on Twitter",
+              "name": "OpenStreetMap Ireland on 𝕏",
               "url": "https://twitter.com/osm_ie",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_ie\">OpenStreetMap Ireland on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_ie\">OpenStreetMap Ireland on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_ie\">https://twitter.com/osm_ie</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "ireland-youtube": {
@@ -18294,12 +18518,12 @@
               "communityID": "openstreetmapiceland"
             },
             "resolved": {
-              "name": "OpenStreetMap Iceland on Twitter",
+              "name": "OpenStreetMap Iceland on 𝕏",
               "url": "https://twitter.com/openstreetmapis",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapis\">OpenStreetMap Iceland on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapis\">OpenStreetMap Iceland on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapis\">https://twitter.com/openstreetmapis</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "talk-is": {
@@ -18456,10 +18680,10 @@
             "resolved": {
               "name": "OpenStreetMap Italy on IRC",
               "url": "https://webchat.oftc.net/?channels=osm-it",
-              "description": "Join #osm-it on irc.oftc.net (port 6667)",
+              "description": "Join #osm-it on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-it\">OpenStreetMap Italy on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-it\">https://webchat.oftc.net/?channels=osm-it</a>",
-              "descriptionHTML": "Join #osm-it on irc.oftc.net (port 6667)"
+              "descriptionHTML": "Join #osm-it on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)"
             }
           },
           "it-mailinglist": {
@@ -18538,12 +18762,12 @@
               }
             ],
             "resolved": {
-              "name": "OpenStreetMap Italy on Twitter",
+              "name": "OpenStreetMap Italy on 𝕏",
               "url": "https://twitter.com/OpenStreetMapIt",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapIt\">OpenStreetMap Italy on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapIt\">OpenStreetMap Italy on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapIt\">https://twitter.com/OpenStreetMapIt</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -19038,12 +19262,12 @@
               "communityID": "openstreetmapcambodia"
             },
             "resolved": {
-              "name": "OpenStreetMap Cambodia on Twitter",
+              "name": "OpenStreetMap Cambodia on 𝕏",
               "url": "https://twitter.com/OSM_KH",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_KH\">OpenStreetMap Cambodia on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_KH\">OpenStreetMap Cambodia on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_KH\">https://twitter.com/OSM_KH</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -19460,12 +19684,12 @@
               {"name": "Dongha Hwang", "email": "depth221@gmail.com"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Korea on Twitter",
+              "name": "OpenStreetMap Korea on 𝕏",
               "url": "https://twitter.com/OSM_Korea",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_Korea\">OpenStreetMap Korea on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_Korea\">OpenStreetMap Korea on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_Korea\">https://twitter.com/OSM_Korea</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "talk-ko": {
@@ -20500,10 +20724,10 @@
             "resolved": {
               "name": "OpenStreetMap Latin America on IRC",
               "url": "https://webchat.oftc.net/?channels=osm-latam",
-              "description": "Join #osm-latam on irc.oftc.net (port 6667)",
+              "description": "Join #osm-latam on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-latam\">OpenStreetMap Latin America on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-latam\">https://webchat.oftc.net/?channels=osm-latam</a>",
-              "descriptionHTML": "Join #osm-latam on irc.oftc.net (port 6667)"
+              "descriptionHTML": "Join #osm-latam on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)"
             }
           },
           "latam-mailinglist": {
@@ -20592,12 +20816,12 @@
               {"name": "OSM LATAM Community", "email": "info@osmlatam.org"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Latin America on Twitter",
+              "name": "OpenStreetMap Latin America on 𝕏",
               "url": "https://twitter.com/osmlatam",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmlatam\">OpenStreetMap Latin America on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmlatam\">OpenStreetMap Latin America on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmlatam\">https://twitter.com/osmlatam</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "latam-wiki": {
@@ -21280,12 +21504,12 @@
               "communityID": "openstreetmapliberia"
             },
             "resolved": {
-              "name": "OpenStreetMap Liberia on Twitter",
+              "name": "OpenStreetMap Liberia on 𝕏",
               "url": "https://twitter.com/osmliberia",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmliberia\">OpenStreetMap Liberia on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmliberia\">OpenStreetMap Liberia on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmliberia\">https://twitter.com/osmliberia</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -21537,10 +21761,10 @@
             "resolved": {
               "name": "OpenStreetMap Luxembourg on IRC",
               "url": "https://webchat.oftc.net/?channels=osm-lu",
-              "description": "Join #osm-lu on irc.oftc.net (port 6667)",
+              "description": "Join #osm-lu on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-lu\">OpenStreetMap Luxembourg on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-lu\">https://webchat.oftc.net/?channels=osm-lu</a>",
-              "descriptionHTML": "Join #osm-lu on irc.oftc.net (port 6667)"
+              "descriptionHTML": "Join #osm-lu on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)"
             }
           },
           "lu-matrix": {
@@ -21800,21 +22024,20 @@
           "lv-discord": {
             "id": "lv-discord",
             "type": "discord",
-            "account": "osmlatvija",
+            "account": "2ACzy4DrRt",
             "locationSet": {"include": ["lv"]},
             "languageCodes": ["en", "lv"],
             "order": 3,
             "strings": {
               "community": "OpenStreetMap Latvia",
-              "communityID": "openstreetmaplatvia",
-              "url": "https://discord.com/invite/2ACzy4DrRt"
+              "communityID": "openstreetmaplatvia"
             },
             "resolved": {
               "name": "OpenStreetMap Latvia Discord",
-              "url": "https://discord.com/invite/2ACzy4DrRt",
+              "url": "https://discord.gg/2ACzy4DrRt",
               "description": "Get in touch with other mappers on Discord",
-              "nameHTML": "<a target=\"_blank\" href=\"https://discord.com/invite/2ACzy4DrRt\">OpenStreetMap Latvia Discord</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://discord.com/invite/2ACzy4DrRt\">https://discord.com/invite/2ACzy4DrRt</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/2ACzy4DrRt\">OpenStreetMap Latvia Discord</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/2ACzy4DrRt\">https://discord.gg/2ACzy4DrRt</a>",
               "descriptionHTML": "Get in touch with other mappers on Discord"
             }
           },
@@ -21850,12 +22073,12 @@
               "communityID": "openstreetmaplatvia"
             },
             "resolved": {
-              "name": "OpenStreetMap Latvia on Twitter",
+              "name": "OpenStreetMap Latvia on 𝕏",
               "url": "https://twitter.com/osmlatvija",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmlatvija\">OpenStreetMap Latvia on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmlatvija\">OpenStreetMap Latvia on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmlatvija\">https://twitter.com/osmlatvija</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "lv-wiki": {
@@ -22170,12 +22393,12 @@
               "communityID": "openstreetmapmorocco"
             },
             "resolved": {
-              "name": "OpenStreetMap Morocco on Twitter",
+              "name": "OpenStreetMap Morocco on 𝕏",
               "url": "https://twitter.com/osmmaroc",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmmaroc\">OpenStreetMap Morocco on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmmaroc\">OpenStreetMap Morocco on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmmaroc\">https://twitter.com/osmmaroc</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "talk-ma": {
@@ -22554,12 +22777,12 @@
               }
             ],
             "resolved": {
-              "name": "OpenStreetMap Freemap Slovakia on Twitter",
+              "name": "OpenStreetMap Freemap Slovakia on 𝕏",
               "url": "https://twitter.com/FreemapSlovakia",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/FreemapSlovakia\">OpenStreetMap Freemap Slovakia on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/FreemapSlovakia\">OpenStreetMap Freemap Slovakia on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/FreemapSlovakia\">https://twitter.com/FreemapSlovakia</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -23031,6 +23254,54 @@
             [-80.198, 43.521],
             [-80.31, 43.633],
             [-80.493, 43.676]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[-77.476681,37.530353]",
+      "properties": {
+        "id": "[-77.476681,37.530353]",
+        "area": 1963.5,
+        "resources": {
+          "MapRVA": {
+            "id": "MapRVA",
+            "type": "mastodon",
+            "locationSet": {"include": [[-77.476681, 37.530353]]},
+            "languageCodes": ["en"],
+            "strings": {
+              "name": "MapRVA",
+              "description": "MapRVA Meetup",
+              "url": "https://en.osm.town/@maprva"
+            },
+            "contacts": [{"name": "Organizer", "email": "dschep@gmail.com"}],
+            "resolved": {
+              "name": "MapRVA",
+              "url": "https://en.osm.town/@maprva",
+              "description": "MapRVA Meetup",
+              "nameHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@maprva\">MapRVA</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@maprva\">https://en.osm.town/@maprva</a>",
+              "descriptionHTML": "MapRVA Meetup"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-77.477, 37.755],
+            [-77.644, 37.712],
+            [-77.746, 37.599],
+            [-77.746, 37.461],
+            [-77.643, 37.349],
+            [-77.477, 37.306],
+            [-77.311, 37.349],
+            [-77.208, 37.461],
+            [-77.207, 37.599],
+            [-77.31, 37.712],
+            [-77.477, 37.755]
           ]
         ]
       }
@@ -23653,12 +23924,12 @@
               {"name": "Jonah Adkins", "email": "jonahadkins@gmail.com"}
             ],
             "resolved": {
-              "name": "MaptimeHRVA on Twitter",
+              "name": "MaptimeHRVA on 𝕏",
               "url": "https://twitter.com/maptimehrva",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/maptimehrva\">MaptimeHRVA on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/maptimehrva\">MaptimeHRVA on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/maptimehrva\">https://twitter.com/maptimehrva</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -23910,6 +24181,162 @@
     {
       "type": "Feature",
       "properties": {
+        "iso1A2": "ME",
+        "iso1A3": "MNE",
+        "iso1N3": "499",
+        "wikidata": "Q236",
+        "nameEn": "Montenegro",
+        "groups": ["039", "150", "UN", "001"],
+        "callingCodes": ["382"],
+        "id": "Q236",
+        "m49": "499",
+        "ccTLD": ".me",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇲🇪",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 15696.88,
+        "resources": {
+          "me-telegram": {
+            "id": "me-telegram",
+            "type": "telegram",
+            "account": "osmmne",
+            "locationSet": {"include": ["me"]},
+            "languageCodes": ["en", "ru"],
+            "order": 1,
+            "strings": {
+              "community": "OpenStreetMap Montenegro",
+              "communityID": "openstreetmapmontenegro",
+              "description": "All are welcome! Sign up at {signupUrl}",
+              "signupUrl": "https://t.me/+lgxdU87aRchjYTQy"
+            },
+            "contacts": [{"name": "Rinat Sabitov", "email": "me@false.org.ru"}],
+            "resolved": {
+              "name": "OpenStreetMap Montenegro Telegram",
+              "url": "https://t.me/osmmne",
+              "signupUrl": "https://t.me/+lgxdU87aRchjYTQy",
+              "description": "All are welcome! Sign up at https://t.me/+lgxdU87aRchjYTQy",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osmmne\">OpenStreetMap Montenegro Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osmmne\">https://t.me/osmmne</a>",
+              "signupUrlHTML": "<a target=\"_blank\" href=\"https://t.me/+lgxdU87aRchjYTQy\">https://t.me/+lgxdU87aRchjYTQy</a>",
+              "descriptionHTML": "All are welcome! Sign up at <a target=\"_blank\" href=\"https://t.me/+lgxdU87aRchjYTQy\">https://t.me/+lgxdU87aRchjYTQy</a>"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [19.22807, 43.5264],
+              [19.15685, 43.53943],
+              [19.13933, 43.5282],
+              [19.04934, 43.50384],
+              [19.01078, 43.55806],
+              [18.91379, 43.50299],
+              [18.95469, 43.49367],
+              [18.96053, 43.45042],
+              [19.01078, 43.43854],
+              [19.04071, 43.397],
+              [19.08673, 43.31453],
+              [19.08206, 43.29668],
+              [19.04233, 43.30008],
+              [19.00844, 43.24988],
+              [18.95001, 43.29327],
+              [18.95819, 43.32899],
+              [18.90911, 43.36383],
+              [18.83912, 43.34795],
+              [18.84794, 43.33735],
+              [18.85342, 43.32426],
+              [18.76538, 43.29838],
+              [18.6976, 43.25243],
+              [18.71747, 43.2286],
+              [18.66605, 43.2056],
+              [18.64735, 43.14766],
+              [18.66254, 43.03928],
+              [18.52232, 43.01451],
+              [18.49076, 42.95553],
+              [18.49661, 42.89306],
+              [18.4935, 42.86433],
+              [18.47633, 42.85829],
+              [18.45921, 42.81682],
+              [18.47324, 42.74992],
+              [18.56789, 42.72074],
+              [18.55221, 42.69045],
+              [18.54603, 42.69171],
+              [18.54841, 42.68328],
+              [18.57373, 42.64429],
+              [18.52232, 42.62279],
+              [18.55504, 42.58409],
+              [18.53751, 42.57376],
+              [18.49778, 42.58409],
+              [18.43735, 42.55921],
+              [18.44307, 42.51077],
+              [18.43588, 42.48556],
+              [18.52152, 42.42302],
+              [18.54128, 42.39171],
+              [18.45131, 42.21682],
+              [19.26406, 41.74971],
+              [19.37597, 41.84849],
+              [19.37451, 41.8842],
+              [19.33812, 41.90669],
+              [19.34601, 41.95675],
+              [19.37691, 41.96977],
+              [19.36867, 42.02564],
+              [19.37548, 42.06835],
+              [19.40687, 42.10024],
+              [19.28623, 42.17745],
+              [19.42, 42.33019],
+              [19.42352, 42.36546],
+              [19.4836, 42.40831],
+              [19.65972, 42.62774],
+              [19.73244, 42.66299],
+              [19.77375, 42.58517],
+              [19.74731, 42.57422],
+              [19.76549, 42.50237],
+              [19.82333, 42.46581],
+              [19.9324, 42.51699],
+              [20.00842, 42.5109],
+              [20.01834, 42.54622],
+              [20.07761, 42.55582],
+              [20.0969, 42.65559],
+              [20.02915, 42.71147],
+              [20.02088, 42.74789],
+              [20.04898, 42.77701],
+              [20.2539, 42.76245],
+              [20.27869, 42.81945],
+              [20.35692, 42.8335],
+              [20.34528, 42.90676],
+              [20.16415, 42.97177],
+              [20.14896, 42.99058],
+              [20.12325, 42.96237],
+              [20.05431, 42.99571],
+              [20.04729, 43.02732],
+              [19.98887, 43.0538],
+              [19.96549, 43.11098],
+              [19.92576, 43.08539],
+              [19.79255, 43.11951],
+              [19.76918, 43.16044],
+              [19.64063, 43.19027],
+              [19.62661, 43.2286],
+              [19.54598, 43.25158],
+              [19.52962, 43.31623],
+              [19.48171, 43.32644],
+              [19.44315, 43.38846],
+              [19.22229, 43.47926],
+              [19.22807, 43.5264]
+            ]
+          ]
+        ]
+      },
+      "id": "Q236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "iso1A2": "MG",
         "iso1A3": "MDG",
         "iso1N3": "450",
@@ -23940,12 +24367,12 @@
               "communityID": "openstreetmapmadagascar"
             },
             "resolved": {
-              "name": "OpenStreetMap Madagascar on Twitter",
+              "name": "OpenStreetMap Madagascar on 𝕏",
               "url": "https://twitter.com/OSM_Mg",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_Mg\">OpenStreetMap Madagascar on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_Mg\">OpenStreetMap Madagascar on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_Mg\">https://twitter.com/OSM_Mg</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "osm-mg-facebook": {
@@ -24071,12 +24498,12 @@
               "communityID": "openstreetmapmali"
             },
             "resolved": {
-              "name": "OpenStreetMap Mali on Twitter",
+              "name": "OpenStreetMap Mali on 𝕏",
               "url": "https://twitter.com/OSM_Mali",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_Mali\">OpenStreetMap Mali on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_Mali\">OpenStreetMap Mali on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_Mali\">https://twitter.com/OSM_Mali</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "talk-ml": {
@@ -25118,11 +25545,11 @@
             "resolved": {
               "name": "OpenStreetMap Malta on IRC",
               "url": "https://webchat.oftc.net/?channels=osm-mt",
-              "description": "Join #osm-mt on irc.oftc.net (port 6667)",
+              "description": "Join #osm-mt on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "extendedDescription": "Join #osm-mt on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question",
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-mt\">OpenStreetMap Malta on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-mt\">https://webchat.oftc.net/?channels=osm-mt</a>",
-              "descriptionHTML": "Join #osm-mt on irc.oftc.net (port 6667)",
+              "descriptionHTML": "Join #osm-mt on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "extendedDescriptionHTML": "Join #osm-mt on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question"
             }
           }
@@ -25438,12 +25865,12 @@
               "communityID": "openstreetmapmexico"
             },
             "resolved": {
-              "name": "OpenStreetMap Mexico on Twitter",
+              "name": "OpenStreetMap Mexico on 𝕏",
               "url": "https://twitter.com/openstreetmapmx",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapmx\">OpenStreetMap Mexico on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapmx\">OpenStreetMap Mexico on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapmx\">https://twitter.com/openstreetmapmx</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -25897,12 +26324,12 @@
               "communityID": "openstreetmapniger"
             },
             "resolved": {
-              "name": "OpenStreetMap Niger on Twitter",
+              "name": "OpenStreetMap Niger on 𝕏",
               "url": "https://twitter.com/OSMNiger",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMNiger\">OpenStreetMap Niger on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMNiger\">OpenStreetMap Niger on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMNiger\">https://twitter.com/OSMNiger</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -26091,12 +26518,12 @@
               "communityID": "openstreetmapnigeria"
             },
             "resolved": {
-              "name": "OpenStreetMap Nigeria on Twitter",
+              "name": "OpenStreetMap Nigeria on 𝕏",
               "url": "https://twitter.com/OSMNigeria",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMNigeria\">OpenStreetMap Nigeria on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMNigeria\">OpenStreetMap Nigeria on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMNigeria\">https://twitter.com/OSMNigeria</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "talk-ng": {
@@ -26370,12 +26797,12 @@
               "communityID": "openstreetmapnicaragua"
             },
             "resolved": {
-              "name": "OpenStreetMap Nicaragua on Twitter",
+              "name": "OpenStreetMap Nicaragua on 𝕏",
               "url": "https://twitter.com/osm_ni",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_ni\">OpenStreetMap Nicaragua on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_ni\">OpenStreetMap Nicaragua on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_ni\">https://twitter.com/osm_ni</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "osm-ni": {
@@ -27890,6 +28317,98 @@
     },
     {
       "type": "Feature",
+      "id": "south_sf_bay_area.geojson",
+      "properties": {
+        "id": "south_sf_bay_area.geojson",
+        "area": 4030.01,
+        "resources": {
+          "Open-Source-San-Jose-Discord": {
+            "id": "Open-Source-San-Jose-Discord",
+            "type": "discord",
+            "account": "3bAd9DAWCp",
+            "locationSet": {"include": ["south_sf_bay_area.geojson"]},
+            "languageCodes": ["en"],
+            "order": 4,
+            "strings": {
+              "name": "Open Source San José Discord",
+              "description": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel."
+            },
+            "resolved": {
+              "name": "Open Source San José Discord",
+              "url": "https://discord.gg/3bAd9DAWCp",
+              "description": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/3bAd9DAWCp\">Open Source San José Discord</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/3bAd9DAWCp\">https://discord.gg/3bAd9DAWCp</a>",
+              "descriptionHTML": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel."
+            }
+          },
+          "Open-Source-San-Jose-Slack": {
+            "id": "Open-Source-San-Jose-Slack",
+            "type": "slack",
+            "locationSet": {"include": ["south_sf_bay_area.geojson"]},
+            "languageCodes": ["en"],
+            "order": 4,
+            "strings": {
+              "name": "Open Source San José Slack",
+              "description": "All are welcome! Sign up at {signupUrl}, then join the #proj-osm channel.",
+              "signupUrl": "https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA",
+              "url": "https://opensourcesanjose.slack.com/"
+            },
+            "resolved": {
+              "name": "Open Source San José Slack",
+              "url": "https://opensourcesanjose.slack.com/",
+              "signupUrl": "https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA",
+              "description": "All are welcome! Sign up at https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA, then join the #proj-osm channel.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://opensourcesanjose.slack.com/\">Open Source San José Slack</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://opensourcesanjose.slack.com/\">https://opensourcesanjose.slack.com/</a>",
+              "signupUrlHTML": "<a target=\"_blank\" href=\"https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA\">https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA</a>",
+              "descriptionHTML": "All are welcome! Sign up at <a target=\"_blank\" href=\"https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA\">https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA</a>, then join the #proj-osm channel."
+            }
+          },
+          "OSM-South-Bay": {
+            "id": "OSM-South-Bay",
+            "type": "meetup",
+            "account": "open-source-san-jose",
+            "locationSet": {"include": ["south_sf_bay_area.geojson"]},
+            "languageCodes": ["en"],
+            "order": 5,
+            "strings": {
+              "name": "OSM South Bay",
+              "description": "Join our online South Bay Map Nights",
+              "extendedDescription": "Meet fellow South Bay mappers and help out with local mapping projects at our online meetup every other Tuesday night, in partnership with Open Source San José. Programming and GIS skills are not required."
+            },
+            "resolved": {
+              "name": "OSM South Bay",
+              "url": "https://www.meetup.com/open-source-san-jose",
+              "description": "Join our online South Bay Map Nights",
+              "extendedDescription": "Meet fellow South Bay mappers and help out with local mapping projects at our online meetup every other Tuesday night, in partnership with Open Source San José. Programming and GIS skills are not required.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/open-source-san-jose\">OSM South Bay</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/open-source-san-jose\">https://www.meetup.com/open-source-san-jose</a>",
+              "descriptionHTML": "Join our online South Bay Map Nights",
+              "extendedDescriptionHTML": "Meet fellow South Bay mappers and help out with local mapping projects at our online meetup every other Tuesday night, in partnership with Open Source San José. Programming and GIS skills are not required."
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-121.4566, 37.48249],
+            [-121.21628, 37.17673],
+            [-121.20529, 36.95757],
+            [-121.49368, 36.95757],
+            [-121.5596, 36.8928],
+            [-121.98257, 37.12419],
+            [-122.27234, 37.39635],
+            [-122.13501, 37.48903],
+            [-121.4566, 37.48249]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "cleveland.geojson",
       "properties": {
         "id": "cleveland.geojson",
@@ -28253,12 +28772,12 @@
               {"name": "OSM Africa", "email": "info@openstreetmap.africa"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Africa on Twitter",
+              "name": "OpenStreetMap Africa on 𝕏",
               "url": "https://twitter.com/osmafrica",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmafrica\">OpenStreetMap Africa on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmafrica\">OpenStreetMap Africa on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmafrica\">https://twitter.com/osmafrica</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "talk-africa": {
@@ -28654,13 +29173,13 @@
               }
             ],
             "resolved": {
-              "name": "OpenStreetMap Argentina on Twitter",
+              "name": "OpenStreetMap Argentina on 𝕏",
               "url": "https://twitter.com/OpenStreetMapAR",
-              "description": "Follow us on Twitter",
+              "description": "Follow us on 𝕏",
               "extendedDescription": "News from the local community and OpenStreetMap in general.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapAR\">OpenStreetMap Argentina on Twitter</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapAR\">OpenStreetMap Argentina on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapAR\">https://twitter.com/OpenStreetMapAR</a>",
-              "descriptionHTML": "Follow us on Twitter",
+              "descriptionHTML": "Follow us on 𝕏",
               "extendedDescriptionHTML": "News from the local community and OpenStreetMap in general."
             }
           },
@@ -29061,7 +29580,7 @@
           "84",
           "967"
         ],
-        "area": 70709531.04,
+        "area": 70718602.75,
         "resources": {
           "osm-asia-telegram": {
             "id": "osm-asia-telegram",
@@ -29341,7 +29860,7 @@
               [49.2134, 44.84989],
               [52.26048, 41.69249],
               [51.7708, 40.29239],
-              [52.379880951232124, 39.448603195368854],
+              [52.37988095123213, 39.44860319536884],
               [48.80971, 41.95365],
               [48.5867, 41.84306],
               [48.55078, 41.77917],
@@ -29458,7 +29977,7 @@
             ],
             [
               [122.26612, 25.98197],
-              [120.49232, 25.22863],
+              [120.5128, 26.536],
               [121.03532, 26.8787],
               [123.5458, 31.01942],
               [122.29378, 31.76513],
@@ -29500,7 +30019,7 @@
               [104.81582, 8.03101],
               [109.55486, 8.10026],
               [111.60491, 13.57105],
-              [118.41314637449923, 24.066881093908783],
+              [118.41314637449923, 24.06688109390878],
               [120.69238, 21.52331],
               [118.82252, 14.67191],
               [115.39742, 10.92666],
@@ -29551,6 +30070,113 @@
         ]
       },
       "id": "Q48"
+    },
+    {
+      "type": "Feature",
+      "id": "india_bengaluru.geojson",
+      "properties": {
+        "id": "india_bengaluru.geojson",
+        "area": 8888.75,
+        "resources": {
+          "osm-bengaluru-matrix": {
+            "id": "osm-bengaluru-matrix",
+            "type": "matrix",
+            "account": "#OSM_BLR",
+            "locationSet": {"include": ["india_bengaluru.geojson"]},
+            "strings": {
+              "community": "OpenStreetMap Bengaluru",
+              "communityID": "openstreetmapbengaluru",
+              "extendedDescription": "Group for OpenStreetMap contributors, users and newbies in Bengaluru. Bridged to Telegram."
+            },
+            "resolved": {
+              "name": "OpenStreetMap Bengaluru Matrix Chat",
+              "url": "https://matrix.to/#/#OSM_BLR:matrix.org",
+              "description": "Join our community Matrix chat",
+              "extendedDescription": "Group for OpenStreetMap contributors, users and newbies in Bengaluru. Bridged to Telegram.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#OSM_BLR:matrix.org\">OpenStreetMap Bengaluru Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#OSM_BLR:matrix.org\">https://matrix.to/#/#OSM_BLR:matrix.org</a>",
+              "descriptionHTML": "Join our community Matrix chat",
+              "extendedDescriptionHTML": "Group for OpenStreetMap contributors, users and newbies in Bengaluru. Bridged to Telegram."
+            }
+          },
+          "osm-bengaluru-telegram": {
+            "id": "osm-bengaluru-telegram",
+            "type": "telegram",
+            "account": "OSM_BLR",
+            "locationSet": {"include": ["india_bengaluru.geojson"]},
+            "strings": {
+              "community": "OpenStreetMap Bengaluru",
+              "communityID": "openstreetmapbengaluru",
+              "extendedDescription": "Group for OpenStreetMap contributors, users and newbies in Bengaluru. Bridged to Matrix."
+            },
+            "resolved": {
+              "name": "OpenStreetMap Bengaluru Telegram",
+              "url": "https://t.me/OSM_BLR",
+              "description": "Join our community Telegram chat",
+              "extendedDescription": "Group for OpenStreetMap contributors, users and newbies in Bengaluru. Bridged to Matrix.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/OSM_BLR\">OpenStreetMap Bengaluru Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OSM_BLR\">https://t.me/OSM_BLR</a>",
+              "descriptionHTML": "Join our community Telegram chat",
+              "extendedDescriptionHTML": "Group for OpenStreetMap contributors, users and newbies in Bengaluru. Bridged to Matrix."
+            }
+          },
+          "osm-bengaluru-wiki": {
+            "id": "osm-bengaluru-wiki",
+            "type": "wiki",
+            "account": "Bengaluru",
+            "locationSet": {"include": ["india_bengaluru.geojson"]},
+            "strings": {
+              "community": "OpenStreetMap Bengaluru",
+              "communityID": "openstreetmapbengaluru",
+              "description": "OpenStreetMap in Bengaluru"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Bengaluru WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Bengaluru",
+              "description": "OpenStreetMap in Bengaluru",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Bengaluru\">OpenStreetMap Bengaluru WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Bengaluru\">https://wiki.openstreetmap.org/wiki/Bengaluru</a>",
+              "descriptionHTML": "OpenStreetMap in Bengaluru"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [77.42, 13.50535],
+            [77.83778, 13.34011],
+            [77.83441, 13.26791],
+            [77.97099, 13.25643],
+            [77.95244, 13.06925],
+            [77.90354, 13.03476],
+            [77.87488, 12.86056],
+            [77.82935, 12.84412],
+            [77.7872, 12.68296],
+            [77.62364, 12.64348],
+            [77.59834, 12.53486],
+            [77.64893, 12.48548],
+            [77.63375, 12.35868],
+            [77.482, 12.23347],
+            [77.3471, 12.25654],
+            [77.21895, 12.47725],
+            [77.1279, 12.45091],
+            [77.05876, 12.76684],
+            [77.13296, 12.78987],
+            [77.09923, 12.88686],
+            [77.14476, 12.93453],
+            [77.05876, 13.02654],
+            [77.06045, 13.12837],
+            [77.18052, 13.21466],
+            [77.17848, 13.27284],
+            [77.2257, 13.3155],
+            [77.33083, 13.3345],
+            [77.34327, 13.45767],
+            [77.42, 13.50535]
+          ]
+        ],
+        "type": "Polygon"
+      }
     },
     {
       "type": "Feature",
@@ -29625,12 +30251,12 @@
               "communityID": "openstreetmapbenin"
             },
             "resolved": {
-              "name": "OpenStreetMap Benin on Twitter",
+              "name": "OpenStreetMap Benin on 𝕏",
               "url": "https://twitter.com/OSMBenin",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMBenin\">OpenStreetMap Benin on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMBenin\">OpenStreetMap Benin on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMBenin\">https://twitter.com/OSMBenin</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -29967,33 +30593,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ca\">talk-ca Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ca\">https://lists.openstreetmap.org/listinfo/talk-ca</a>",
               "descriptionHTML": "The official mailing list for OpenStreetMap Canada"
-            }
-          },
-          "OSM-CA-Slack": {
-            "id": "OSM-CA-Slack",
-            "type": "slack",
-            "locationSet": {"include": ["ca"]},
-            "languageCodes": ["en", "fr"],
-            "order": 4,
-            "strings": {
-              "community": "OpenStreetMap Canada",
-              "communityID": "openstreetmapcanada",
-              "description": "All are welcome! Sign up at {signupUrl}.",
-              "signupUrl": "https://slackinviteosmcanada.herokuapp.com/",
-              "url": "https://osm-ca.slack.com/"
-            },
-            "contacts": [
-              {"name": "Denis Carriere", "email": "carriere.denis@gmail.com"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Canada Slack",
-              "url": "https://osm-ca.slack.com/",
-              "signupUrl": "https://slackinviteosmcanada.herokuapp.com/",
-              "description": "All are welcome! Sign up at https://slackinviteosmcanada.herokuapp.com/.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://osm-ca.slack.com/\">OpenStreetMap Canada Slack</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://osm-ca.slack.com/\">https://osm-ca.slack.com/</a>",
-              "signupUrlHTML": "<a target=\"_blank\" href=\"https://slackinviteosmcanada.herokuapp.com/\">https://slackinviteosmcanada.herokuapp.com/</a>",
-              "descriptionHTML": "All are welcome! Sign up at <a target=\"_blank\" href=\"https://slackinviteosmcanada.herokuapp.com/\">https://slackinviteosmcanada.herokuapp.com/</a>."
             }
           },
           "OSM-CA-telegram": {
@@ -30484,12 +31083,12 @@
               "communityID": "openstreetmapcotedivoire"
             },
             "resolved": {
-              "name": "OpenStreetMap Cote d'Ivoire on Twitter",
+              "name": "OpenStreetMap Cote d'Ivoire on 𝕏",
               "url": "https://twitter.com/OSMCI",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMCI\">OpenStreetMap Cote d'Ivoire on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMCI\">OpenStreetMap Cote d'Ivoire on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMCI\">https://twitter.com/OSMCI</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -30825,6 +31424,60 @@
             [-82.16255, 30.35772],
             [-82.16258, 30.35773],
             [-82.20404, 30.47113]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[77.092,28.644]",
+      "properties": {
+        "id": "[77.092,28.644]",
+        "area": 1963.5,
+        "resources": {
+          "osm-delhi-xmpp": {
+            "id": "osm-delhi-xmpp",
+            "type": "xmpp",
+            "locationSet": {"include": [[77.092, 28.644]]},
+            "strings": {
+              "community": "OpenStreetMap Delhi",
+              "communityID": "openstreetmapdelhi",
+              "name": "OpenStreetMap Delhi XMPP",
+              "description": "Join our XMPP room: {url}",
+              "extendedDescription": "XMPP room for OSM Delhi; not bridged to any proprietary networks.",
+              "url": "https://xmpp.link/#osm-in@conference.a3.pm?join"
+            },
+            "contacts": [
+              {"name": "Kashish", "email": "contrapunctus@disroot.org"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Delhi XMPP",
+              "url": "https://xmpp.link/#osm-in@conference.a3.pm?join",
+              "description": "Join our XMPP room: https://xmpp.link/#osm-in@conference.a3.pm?join",
+              "extendedDescription": "XMPP room for OSM Delhi; not bridged to any proprietary networks.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://xmpp.link/#osm-in@conference.a3.pm?join\">OpenStreetMap Delhi XMPP</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://xmpp.link/#osm-in@conference.a3.pm?join\">https://xmpp.link/#osm-in@conference.a3.pm?join</a>",
+              "descriptionHTML": "Join our XMPP room: <a target=\"_blank\" href=\"https://xmpp.link/#osm-in@conference.a3.pm?join\">https://xmpp.link/#osm-in@conference.a3.pm?join</a>",
+              "extendedDescriptionHTML": "XMPP room for OSM Delhi; not bridged to any proprietary networks."
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.092, 28.869],
+            [76.941, 28.826],
+            [76.848, 28.713],
+            [76.849, 28.574],
+            [76.942, 28.462],
+            [77.092, 28.419],
+            [77.242, 28.462],
+            [77.335, 28.574],
+            [77.336, 28.713],
+            [77.243, 28.826],
+            [77.092, 28.869]
           ]
         ]
       }
@@ -31503,7 +32156,7 @@
               "ro",
               "tr"
             ],
-            "order": 6,
+            "order": 7,
             "strings": {"name": "OpenStreetMap World Discord"},
             "contacts": [
               {"name": "Austin Harrison", "email": "jaustinharrison@gmail.com"}
@@ -31522,7 +32175,7 @@
             "type": "discourse",
             "locationSet": {"include": ["001"]},
             "languageCodes": ["de", "en", "es", "nl", "pl", "pt-BR"],
-            "order": 7,
+            "order": 9,
             "strings": {
               "name": "OpenStreetMap Community Forum",
               "description": "A shared place for conversations about OpenStreetMap",
@@ -31565,35 +32218,6 @@
               "descriptionHTML": "Like us on Facebook for news and updates about OpenStreetMap."
             }
           },
-          "OSM-help": {
-            "id": "OSM-help",
-            "type": "forum",
-            "locationSet": {"include": ["001"]},
-            "languageCodes": ["en"],
-            "order": -2,
-            "strings": {
-              "name": "OpenStreetMap Help",
-              "description": "Ask a question and get answers on OSM's community-driven question and answer site.",
-              "extendedDescription": "{url} is for everyone who needs help with OpenStreetMap.  Whether you are a beginner mapper or have a technical question, we're here to help!",
-              "url": "https://help.openstreetmap.org/"
-            },
-            "contacts": [
-              {
-                "name": "OSMF Operations",
-                "email": "operations@osmfoundation.org"
-              }
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Help",
-              "url": "https://help.openstreetmap.org/",
-              "description": "Ask a question and get answers on OSM's community-driven question and answer site.",
-              "extendedDescription": "https://help.openstreetmap.org/ is for everyone who needs help with OpenStreetMap.  Whether you are a beginner mapper or have a technical question, we're here to help!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://help.openstreetmap.org/\">OpenStreetMap Help</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://help.openstreetmap.org/\">https://help.openstreetmap.org/</a>",
-              "descriptionHTML": "Ask a question and get answers on OSM's community-driven question and answer site.",
-              "extendedDescriptionHTML": "<a target=\"_blank\" href=\"https://help.openstreetmap.org/\">https://help.openstreetmap.org/</a> is for everyone who needs help with OpenStreetMap.  Whether you are a beginner mapper or have a technical question, we're here to help!"
-            }
-          },
           "OSM-IRC": {
             "id": "OSM-IRC",
             "type": "irc",
@@ -31611,10 +32235,10 @@
             "resolved": {
               "name": "OpenStreetMap on IRC",
               "url": "https://webchat.oftc.net/?channels=osm",
-              "description": "Join #osm on irc.oftc.net (port 6667)",
+              "description": "Join #osm on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm\">OpenStreetMap on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm\">https://webchat.oftc.net/?channels=osm</a>",
-              "descriptionHTML": "Join #osm on irc.oftc.net (port 6667)"
+              "descriptionHTML": "Join #osm on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)"
             }
           },
           "OSM-Mastodon": {
@@ -31623,7 +32247,7 @@
             "account": "openstreetmap",
             "locationSet": {"include": ["001"]},
             "languageCodes": ["en"],
-            "order": 3,
+            "order": 6,
             "strings": {
               "community": "OpenStreetMap",
               "communityID": "openstreetmap",
@@ -31633,10 +32257,10 @@
               {"name": "Harry Wood", "email": "mail@harrywood.co.uk"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Mastodon Account",
+              "name": "OpenStreetMap on Mastodon",
               "url": "https://en.osm.town/@openstreetmap",
               "description": "The official Mastodon account for OpenStreetMap",
-              "nameHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@openstreetmap\">OpenStreetMap Mastodon Account</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@openstreetmap\">OpenStreetMap on Mastodon</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@openstreetmap\">https://en.osm.town/@openstreetmap</a>",
               "descriptionHTML": "The official Mastodon account for OpenStreetMap"
             }
@@ -31680,12 +32304,12 @@
               {"name": "Harry Wood", "email": "mail@harrywood.co.uk"}
             ],
             "resolved": {
-              "name": "OpenStreetMap on Twitter",
+              "name": "OpenStreetMap on 𝕏",
               "url": "https://twitter.com/openstreetmap",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmap\">OpenStreetMap on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmap\">OpenStreetMap on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmap\">https://twitter.com/openstreetmap</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "OSMF": {
@@ -31778,12 +32402,12 @@
               "communityID": "openstreetmapdjibouti"
             },
             "resolved": {
-              "name": "OpenStreetMap Djibouti on Twitter",
+              "name": "OpenStreetMap Djibouti on 𝕏",
               "url": "https://twitter.com/djiboutiosm",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/djiboutiosm\">OpenStreetMap Djibouti on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/djiboutiosm\">OpenStreetMap Djibouti on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/djiboutiosm\">https://twitter.com/djiboutiosm</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -32060,12 +32684,12 @@
               "communityID": "openstreetmapgabon"
             },
             "resolved": {
-              "name": "OpenStreetMap Gabon on Twitter",
+              "name": "OpenStreetMap Gabon on 𝕏",
               "url": "https://twitter.com/OsmGabon",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OsmGabon\">OpenStreetMap Gabon on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OsmGabon\">OpenStreetMap Gabon on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OsmGabon\">https://twitter.com/OsmGabon</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -32223,12 +32847,12 @@
               {"name": "OpenStreetMap Ghana", "email": "kasa@osmghana.org"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Ghana on Twitter",
+              "name": "OpenStreetMap Ghana on 𝕏",
               "url": "https://twitter.com/osmghana",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmghana\">OpenStreetMap Ghana on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmghana\">OpenStreetMap Ghana on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmghana\">https://twitter.com/osmghana</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "osm-gh-website": {
@@ -32469,12 +33093,12 @@
               "url": "https://twitter.com/osmguinea?lang=en"
             },
             "resolved": {
-              "name": "OpenStreetMap Guinea on Twitter",
+              "name": "OpenStreetMap Guinea on 𝕏",
               "url": "https://twitter.com/osmguinea?lang=en",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmguinea?lang=en\">OpenStreetMap Guinea on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmguinea?lang=en\">OpenStreetMap Guinea on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmguinea?lang=en\">https://twitter.com/osmguinea?lang=en</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -32613,16 +33237,16 @@
     },
     {
       "type": "Feature",
-      "id": "[21.00578,52.23196]",
+      "id": "[21.21308,51.98438]",
       "properties": {
-        "id": "[21.00578,52.23196]",
+        "id": "[21.21308,51.98438]",
         "area": 1963.5,
         "resources": {
           "osm-gora-kalwaria-telegram": {
             "id": "osm-gora-kalwaria-telegram",
             "type": "telegram",
             "account": "OSM_Gora_Kalwaria",
-            "locationSet": {"include": [[21.00578, 52.23196]]},
+            "locationSet": {"include": [[21.21308, 51.98438]]},
             "languageCodes": ["pl"],
             "strings": {
               "community": "OpenStreetMap Góra Kalwaria",
@@ -32643,17 +33267,17 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [21.006, 52.457],
-            [20.789, 52.413],
-            [20.657, 52.301],
-            [20.658, 52.162],
-            [20.791, 52.05],
-            [21.006, 52.007],
-            [21.22, 52.05],
-            [21.354, 52.162],
-            [21.355, 52.301],
-            [21.222, 52.413],
-            [21.006, 52.457]
+            [21.213, 52.209],
+            [20.998, 52.166],
+            [20.866, 52.053],
+            [20.867, 51.914],
+            [21, 51.802],
+            [21.213, 51.76],
+            [21.427, 51.802],
+            [21.559, 51.914],
+            [21.56, 52.053],
+            [21.428, 52.166],
+            [21.213, 52.209]
           ]
         ]
       }
@@ -32680,6 +33304,27 @@
         "callingCodes": ["91"],
         "area": 4617262.42,
         "resources": {
+          "osm-india-discourse": {
+            "id": "osm-india-discourse",
+            "type": "discourse",
+            "account": "in",
+            "locationSet": {"include": ["in"]},
+            "strings": {
+              "community": "OpenStreetMap India",
+              "communityID": "openstreetmapindia"
+            },
+            "contacts": [
+              {"name": "Sahil Dhiman", "email": "sahil@sahilister.in"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap India Community Forum",
+              "url": "https://community.openstreetmap.org/c/communities/in",
+              "description": "The official forum for OpenStreetMap India",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/in\">OpenStreetMap India Community Forum</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/in\">https://community.openstreetmap.org/c/communities/in</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap India"
+            }
+          },
           "OSM-India-facebook": {
             "id": "OSM-India-facebook",
             "type": "facebook",
@@ -32752,6 +33397,29 @@
               "descriptionHTML": "The official mailing list for OpenStreetMap India"
             }
           },
+          "osm-india-mastodon": {
+            "id": "osm-india-mastodon",
+            "type": "mastodon",
+            "account": "OSMIndia",
+            "locationSet": {"include": ["in"]},
+            "strings": {
+              "community": "OpenStreetMap India",
+              "communityID": "openstreetmapindia",
+              "description": "Home of the OpenStreetMap India community on fediverse",
+              "url": "https://en.osm.town/@OSMIndia"
+            },
+            "contacts": [
+              {"name": "Sahil Dhiman", "email": "sahil@sahilister.in"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap India on Mastodon",
+              "url": "https://en.osm.town/@OSMIndia",
+              "description": "Home of the OpenStreetMap India community on fediverse",
+              "nameHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@OSMIndia\">OpenStreetMap India on Mastodon</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@OSMIndia\">https://en.osm.town/@OSMIndia</a>",
+              "descriptionHTML": "Home of the OpenStreetMap India community on fediverse"
+            }
+          },
           "osm-india-matrix": {
             "id": "osm-india-matrix",
             "type": "matrix",
@@ -32808,10 +33476,10 @@
               {"name": "Jinal Foflia", "email": "fofliajinal@gmail.com"}
             ],
             "resolved": {
-              "name": "OpenStreetMap India on Twitter",
+              "name": "OpenStreetMap India on 𝕏",
               "url": "https://twitter.com/osm_in",
               "description": "We are just a tweet away: https://twitter.com/osm_in",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_in\">OpenStreetMap India on Twitter</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_in\">OpenStreetMap India on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_in\">https://twitter.com/osm_in</a>",
               "descriptionHTML": "We are just a tweet away: <a target=\"_blank\" href=\"https://twitter.com/osm_in\">https://twitter.com/osm_in</a>"
             }
@@ -32861,6 +33529,33 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/WikiProject_India\">OpenStreetMap India WikiProject</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/WikiProject_India\">https://wiki.openstreetmap.org/wiki/WikiProject_India</a>",
               "descriptionHTML": "Everything you need to know about mapping in India: <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/WikiProject_India\">https://wiki.openstreetmap.org/wiki/WikiProject_India</a>"
+            }
+          },
+          "osm-india-xmpp": {
+            "id": "osm-india-xmpp",
+            "type": "xmpp",
+            "locationSet": {"include": ["in"]},
+            "strings": {
+              "community": "OpenStreetMap India",
+              "communityID": "openstreetmapindia",
+              "name": "OpenStreetMap India XMPP",
+              "description": "Join our XMPP room: {url}",
+              "extendedDescription": "XMPP room for the Indian OSM community; not bridged to any proprietary networks. Also available from Matrix via #osm-in:poddery.com",
+              "url": "https://xmpp.link/#osm-in@conference.a3.pm?join"
+            },
+            "contacts": [
+              {"name": "Kashish", "email": "contrapunctus@disroot.org"},
+              {"name": "NLBRT", "email": "contact.crezyt@gmail.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap India XMPP",
+              "url": "https://xmpp.link/#osm-in@conference.a3.pm?join",
+              "description": "Join our XMPP room: https://xmpp.link/#osm-in@conference.a3.pm?join",
+              "extendedDescription": "XMPP room for the Indian OSM community; not bridged to any proprietary networks. Also available from Matrix via #osm-in:poddery.com",
+              "nameHTML": "<a target=\"_blank\" href=\"https://xmpp.link/#osm-in@conference.a3.pm?join\">OpenStreetMap India XMPP</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://xmpp.link/#osm-in@conference.a3.pm?join\">https://xmpp.link/#osm-in@conference.a3.pm?join</a>",
+              "descriptionHTML": "Join our XMPP room: <a target=\"_blank\" href=\"https://xmpp.link/#osm-in@conference.a3.pm?join\">https://xmpp.link/#osm-in@conference.a3.pm?join</a>",
+              "extendedDescriptionHTML": "XMPP room for the Indian OSM community; not bridged to any proprietary networks. Also available from Matrix via #osm-in:poddery.com"
             }
           },
           "osm-india-youtube": {
@@ -34239,12 +34934,12 @@
               {"name": "Satoshi IIDA", "email": "nyampire@gmail.com"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Japan on Twitter",
+              "name": "OpenStreetMap Japan on 𝕏",
               "url": "https://twitter.com/osmfj",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmfj\">OpenStreetMap Japan on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmfj\">OpenStreetMap Japan on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmfj\">https://twitter.com/osmfj</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "OSM-japan-website": {
@@ -34329,11 +35024,11 @@
             },
             "contacts": [{"name": "OSM Kenya", "email": "osmkenya@gmail.com"}],
             "resolved": {
-              "name": "OpenStreetMap Kenya on Twitter",
+              "name": "OpenStreetMap Kenya on 𝕏",
               "url": "https://twitter.com/OSMKenya",
               "description": "OSM Kenya is a community of OSM contributors and users",
               "extendedDescription": "OSM is a local community for individuals interested in OpenStreetMap including organizations, developers, and YouthMappers chapters in the country.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMKenya\">OpenStreetMap Kenya on Twitter</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMKenya\">OpenStreetMap Kenya on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMKenya\">https://twitter.com/OSMKenya</a>",
               "descriptionHTML": "OSM Kenya is a community of OSM contributors and users",
               "extendedDescriptionHTML": "OSM is a local community for individuals interested in OpenStreetMap including organizations, developers, and YouthMappers chapters in the country."
@@ -35226,12 +35921,12 @@
               {"name": "Ruben Lopez M.", "email": "rub2106@gmail.com"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Peru on Twitter",
+              "name": "OpenStreetMap Peru on 𝕏",
               "url": "https://twitter.com/osmpe",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmpe\">OpenStreetMap Peru on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmpe\">OpenStreetMap Peru on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmpe\">https://twitter.com/osmpe</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "talk-pe": {
@@ -36400,12 +37095,12 @@
               "communityID": "openstreetmapsierraleone"
             },
             "resolved": {
-              "name": "OpenStreetMap Sierra Leone on Twitter",
+              "name": "OpenStreetMap Sierra Leone on 𝕏",
               "url": "https://twitter.com/osmsierraleone",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmsierraleone\">OpenStreetMap Sierra Leone on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmsierraleone\">OpenStreetMap Sierra Leone on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmsierraleone\">https://twitter.com/osmsierraleone</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -36630,12 +37325,12 @@
               "communityID": "openstreetmapchad"
             },
             "resolved": {
-              "name": "OpenStreetMap Chad on Twitter",
+              "name": "OpenStreetMap Chad on 𝕏",
               "url": "https://twitter.com/ComOSMTchad",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/ComOSMTchad\">OpenStreetMap Chad on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/ComOSMTchad\">OpenStreetMap Chad on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/ComOSMTchad\">https://twitter.com/ComOSMTchad</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -36906,7 +37601,7 @@
         "roadSpeedUnit": "km/h",
         "roadHeightUnit": "m",
         "driveSide": "right",
-        "area": 114623.56,
+        "area": 138969.19,
         "resources": {
           "osm-tw": {
             "id": "osm-tw",
@@ -37117,8 +37812,12 @@
             [
               [121.8109, 21.77688],
               [122.26612, 25.98197],
-              [120.49232, 25.22863],
-              [118.56434, 24.49266],
+              [120.5128, 26.536],
+              [120.0693, 26.3959],
+              [119.78816, 26.2348],
+              [119.98511, 25.37624],
+              [119.42295, 25.0886],
+              [118.6333, 24.46259],
               [118.42453, 24.54644],
               [118.35291, 24.51645],
               [118.28244, 24.51231],
@@ -37826,16 +38525,16 @@
     },
     {
       "type": "Feature",
-      "id": "[21.21308,51.98438]",
+      "id": "[21.00578,52.23196]",
       "properties": {
-        "id": "[21.21308,51.98438]",
+        "id": "[21.00578,52.23196]",
         "area": 1963.5,
         "resources": {
           "osm-warszawa-telegram": {
             "id": "osm-warszawa-telegram",
             "type": "telegram",
             "account": "OSM_Warszawa",
-            "locationSet": {"include": [[21.21308, 51.98438]]},
+            "locationSet": {"include": [[21.00578, 52.23196]]},
             "languageCodes": ["pl"],
             "strings": {
               "community": "OpenStreetMap Warszawa",
@@ -37856,19 +38555,373 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [21.213, 52.209],
-            [20.998, 52.166],
-            [20.866, 52.053],
-            [20.867, 51.914],
-            [21, 51.802],
-            [21.213, 51.76],
-            [21.427, 51.802],
-            [21.559, 51.914],
-            [21.56, 52.053],
-            [21.428, 52.166],
-            [21.213, 52.209]
+            [21.006, 52.457],
+            [20.789, 52.413],
+            [20.657, 52.301],
+            [20.658, 52.162],
+            [20.791, 52.05],
+            [21.006, 52.007],
+            [21.22, 52.05],
+            [21.354, 52.162],
+            [21.355, 52.301],
+            [21.222, 52.413],
+            [21.006, 52.457]
           ]
         ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "india_westbengal.geojson",
+      "properties": {
+        "id": "india_westbengal.geojson",
+        "area": 92224.26,
+        "resources": {
+          "osm-west-bengal-xmpp": {
+            "id": "osm-west-bengal-xmpp",
+            "type": "xmpp",
+            "locationSet": {"include": ["india_westbengal.geojson"]},
+            "strings": {
+              "community": "OpenStreetMap West Bengal",
+              "communityID": "openstreetmapwestbengal",
+              "name": "OpenStreetMap West Bengal XMPP",
+              "description": "Join our XMPP room: {url}",
+              "extendedDescription": "XMPP room for OSM West Bengal.",
+              "url": "https://xmpp.link/#osmbengal@conference.conversations.im?join"
+            },
+            "contacts": [
+              {"name": "Projjal", "email": "moitraprojjal@disroot.org"},
+              {"name": "NLBRT", "email": "contact.crezyt@gmail.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap West Bengal XMPP",
+              "url": "https://xmpp.link/#osmbengal@conference.conversations.im?join",
+              "description": "Join our XMPP room: https://xmpp.link/#osmbengal@conference.conversations.im?join",
+              "extendedDescription": "XMPP room for OSM West Bengal.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://xmpp.link/#osmbengal@conference.conversations.im?join\">OpenStreetMap West Bengal XMPP</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://xmpp.link/#osmbengal@conference.conversations.im?join\">https://xmpp.link/#osmbengal@conference.conversations.im?join</a>",
+              "descriptionHTML": "Join our XMPP room: <a target=\"_blank\" href=\"https://xmpp.link/#osmbengal@conference.conversations.im?join\">https://xmpp.link/#osmbengal@conference.conversations.im?join</a>",
+              "extendedDescriptionHTML": "XMPP room for OSM West Bengal."
+            }
+          }
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [89.16242, 21.4721],
+            [87.55006, 21.47],
+            [87.44335, 21.76016],
+            [87.27105, 21.80899],
+            [87.23934, 21.939],
+            [87.1773, 21.95953],
+            [87.1005, 21.86525],
+            [87.01714, 21.87336],
+            [87.02284, 22.04045],
+            [86.71949, 22.14404],
+            [86.72305, 22.22053],
+            [86.88114, 22.25941],
+            [86.88897, 22.29302],
+            [86.82915, 22.32793],
+            [86.84268, 22.3984],
+            [86.76364, 22.42341],
+            [86.74513, 22.4833],
+            [86.78785, 22.48462],
+            [86.75652, 22.57407],
+            [86.64401, 22.57538],
+            [86.63323, 22.6484],
+            [86.41811, 22.78039],
+            [86.44032, 22.92471],
+            [86.53788, 22.97585],
+            [86.19357, 22.99617],
+            [86.04005, 23.11505],
+            [85.886, 23.15432],
+            [85.8674, 23.21409],
+            [85.83898, 23.22171],
+            [85.83832, 23.24537],
+            [85.82189, 23.26455],
+            [85.86355, 23.33973],
+            [85.88982, 23.40096],
+            [85.86147, 23.43416],
+            [85.87809, 23.47901],
+            [86.03552, 23.48439],
+            [86.0189, 23.55074],
+            [86.0453, 23.58569],
+            [86.15876, 23.55611],
+            [86.15681, 23.47093],
+            [86.2409, 23.42607],
+            [86.3602, 23.45299],
+            [86.38946, 23.57112],
+            [86.44788, 23.59928],
+            [86.44864, 23.61909],
+            [86.48353, 23.63855],
+            [86.53171, 23.63195],
+            [86.60074, 23.67052],
+            [86.73426, 23.69206],
+            [86.7447, 23.67955],
+            [86.79467, 23.68746],
+            [86.8124, 23.74693],
+            [86.8258, 23.75272],
+            [86.8276, 23.77517],
+            [86.80518, 23.80299],
+            [86.85484, 23.82557],
+            [86.86703, 23.84677],
+            [86.88223, 23.84581],
+            [86.88253, 23.82887],
+            [86.89262, 23.82034],
+            [86.89548, 23.833],
+            [86.89072, 23.84439],
+            [86.89038, 23.8591],
+            [86.8846, 23.85917],
+            [86.8822, 23.86332],
+            [86.89437, 23.87746],
+            [86.91642, 23.88388],
+            [86.93339, 23.8714],
+            [86.93506, 23.85588],
+            [86.95935, 23.84796],
+            [86.972, 23.86957],
+            [87.08616, 23.81112],
+            [87.14846, 23.80493],
+            [87.15798, 23.82408],
+            [87.12458, 23.86916],
+            [87.23027, 23.85801],
+            [87.29591, 23.89455],
+            [87.23598, 24.01713],
+            [87.24549, 24.04493],
+            [87.43693, 23.99791],
+            [87.50054, 24.02922],
+            [87.49993, 24.11732],
+            [87.57714, 24.08823],
+            [87.5799, 24.16345],
+            [87.68928, 24.14612],
+            [87.70337, 24.18302],
+            [87.64301, 24.21293],
+            [87.66203, 24.24029],
+            [87.75778, 24.31501],
+            [87.81848, 24.45591],
+            [87.77278, 24.58442],
+            [87.87685, 24.56511],
+            [87.9117, 24.66262],
+            [87.88775, 24.67634],
+            [87.90702, 24.71703],
+            [87.81485, 24.75771],
+            [87.82057, 24.77331],
+            [87.85859, 24.7648],
+            [87.95545, 24.97362],
+            [87.80964, 25.07271],
+            [87.77423, 25.2212],
+            [87.83776, 25.20282],
+            [87.82801, 25.24408],
+            [87.85262, 25.29698],
+            [87.79856, 25.32579],
+            [87.76746, 25.38344],
+            [87.79506, 25.44906],
+            [87.92685, 25.54159],
+            [88.06879, 25.48313],
+            [88.06992, 25.51058],
+            [88.02824, 25.5548],
+            [88.04795, 25.69395],
+            [87.90827, 25.76802],
+            [87.88855, 25.83648],
+            [87.81984, 25.88057],
+            [87.86096, 26.03048],
+            [87.91241, 26.07163],
+            [87.95407, 26.05755],
+            [87.95799, 26.07163],
+            [87.98862, 26.07451],
+            [87.96618, 26.0921],
+            [87.98292, 26.10009],
+            [87.97865, 26.13687],
+            [88.03563, 26.17523],
+            [88.05878, 26.17107],
+            [88.18591, 26.2733],
+            [88.2842, 26.34066],
+            [88.27886, 26.36332],
+            [88.2315, 26.37257],
+            [88.25571, 26.41851],
+            [88.17879, 26.4963],
+            [88.22687, 26.53391],
+            [88.22437, 26.55939],
+            [88.14638, 26.51192],
+            [88.13392, 26.5116],
+            [88.10756, 26.53868],
+            [88.10509, 26.55572],
+            [88.16029, 26.64621],
+            [88.18789, 26.75305],
+            [88.16453, 26.86296],
+            [88.13623, 26.89894],
+            [88.14118, 26.91913],
+            [88.11924, 26.94942],
+            [88.12773, 26.98032],
+            [88.09306, 26.99861],
+            [88.07961, 27.03013],
+            [88.04069, 27.03266],
+            [88.00544, 27.10165],
+            [87.99386, 27.10299],
+            [87.99084, 27.12809],
+            [88.00796, 27.1431],
+            [88.01576, 27.21879],
+            [88.07517, 27.20133],
+            [88.08726, 27.14175],
+            [88.15375, 27.11206],
+            [88.18281, 27.13172],
+            [88.2164, 27.13172],
+            [88.23183, 27.11798],
+            [88.27935, 27.12903],
+            [88.31506, 27.12391],
+            [88.32414, 27.10667],
+            [88.35925, 27.09751],
+            [88.4337, 27.08],
+            [88.44944, 27.08404],
+            [88.47183, 27.12095],
+            [88.53176, 27.1495],
+            [88.52782, 27.16996],
+            [88.53709, 27.18173],
+            [88.59819, 27.19107],
+            [88.65554, 27.16339],
+            [88.69453, 27.17973],
+            [88.72714, 27.13837],
+            [88.80351, 27.13748],
+            [88.87303, 27.10929],
+            [88.87303, 26.99724],
+            [88.87918, 26.94707],
+            [88.92286, 26.99285],
+            [88.95332, 26.9712],
+            [88.94778, 26.93391],
+            [88.98408, 26.91745],
+            [89.02174, 26.94007],
+            [89.05376, 26.9003],
+            [89.09448, 26.89243],
+            [89.1402, 26.81126],
+            [89.26041, 26.81673],
+            [89.38062, 26.86342],
+            [89.39429, 26.84449],
+            [89.44096, 26.83987],
+            [89.48433, 26.80369],
+            [89.51591, 26.81379],
+            [89.65215, 26.77465],
+            [89.64366, 26.72709],
+            [89.75538, 26.73172],
+            [89.8636, 26.70224],
+            [89.86702, 26.45261],
+            [89.76677, 26.32003],
+            [89.7149, 26.21021],
+            [89.67958, 26.22101],
+            [89.63812, 26.22476],
+            [89.66031, 26.17712],
+            [89.65213, 26.16599],
+            [89.60144, 26.15042],
+            [89.60318, 26.13184],
+            [89.62844, 26.12696],
+            [89.64926, 26.0625],
+            [89.58784, 26.03123],
+            [89.58838, 25.97394],
+            [89.55064, 25.96339],
+            [89.53636, 26.00099],
+            [89.46852, 25.99457],
+            [89.4323, 26.00604],
+            [89.42006, 26.03354],
+            [89.38282, 26.0041],
+            [89.25566, 26.06218],
+            [89.22607, 26.12205],
+            [89.16114, 26.13194],
+            [89.08463, 26.3903],
+            [88.95594, 26.4417],
+            [88.92333, 26.37342],
+            [89.0626, 26.2942],
+            [89.06695, 26.24063],
+            [88.95537, 26.23957],
+            [88.92218, 26.28464],
+            [88.86689, 26.27149],
+            [88.88118, 26.23404],
+            [88.84357, 26.23067],
+            [88.81574, 26.25057],
+            [88.81047, 26.29678],
+            [88.79467, 26.3069],
+            [88.69688, 26.27643],
+            [88.69346, 26.26519],
+            [88.66903, 26.25907],
+            [88.66504, 26.27843],
+            [88.67273, 26.32033],
+            [88.69808, 26.33199],
+            [88.66534, 26.40543],
+            [88.62454, 26.43616],
+            [88.61842, 26.46828],
+            [88.59764, 26.46816],
+            [88.59504, 26.44588],
+            [88.5577, 26.45597],
+            [88.54981, 26.48112],
+            [88.5253, 26.47719],
+            [88.5102, 26.50854],
+            [88.48777, 26.50994],
+            [88.47655, 26.53824],
+            [88.44335, 26.53228],
+            [88.42047, 26.56639],
+            [88.41577, 26.63322],
+            [88.4015, 26.62618],
+            [88.34985, 26.50745],
+            [88.33383, 26.49213],
+            [88.35504, 26.45173],
+            [88.35703, 26.4833],
+            [88.37237, 26.4912],
+            [88.48389, 26.46194],
+            [88.52573, 26.35135],
+            [88.4821, 26.34883],
+            [88.45291, 26.36021],
+            [88.423, 26.31765],
+            [88.36098, 26.29346],
+            [88.35476, 26.21705],
+            [88.19757, 26.14301],
+            [88.17441, 26.09936],
+            [88.18821, 26.02483],
+            [88.1522, 26.00856],
+            [88.09566, 25.91581],
+            [88.14167, 25.79507],
+            [88.25992, 25.82024],
+            [88.27876, 25.78307],
+            [88.45773, 25.67112],
+            [88.46848, 25.59358],
+            [88.67059, 25.47717],
+            [88.81079, 25.53097],
+            [88.81597, 25.49244],
+            [88.83227, 25.49138],
+            [88.84153, 25.45384],
+            [88.8419, 25.3691],
+            [88.93615, 25.30801],
+            [89.01039, 25.30488],
+            [89.00978, 25.26209],
+            [88.98797, 25.26752],
+            [88.95891, 25.24945],
+            [88.96328, 25.20721],
+            [88.93726, 25.15693],
+            [88.83664, 25.19125],
+            [88.80534, 25.1682],
+            [88.67322, 25.19513],
+            [88.56519, 25.17007],
+            [88.45259, 25.18913],
+            [88.47567, 25.09076],
+            [88.3307, 24.85386],
+            [88.20935, 24.92553],
+            [88.01945, 24.66243],
+            [88.09582, 24.62187],
+            [88.12105, 24.51295],
+            [88.52589, 24.3177],
+            [88.70301, 24.32085],
+            [88.74441, 24.19128],
+            [88.7386, 23.91717],
+            [88.60858, 23.85452],
+            [88.56613, 23.64551],
+            [88.80306, 23.49746],
+            [88.71676, 23.27781],
+            [88.99504, 23.21651],
+            [88.87992, 23.09241],
+            [88.86738, 22.95774],
+            [88.97354, 22.83871],
+            [88.94844, 22.70382],
+            [89.16242, 21.4721]
+          ]
+        ],
+        "type": "Polygon"
       }
     },
     {
@@ -37995,12 +39048,12 @@
               {"name": "Grant Slater", "email": "osm@firefishy.com"}
             ],
             "resolved": {
-              "name": "OpenStreetMap South Africa on Twitter",
+              "name": "OpenStreetMap South Africa on 𝕏",
               "url": "https://twitter.com/OpenStreetMapZA",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapZA\">OpenStreetMap South Africa on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapZA\">OpenStreetMap South Africa on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapZA\">https://twitter.com/OpenStreetMapZA</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -38718,12 +39771,36 @@
         "callingCodes": ["351"],
         "area": 799086.08,
         "resources": {
+          "pt-discord": {
+            "id": "pt-discord",
+            "type": "discord",
+            "account": "Uhggtd7XpK",
+            "locationSet": {"include": ["pt"]},
+            "languageCodes": ["pt"],
+            "order": 2,
+            "strings": {
+              "community": "OpenStreetMap Portugal",
+              "communityID": "openstreetmapportugal"
+            },
+            "contacts": [
+              {"name": "Diogo Baptista", "email": "diogobaptista98@gmail.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Portugal Discord",
+              "url": "https://discord.gg/Uhggtd7XpK",
+              "description": "Get in touch with other mappers on Discord",
+              "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/Uhggtd7XpK\">OpenStreetMap Portugal Discord</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/Uhggtd7XpK\">https://discord.gg/Uhggtd7XpK</a>",
+              "descriptionHTML": "Get in touch with other mappers on Discord"
+            }
+          },
           "pt-discourse": {
             "id": "pt-discourse",
             "type": "discourse",
             "account": "pt",
             "locationSet": {"include": ["pt"]},
             "languageCodes": ["pt"],
+            "order": 4,
             "strings": {
               "community": "OpenStreetMap Portugal",
               "communityID": "openstreetmapportugal"
@@ -38743,6 +39820,7 @@
             "account": "OSMPortugal",
             "locationSet": {"include": ["pt"]},
             "languageCodes": ["pt"],
+            "order": 3,
             "strings": {
               "community": "OpenStreetMap Portugal",
               "communityID": "openstreetmapportugal"
@@ -38764,6 +39842,7 @@
             "type": "wiki",
             "locationSet": {"include": ["pt"]},
             "languageCodes": ["en", "pt"],
+            "order": 1,
             "strings": {
               "community": "OpenStreetMap Portugal",
               "communityID": "openstreetmapportugal",
@@ -39196,12 +40275,12 @@
               "communityID": "openstreetmapreunion"
             },
             "resolved": {
-              "name": "OpenStreetMap Réunion on Twitter",
+              "name": "OpenStreetMap Réunion on 𝕏",
               "url": "https://twitter.com/osmreunion",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmreunion\">OpenStreetMap Réunion on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmreunion\">OpenStreetMap Réunion on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmreunion\">https://twitter.com/osmreunion</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -40033,12 +41112,12 @@
             },
             "contacts": [{"name": "Ilya Zverev", "email": "ilya@zverev.info"}],
             "resolved": {
-              "name": "OpenStreetMap Russia on Twitter",
+              "name": "OpenStreetMap Russia on 𝕏",
               "url": "https://twitter.com/shtosm",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/shtosm\">OpenStreetMap Russia on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/shtosm\">OpenStreetMap Russia on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/shtosm\">https://twitter.com/shtosm</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "talk-ru": {
@@ -40407,7 +41486,7 @@
               [38.12112, 46.86078],
               [37.62608, 46.82615],
               [35.23066, 45.79231],
-              [35.04993554652997, 45.768273397723824],
+              [35.04993554652997, 45.76827339772382],
               [35.0498, 45.7683],
               [34.9601, 45.7563],
               [34.7991, 45.8101],
@@ -41198,12 +42277,12 @@
               "communityID": "openstreetmapalba"
             },
             "resolved": {
-              "name": "OpenStreetMap Alba on Twitter",
+              "name": "OpenStreetMap Alba on 𝕏",
               "url": "https://twitter.com/OSMScotland",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMScotland\">OpenStreetMap Alba on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMScotland\">OpenStreetMap Alba on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMScotland\">https://twitter.com/OSMScotland</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -41480,10 +42559,10 @@
             "resolved": {
               "name": "OpenStreetMap Sweden on IRC",
               "url": "https://webchat.oftc.net/?channels=osm.se",
-              "description": "Join #osm.se on irc.oftc.net (port 6667)",
+              "description": "Join #osm.se on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm.se\">OpenStreetMap Sweden on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm.se\">https://webchat.oftc.net/?channels=osm.se</a>",
-              "descriptionHTML": "Join #osm.se on irc.oftc.net (port 6667)"
+              "descriptionHTML": "Join #osm.se on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)"
             }
           },
           "se-telegram": {
@@ -41518,12 +42597,12 @@
               "communityID": "openstreetmapsweden"
             },
             "resolved": {
-              "name": "OpenStreetMap Sweden on Twitter",
+              "name": "OpenStreetMap Sweden on 𝕏",
               "url": "https://twitter.com/openstreetmapse",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapse\">OpenStreetMap Sweden on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapse\">OpenStreetMap Sweden on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapse\">https://twitter.com/openstreetmapse</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "talk-se": {
@@ -41672,6 +42751,101 @@
     {
       "type": "Feature",
       "properties": {
+        "iso1A2": "SG",
+        "iso1A3": "SGP",
+        "iso1N3": "702",
+        "wikidata": "Q334",
+        "nameEn": "Singapore",
+        "groups": ["035", "142", "UN", "001"],
+        "driveSide": "left",
+        "callingCodes": ["65"],
+        "id": "Q334",
+        "m49": "702",
+        "ccTLD": ".sg",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇸🇬",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "area": 1443.78,
+        "resources": {
+          "sg-telegram": {
+            "id": "sg-telegram",
+            "type": "telegram",
+            "account": "osm_singapore",
+            "locationSet": {"include": ["sg"]},
+            "order": 3,
+            "strings": {
+              "community": "OpenStreetMap Singapore",
+              "communityID": "openstreetmapsingapore"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Singapore Telegram",
+              "url": "https://t.me/osm_singapore",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osm_singapore\">OpenStreetMap Singapore Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osm_singapore\">https://t.me/osm_singapore</a>",
+              "descriptionHTML": "Join our community Telegram chat"
+            }
+          },
+          "sg-wiki": {
+            "id": "sg-wiki",
+            "type": "wiki",
+            "account": "Singapore",
+            "locationSet": {"include": ["sg"]},
+            "order": 4,
+            "strings": {
+              "community": "OpenStreetMap Singapore",
+              "communityID": "openstreetmapsingapore",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Singapore WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Singapore",
+              "description": "OpenStreetMap Singapore Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Singapore\">OpenStreetMap Singapore WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Singapore\">https://wiki.openstreetmap.org/wiki/Singapore</a>",
+              "descriptionHTML": "OpenStreetMap Singapore Wiki page"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [104.00131, 1.42405],
+              [103.93384, 1.42926],
+              [103.89565, 1.42841],
+              [103.86383, 1.46288],
+              [103.81181, 1.47953],
+              [103.76395, 1.45183],
+              [103.74161, 1.4502],
+              [103.7219, 1.46108],
+              [103.67468, 1.43166],
+              [103.62738, 1.35255],
+              [103.56591, 1.19719],
+              [103.66049, 1.18825],
+              [103.74084, 1.12902],
+              [104.03085, 1.26954],
+              [104.12282, 1.27714],
+              [104.08072, 1.35998],
+              [104.09162, 1.39694],
+              [104.08871, 1.42015],
+              [104.07348, 1.43322],
+              [104.04622, 1.44691],
+              [104.02277, 1.4438],
+              [104.00131, 1.42405]
+            ]
+          ]
+        ]
+      },
+      "id": "Q334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "iso1A2": "SI",
         "iso1A3": "SVN",
         "iso1N3": "705",
@@ -41740,12 +42914,12 @@
               "communityID": "openstreetmapslovenia"
             },
             "resolved": {
-              "name": "OpenStreetMap Slovenia on Twitter",
+              "name": "OpenStreetMap Slovenia on 𝕏",
               "url": "https://twitter.com/OpenStreetMapSi",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapSi\">OpenStreetMap Slovenia on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapSi\">OpenStreetMap Slovenia on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapSi\">https://twitter.com/OpenStreetMapSi</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "si-wiki": {
@@ -42120,12 +43294,12 @@
               "communityID": "openstreetmapsenegal"
             },
             "resolved": {
-              "name": "OpenStreetMap Senegal on Twitter",
+              "name": "OpenStreetMap Senegal on 𝕏",
               "url": "https://twitter.com/OpenStreetMapSn",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapSn\">OpenStreetMap Senegal on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapSn\">OpenStreetMap Senegal on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapSn\">https://twitter.com/OpenStreetMapSn</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "talk-sn": {
@@ -42257,12 +43431,12 @@
               "communityID": "openstreetmapsomalia"
             },
             "resolved": {
-              "name": "OpenStreetMap Somalia on Twitter",
+              "name": "OpenStreetMap Somalia on 𝕏",
               "url": "https://twitter.com/osmsomalia",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmsomalia\">OpenStreetMap Somalia on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmsomalia\">OpenStreetMap Somalia on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmsomalia\">https://twitter.com/osmsomalia</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "talk-so": {
@@ -42443,12 +43617,12 @@
               "communityID": "openstreetmapsouthsudan"
             },
             "resolved": {
-              "name": "OpenStreetMap South Sudan on Twitter",
+              "name": "OpenStreetMap South Sudan on 𝕏",
               "url": "https://twitter.com/osmsouthsudan",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmsouthsudan\">OpenStreetMap South Sudan on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmsouthsudan\">OpenStreetMap South Sudan on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmsouthsudan\">https://twitter.com/osmsouthsudan</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -43152,247 +44326,6 @@
         ]
       },
       "id": "Q790"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "iso1A2": "IQ",
-        "iso1A3": "IRQ",
-        "iso1N3": "368",
-        "wikidata": "Q796",
-        "nameEn": "Iraq",
-        "groups": ["145", "142", "UN", "001"],
-        "callingCodes": ["964"],
-        "id": "Q796",
-        "m49": "368",
-        "ccTLD": ".iq",
-        "isoStatus": "official",
-        "level": "country",
-        "emojiFlag": "🇮🇶",
-        "roadSpeedUnit": "km/h",
-        "roadHeightUnit": "m",
-        "driveSide": "right",
-        "area": 437296.35,
-        "resources": {
-          "talk-iq": {
-            "id": "talk-iq",
-            "type": "mailinglist",
-            "account": "talk-iq",
-            "locationSet": {"include": ["iq"]},
-            "strings": {
-              "community": "OpenStreetMap Iraq",
-              "communityID": "openstreetmapiraq"
-            },
-            "resolved": {
-              "name": "talk-iq Mailing List",
-              "url": "https://lists.openstreetmap.org/listinfo/talk-iq",
-              "description": "The official mailing list for OpenStreetMap Iraq",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-iq\">talk-iq Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-iq\">https://lists.openstreetmap.org/listinfo/talk-iq</a>",
-              "descriptionHTML": "The official mailing list for OpenStreetMap Iraq"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [42.78887, 37.38615],
-              [42.56725, 37.14878],
-              [42.35724, 37.10998],
-              [42.36697, 37.0627],
-              [41.81736, 36.58782],
-              [41.40058, 36.52502],
-              [41.28864, 36.35368],
-              [41.2564, 36.06012],
-              [41.37027, 35.84095],
-              [41.38184, 35.62502],
-              [41.26569, 35.42708],
-              [41.21654, 35.1508],
-              [41.2345, 34.80049],
-              [41.12388, 34.65742],
-              [40.97676, 34.39788],
-              [40.64314, 34.31604],
-              [38.79171, 33.37328],
-              [39.08202, 32.50304],
-              [38.98762, 32.47694],
-              [39.04251, 32.30203],
-              [39.26157, 32.35555],
-              [39.29903, 32.23259],
-              [40.01521, 32.05667],
-              [42.97601, 30.72204],
-              [42.97796, 30.48295],
-              [44.72255, 29.19736],
-              [46.42415, 29.05947],
-              [46.5527, 29.10283],
-              [46.89695, 29.50584],
-              [47.15166, 30.01044],
-              [47.37192, 30.10421],
-              [47.7095, 30.10453],
-              [48.01114, 29.98906],
-              [48.06782, 30.02906],
-              [48.17332, 30.02448],
-              [48.40479, 29.85763],
-              [48.59531, 29.66815],
-              [48.83867, 29.78572],
-              [48.61441, 29.93675],
-              [48.51011, 29.96238],
-              [48.44785, 30.00148],
-              [48.4494, 30.04456],
-              [48.43384, 30.08233],
-              [48.38869, 30.11062],
-              [48.38714, 30.13485],
-              [48.41671, 30.17254],
-              [48.41117, 30.19846],
-              [48.26393, 30.3408],
-              [48.24385, 30.33846],
-              [48.21279, 30.31644],
-              [48.19425, 30.32796],
-              [48.18321, 30.39703],
-              [48.14585, 30.44133],
-              [48.02443, 30.4789],
-              [48.03221, 30.9967],
-              [47.68219, 31.00004],
-              [47.6804, 31.39086],
-              [47.86337, 31.78422],
-              [47.64771, 32.07666],
-              [47.52474, 32.15972],
-              [47.57144, 32.20583],
-              [47.37529, 32.47808],
-              [47.17218, 32.45393],
-              [46.46788, 32.91992],
-              [46.32298, 32.9731],
-              [46.17198, 32.95612],
-              [46.09103, 32.98354],
-              [46.15175, 33.07229],
-              [46.03966, 33.09577],
-              [46.05367, 33.13097],
-              [46.11905, 33.11924],
-              [46.20623, 33.20395],
-              [45.99919, 33.5082],
-              [45.86687, 33.49263],
-              [45.96183, 33.55751],
-              [45.89801, 33.63661],
-              [45.77814, 33.60938],
-              [45.50261, 33.94968],
-              [45.42789, 33.9458],
-              [45.41077, 33.97421],
-              [45.47264, 34.03099],
-              [45.56176, 34.15088],
-              [45.58667, 34.30147],
-              [45.53552, 34.35148],
-              [45.49171, 34.3439],
-              [45.46697, 34.38221],
-              [45.43879, 34.45949],
-              [45.51883, 34.47692],
-              [45.53219, 34.60441],
-              [45.59074, 34.55558],
-              [45.60224, 34.55057],
-              [45.73923, 34.54416],
-              [45.70031, 34.69277],
-              [45.65672, 34.7222],
-              [45.68284, 34.76624],
-              [45.70031, 34.82322],
-              [45.73641, 34.83975],
-              [45.79682, 34.85133],
-              [45.78904, 34.91135],
-              [45.86532, 34.89858],
-              [45.89477, 34.95805],
-              [45.87864, 35.03441],
-              [45.92173, 35.0465],
-              [45.92203, 35.09538],
-              [45.93108, 35.08148],
-              [45.94756, 35.09188],
-              [46.06508, 35.03699],
-              [46.07747, 35.0838],
-              [46.11763, 35.07551],
-              [46.19116, 35.11097],
-              [46.15642, 35.1268],
-              [46.16229, 35.16984],
-              [46.19738, 35.18536],
-              [46.18457, 35.22561],
-              [46.11367, 35.23729],
-              [46.15474, 35.2883],
-              [46.13152, 35.32548],
-              [46.05358, 35.38568],
-              [45.98453, 35.49848],
-              [46.01518, 35.52012],
-              [45.97584, 35.58132],
-              [46.03028, 35.57416],
-              [46.01307, 35.59756],
-              [46.0165, 35.61501],
-              [45.99452, 35.63574],
-              [46.0117, 35.65059],
-              [46.01631, 35.69139],
-              [46.23736, 35.71414],
-              [46.34166, 35.78363],
-              [46.32921, 35.82655],
-              [46.17198, 35.8013],
-              [46.08325, 35.8581],
-              [45.94711, 35.82218],
-              [45.89784, 35.83708],
-              [45.81442, 35.82107],
-              [45.76145, 35.79898],
-              [45.6645, 35.92872],
-              [45.60018, 35.96069],
-              [45.55245, 35.99943],
-              [45.46594, 36.00042],
-              [45.38275, 35.97156],
-              [45.33916, 35.99424],
-              [45.37652, 36.06222],
-              [45.37312, 36.09917],
-              [45.32235, 36.17383],
-              [45.30038, 36.27769],
-              [45.26261, 36.3001],
-              [45.27394, 36.35846],
-              [45.23953, 36.43257],
-              [45.11811, 36.40751],
-              [45.00759, 36.5402],
-              [45.06985, 36.62645],
-              [45.06985, 36.6814],
-              [45.01537, 36.75128],
-              [44.84725, 36.77622],
-              [44.83479, 36.81362],
-              [44.90173, 36.86096],
-              [44.91199, 36.91468],
-              [44.89862, 37.01897],
-              [44.81611, 37.04383],
-              [44.75229, 37.11958],
-              [44.78319, 37.1431],
-              [44.76698, 37.16162],
-              [44.63179, 37.19229],
-              [44.42631, 37.05825],
-              [44.38117, 37.05825],
-              [44.35315, 37.04955],
-              [44.35937, 37.02843],
-              [44.30645, 36.97373],
-              [44.25975, 36.98119],
-              [44.18503, 37.09551],
-              [44.22239, 37.15756],
-              [44.27998, 37.16501],
-              [44.2613, 37.25055],
-              [44.13521, 37.32486],
-              [44.02002, 37.33229],
-              [43.90949, 37.22453],
-              [43.84878, 37.22205],
-              [43.82699, 37.19477],
-              [43.8052, 37.22825],
-              [43.7009, 37.23692],
-              [43.63085, 37.21957],
-              [43.56702, 37.25675],
-              [43.50787, 37.24436],
-              [43.33508, 37.33105],
-              [43.30083, 37.30629],
-              [43.11403, 37.37436],
-              [42.93705, 37.32015],
-              [42.78887, 37.38615]
-            ]
-          ]
-        ]
-      },
-      "id": "Q796"
     },
     {
       "type": "Feature",
@@ -44724,12 +45657,12 @@
               "communityID": "openstreetmaptogo"
             },
             "resolved": {
-              "name": "OpenStreetMap Togo on Twitter",
+              "name": "OpenStreetMap Togo on 𝕏",
               "url": "https://twitter.com/OSMTogo",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMTogo\">OpenStreetMap Togo on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMTogo\">OpenStreetMap Togo on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMTogo\">https://twitter.com/OSMTogo</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -44936,12 +45869,12 @@
               "communityID": "openstreetmaptunisia"
             },
             "resolved": {
-              "name": "OpenStreetMap Tunisia on Twitter",
+              "name": "OpenStreetMap Tunisia on 𝕏",
               "url": "https://twitter.com/osmTunisia",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmTunisia\">OpenStreetMap Tunisia on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmTunisia\">OpenStreetMap Tunisia on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmTunisia\">https://twitter.com/osmTunisia</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -45100,12 +46033,12 @@
               "communityID": "openstreetmaptanzania"
             },
             "resolved": {
-              "name": "OpenStreetMap Tanzania on Twitter",
+              "name": "OpenStreetMap Tanzania on 𝕏",
               "url": "https://twitter.com/OMDTZ",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OMDTZ\">OpenStreetMap Tanzania on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OMDTZ\">OpenStreetMap Tanzania on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OMDTZ\">https://twitter.com/OMDTZ</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "tz-website": {
@@ -45313,12 +46246,12 @@
               "communityID": "openstreetmapuganda"
             },
             "resolved": {
-              "name": "OpenStreetMap Uganda on Twitter",
+              "name": "OpenStreetMap Uganda on 𝕏",
               "url": "https://twitter.com/mapuganda",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/mapuganda\">OpenStreetMap Uganda on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/mapuganda\">OpenStreetMap Uganda on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/mapuganda\">https://twitter.com/mapuganda</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -45645,12 +46578,12 @@
               "communityID": "openstreetmapvenezuela"
             },
             "resolved": {
-              "name": "OpenStreetMap Venezuela on Twitter",
+              "name": "OpenStreetMap Venezuela on 𝕏",
               "url": "https://twitter.com/osmve",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmve\">OpenStreetMap Venezuela on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmve\">OpenStreetMap Venezuela on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmve\">https://twitter.com/osmve</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -45843,12 +46776,12 @@
               "communityID": "openstreetmapzambia"
             },
             "resolved": {
-              "name": "OpenStreetMap Zambia on Twitter",
+              "name": "OpenStreetMap Zambia on 𝕏",
               "url": "https://twitter.com/OSMZambia",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMZambia\">OpenStreetMap Zambia on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMZambia\">OpenStreetMap Zambia on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMZambia\">https://twitter.com/OSMZambia</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -46636,12 +47569,12 @@
             },
             "contacts": [{"name": "Andrii Holovin", "email": "andygol@ua.fm"}],
             "resolved": {
-              "name": "OpenStreetMap Ukraine on Twitter",
+              "name": "OpenStreetMap Ukraine on 𝕏",
               "url": "https://twitter.com/osm_ua",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_ua\">OpenStreetMap Ukraine on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_ua\">OpenStreetMap Ukraine on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_ua\">https://twitter.com/osm_ua</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -47013,6 +47946,29 @@
         "id": "[-0.12,51.5]",
         "area": 1963.5,
         "resources": {
+          "uk-london-mastodon": {
+            "id": "uk-london-mastodon",
+            "type": "mastodon",
+            "locationSet": {"include": [[-0.12, 51.5]]},
+            "languageCodes": ["en"],
+            "order": 4,
+            "strings": {
+              "name": "OpenStreetMap London on Mastodon",
+              "description": "OpenStreetMap London on Mastodon: {url}",
+              "url": "https://en.osm.town/@OSMLondon"
+            },
+            "contacts": [
+              {"name": "Harry Wood", "email": "mail@harrywood.co.uk"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap London on Mastodon",
+              "url": "https://en.osm.town/@OSMLondon",
+              "description": "OpenStreetMap London on Mastodon: https://en.osm.town/@OSMLondon",
+              "nameHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@OSMLondon\">OpenStreetMap London on Mastodon</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@OSMLondon\">https://en.osm.town/@OSMLondon</a>",
+              "descriptionHTML": "OpenStreetMap London on Mastodon: <a target=\"_blank\" href=\"https://en.osm.town/@OSMLondon\">https://en.osm.town/@OSMLondon</a>"
+            }
+          },
           "uk-london-twitter": {
             "id": "uk-london-twitter",
             "type": "twitter",
@@ -48422,10 +49378,10 @@
               "description": "YouthMappers chapter at Arizona State University"
             },
             "resolved": {
-              "name": "YouthMappersASU on Twitter",
+              "name": "YouthMappersASU on 𝕏",
               "url": "https://twitter.com/YouthMappersASU",
               "description": "YouthMappers chapter at Arizona State University",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/YouthMappersASU\">YouthMappersASU on Twitter</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/YouthMappersASU\">YouthMappersASU on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/YouthMappersASU\">https://twitter.com/YouthMappersASU</a>",
               "descriptionHTML": "YouthMappers chapter at Arizona State University"
             }
@@ -50870,61 +51826,6 @@
     },
     {
       "type": "Feature",
-      "id": "[-77.15782,39.09718]",
-      "properties": {
-        "id": "[-77.15782,39.09718]",
-        "area": 1963.5,
-        "resources": {
-          "ym-Montgomery-College": {
-            "id": "ym-Montgomery-College",
-            "type": "youthmappers",
-            "locationSet": {"include": [[-77.15782, 39.09718]]},
-            "strings": {
-              "name": "GeoMC",
-              "description": "YouthMappers chapter at Montgomery College",
-              "extendedDescription": "GeoMC’s mission is to provide students with hands-on experience in applying geospatial tools, collecting data, and project management. Most of our students come with a background in GIS and are geography majors. Our chapter’s members come from diverse backgrounds and we all work together to make a positive impact in the world live in.",
-              "url": "mailto:stephanie.calderon@montgomerycollege.edu"
-            },
-            "contacts": [
-              {
-                "name": "Organizer",
-                "email": "stephanie.calderon@montgomerycollege.edu"
-              }
-            ],
-            "resolved": {
-              "name": "GeoMC",
-              "url": "mailto:stephanie.calderon@montgomerycollege.edu",
-              "description": "YouthMappers chapter at Montgomery College",
-              "extendedDescription": "GeoMC’s mission is to provide students with hands-on experience in applying geospatial tools, collecting data, and project management. Most of our students come with a background in GIS and are geography majors. Our chapter’s members come from diverse backgrounds and we all work together to make a positive impact in the world live in.",
-              "nameHTML": "<a target=\"_blank\" href=\"mailto:stephanie.calderon@montgomerycollege.edu\">GeoMC</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"mailto:stephanie.calderon@montgomerycollege.edu\">mailto:stephanie.calderon@montgomerycollege.edu</a>",
-              "descriptionHTML": "YouthMappers chapter at Montgomery College",
-              "extendedDescriptionHTML": "GeoMC’s mission is to provide students with hands-on experience in applying geospatial tools, collecting data, and project management. Most of our students come with a background in GIS and are geography majors. Our chapter’s members come from diverse backgrounds and we all work together to make a positive impact in the world live in."
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-77.158, 39.322],
-            [-77.328, 39.279],
-            [-77.433, 39.166],
-            [-77.433, 39.027],
-            [-77.327, 38.915],
-            [-77.158, 38.873],
-            [-76.988, 38.915],
-            [-76.883, 39.027],
-            [-76.882, 39.166],
-            [-76.987, 39.279],
-            [-77.158, 39.322]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "[17.07709,-22.56572]",
       "properties": {
         "id": "[17.07709,-22.56572]",
@@ -51371,53 +52272,6 @@
             [88.863, 24.433],
             [88.774, 24.545],
             [88.628, 24.588]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "[-89.07411,17.161]",
-      "properties": {
-        "id": "[-89.07411,17.161]",
-        "area": 1963.5,
-        "resources": {
-          "ym-Sacred-Heart-Junior-College": {
-            "id": "ym-Sacred-Heart-Junior-College",
-            "type": "youthmappers",
-            "locationSet": {"include": [[-89.07411, 17.161]]},
-            "strings": {
-              "name": "YouthMappers at Sacred Heart Junior College",
-              "description": "YouthMappers chapter at Sacred Heart Junior College",
-              "url": "mailto:jtzib18@gmail.com"
-            },
-            "contacts": [{"name": "Organizer", "email": "jtzib18@gmail.com"}],
-            "resolved": {
-              "name": "YouthMappers at Sacred Heart Junior College",
-              "url": "mailto:jtzib18@gmail.com",
-              "description": "YouthMappers chapter at Sacred Heart Junior College",
-              "nameHTML": "<a target=\"_blank\" href=\"mailto:jtzib18@gmail.com\">YouthMappers at Sacred Heart Junior College</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"mailto:jtzib18@gmail.com\">mailto:jtzib18@gmail.com</a>",
-              "descriptionHTML": "YouthMappers chapter at Sacred Heart Junior College"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-89.074, 17.386],
-            [-89.212, 17.343],
-            [-89.298, 17.23],
-            [-89.298, 17.091],
-            [-89.212, 16.979],
-            [-89.074, 16.936],
-            [-88.936, 16.979],
-            [-88.851, 17.091],
-            [-88.85, 17.23],
-            [-88.936, 17.343],
-            [-89.074, 17.386]
           ]
         ]
       }
@@ -52815,23 +53669,23 @@
             "type": "youthmappers",
             "locationSet": {"include": [[-8.83716, 7.7324]]},
             "strings": {
-              "name": "Youthmappers à N'Zérékoré",
-              "description": "YouthMappers chapter at Université de N'Zérékoré",
-              "extendedDescription": "YouthMappers est un groupe qui permet de faire la cartographie des communautés enclavées et à la prise des décisions en cas de catastrophes ou épidémies. Elle permet aussi la production et l'utilisation des données en accès gratuit.",
+              "name": "YouthMappers N'Zérékoré",
+              "description": "YouthMappers chapter at University of N'Zérékoré",
+              "extendedDescription": "YouthMappers engages students to map in the event of disasters or epidemics. It also allows the production and use of map data with free access.",
               "url": "mailto:donpaul1974@gmail.com"
             },
             "contacts": [
               {"name": "Organizer", "email": "donpaul1974@gmail.com"}
             ],
             "resolved": {
-              "name": "Youthmappers à N'Zérékoré",
+              "name": "YouthMappers N'Zérékoré",
               "url": "mailto:donpaul1974@gmail.com",
-              "description": "YouthMappers chapter at Université de N'Zérékoré",
-              "extendedDescription": "YouthMappers est un groupe qui permet de faire la cartographie des communautés enclavées et à la prise des décisions en cas de catastrophes ou épidémies. Elle permet aussi la production et l'utilisation des données en accès gratuit.",
-              "nameHTML": "<a target=\"_blank\" href=\"mailto:donpaul1974@gmail.com\">Youthmappers à N'Zérékoré</a>",
+              "description": "YouthMappers chapter at University of N'Zérékoré",
+              "extendedDescription": "YouthMappers engages students to map in the event of disasters or epidemics. It also allows the production and use of map data with free access.",
+              "nameHTML": "<a target=\"_blank\" href=\"mailto:donpaul1974@gmail.com\">YouthMappers N'Zérékoré</a>",
               "urlHTML": "<a target=\"_blank\" href=\"mailto:donpaul1974@gmail.com\">mailto:donpaul1974@gmail.com</a>",
-              "descriptionHTML": "YouthMappers chapter at Université de N'Zérékoré",
-              "extendedDescriptionHTML": "YouthMappers est un groupe qui permet de faire la cartographie des communautés enclavées et à la prise des décisions en cas de catastrophes ou épidémies. Elle permet aussi la production et l'utilisation des données en accès gratuit."
+              "descriptionHTML": "YouthMappers chapter at University of N'Zérékoré",
+              "extendedDescriptionHTML": "YouthMappers engages students to map in the event of disasters or epidemics. It also allows the production and use of map data with free access."
             }
           }
         }
@@ -52867,20 +53721,20 @@
             "type": "youthmappers",
             "locationSet": {"include": [[-7.98832, 12.61531]]},
             "strings": {
-              "name": "Etudiant au Laboratoire HoPE",
-              "description": "YouthMappers chapter at Université des Sciences Sociale et de Gestion de Bamako",
+              "name": "YouthMappers Bamako",
+              "description": "YouthMappers chapter at University of Social Sciences and Management of Bamako",
               "url": "mailto:youthmappersfhg@gmail.com"
             },
             "contacts": [
               {"name": "Organizer", "email": "youthmappersfhg@gmail.com"}
             ],
             "resolved": {
-              "name": "Etudiant au Laboratoire HoPE",
+              "name": "YouthMappers Bamako",
               "url": "mailto:youthmappersfhg@gmail.com",
-              "description": "YouthMappers chapter at Université des Sciences Sociale et de Gestion de Bamako",
-              "nameHTML": "<a target=\"_blank\" href=\"mailto:youthmappersfhg@gmail.com\">Etudiant au Laboratoire HoPE</a>",
+              "description": "YouthMappers chapter at University of Social Sciences and Management of Bamako",
+              "nameHTML": "<a target=\"_blank\" href=\"mailto:youthmappersfhg@gmail.com\">YouthMappers Bamako</a>",
               "urlHTML": "<a target=\"_blank\" href=\"mailto:youthmappersfhg@gmail.com\">mailto:youthmappersfhg@gmail.com</a>",
-              "descriptionHTML": "YouthMappers chapter at Université des Sciences Sociale et de Gestion de Bamako"
+              "descriptionHTML": "YouthMappers chapter at University of Social Sciences and Management of Bamako"
             }
           }
         }
@@ -54378,10 +55232,10 @@
             "resolved": {
               "name": "YouthMappers UP Resilience Institute Twitter",
               "url": "https://twitter.com/UPRIYouth",
-              "description": "Follow us on Twitter",
+              "description": "Follow us on 𝕏",
               "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/UPRIYouth\">YouthMappers UP Resilience Institute Twitter</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/UPRIYouth\">https://twitter.com/UPRIYouth</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -55050,12 +55904,12 @@
               "communityID": "openstreetmapzimbabwe"
             },
             "resolved": {
-              "name": "OpenStreetMap Zimbabwe on Twitter",
+              "name": "OpenStreetMap Zimbabwe on 𝕏",
               "url": "https://twitter.com/osm_zimbabwe",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_zimbabwe\">OpenStreetMap Zimbabwe on Twitter</a>",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_zimbabwe\">OpenStreetMap Zimbabwe on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_zimbabwe\">https://twitter.com/osm_zimbabwe</a>",
-              "descriptionHTML": "Follow us on Twitter"
+              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }

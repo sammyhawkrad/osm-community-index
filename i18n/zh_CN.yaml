@@ -1,7 +1,10 @@
 zh_CN:
   _communities:
+    freelibreopensourcesoftwarekosovaflossk: 自由及开放源代码软件科索沃（FLOSSK）
     geolibres: GeoLibres
-    mappingbotswana: Mapping博茨瓦纳
+    kiribatiwomeninmapping: 参与绘图的基里巴斯妇女
+    mappingbotswana: 博茨瓦纳地图绘制
+    maptimebogota: 波哥大地图时间
     maptimehrva: Maptime HRVA
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap 亚琛
@@ -10,6 +13,7 @@ zh_CN:
     openstreetmapalba: OpenStreetMap 苏格兰
     openstreetmapalbania: OpenStreetMap 阿尔巴尼亚
     openstreetmapargentina: OpenStreetMap 阿根廷
+    openstreetmaparmenia: OpenStreetMap 亚美尼亚
     openstreetmapasia: OpenStreetMap 亚洲
     openstreetmapasti: OpenStreetMap 阿斯蒂
     openstreetmapaustria: OpenStreetMap 奥地利
@@ -17,10 +21,14 @@ zh_CN:
     openstreetmapbangladesh: OpenStreetMap 孟加拉
     openstreetmapbelarus: OpenStreetMap 白俄罗斯
     openstreetmapbelgium: OpenStreetMap 比利时
+    openstreetmapbelize: OpenStreetMap 伯利兹
+    openstreetmapbengaluru: OpenStreetMap 班加罗尔
     openstreetmapbenin: OpenStreetMap 贝宁
     openstreetmapberlin: OpenStreetMap 柏林
     openstreetmapbivccvl: OpenStreetMap 意大利 BI-VC-CVL
+    openstreetmapbochum: OpenStreetMap 波鸿
     openstreetmapbolivia: OpenStreetMap 玻利维亚
+    openstreetmapbonn: OpenStreetMap 波恩
     openstreetmapbosniaandherzegovina: OpenStreetMap 波黑
     openstreetmapbrasil: OpenStreetMap 巴西
     openstreetmapbrasilia: OpenStreetMap 巴西利亚
@@ -32,11 +40,15 @@ zh_CN:
     openstreetmapcambodia: OpenStreetMap 柬埔寨
     openstreetmapcameroon: OpenStreetMap 喀麦隆
     openstreetmapcanada: OpenStreetMap 加拿大
+    openstreetmapcastillayleon: OpenStreetMap 卡斯蒂利亚和莱昂
     openstreetmapcatalancountries: OpenStreetMap 加泰罗尼亚
+    openstreetmapceara: OpenStreetMap 塞阿拉
     openstreetmapchad: OpenStreetMap 乍得
     openstreetmapchile: OpenStreetMap 智利
     openstreetmapchina: OpenStreetMap 中国
+    openstreetmapcologne: OpenStreetMap 科隆
     openstreetmapcolombia: OpenStreetMap 哥伦比亚
+    openstreetmapcomunitatvalenciana: OpenStreetMap 巴伦西亚社区
     openstreetmapcostarica: OpenStreetMap 哥斯达黎加
     openstreetmapcotedivoire: OpenStreetMap 科特迪瓦
     openstreetmapcroatia: OpenStreetMap 克罗地亚
@@ -44,14 +56,19 @@ zh_CN:
     openstreetmapcuneo: OpenStreetMap 库内奥
     openstreetmapcz: OpenStreetMap 捷克
     openstreetmapde: OpenStreetMap 德国
+    openstreetmapdeepsouth: OpenStreetMap 美国南部诸州
     openstreetmapdenmark: OpenStreetMap 丹麦
     openstreetmapdjibouti: OpenStreetMap 吉布提
     openstreetmapdominicanrepublic: OpenStreetMap 多米尼加
+    openstreetmapdresden: OpenStreetMap 德累斯顿
+    openstreetmapdusseldorf: OpenStreetMap 杜塞尔多夫
     openstreetmapecuador: OpenStreetMap 厄瓜多尔
     openstreetmapegypt: OpenStreetMap 埃及
     openstreetmaperitrea: OpenStreetMap 厄立特里亚
     openstreetmapespana: OpenStreetMap 西班牙
+    openstreetmapestonia: OpenStreetMap 爱沙尼亚
     openstreetmapethiopia: OpenStreetMap 埃塞俄比亚
+    openstreetmapfiji: OpenStreetMap 斐济
     openstreetmapfinland: OpenStreetMap 芬兰
     openstreetmapfrance: OpenStreetMap 法国
     openstreetmapfreemapslovakia: OpenStreetMap 斯洛伐克
@@ -62,7 +79,9 @@ zh_CN:
     openstreetmapgeorgia: OpenStreetMap 格鲁吉亚
     openstreetmapgermany: OpenStreetMap 德国
     openstreetmapghana: OpenStreetMap 加纳
+    openstreetmapgorakalwaria: OpenStreetMap 古拉卡尔瓦里亚
     openstreetmapgreece: OpenStreetMap 希腊
+    openstreetmapgrenoble: OpenStreetMap 格勒诺布尔
     openstreetmapguatemala: OpenStreetMap 危地马拉
     openstreetmapguinea: OpenStreetMap 几内亚
     openstreetmaphaiti: OpenStreetMap 海地
@@ -92,14 +111,19 @@ zh_CN:
     openstreetmapkosovo: OpenStreetMap 科索沃
     openstreetmapkyrgyzstan: OpenStreetMap 吉尔吉斯斯坦
     openstreetmaplatinamerica: OpenStreetMap 拉丁美洲
+    openstreetmaplatvia: OpenStreetMap 拉脱维亚
     openstreetmaplebanon: OpenStreetMap 黎巴嫩
     openstreetmaplesotho: OpenStreetMap 莱索托
     openstreetmapliberia: OpenStreetMap 利比里亚
     openstreetmaplibya: OpenStreetMap 利比亚
     openstreetmaplithuania: OpenStreetMap 立陶宛
+    openstreetmapljubljana: OpenStreetMap 卢布尔雅那
     openstreetmaplombardia: OpenStreetMap 伦巴第
+    openstreetmaplondon: OpenStreetMap 伦敦
+    openstreetmapluneburg: OpenStreetMap 吕纳堡
     openstreetmapluxembourg: OpenStreetMap 卢森堡
     openstreetmapmadagascar: OpenStreetMap 马达加斯加
+    openstreetmapmadrid: OpenStreetMap 马德里
     openstreetmapmalawi: OpenStreetMap 马拉维
     openstreetmapmalaysia: OpenStreetMap 马来西亚
     openstreetmapmali: OpenStreetMap 马里
@@ -110,14 +134,20 @@ zh_CN:
     openstreetmapmichigan: OpenStreetMap 密歇根洲
     openstreetmapmoldova: OpenStreetMap 摩尔多瓦
     openstreetmapmongolia: OpenStreetMap 蒙古
+    openstreetmapmontenegro: OpenStreetMap 黑山
+    openstreetmapmontrouge: OpenStreetMap 蒙鲁日
     openstreetmapmorocco: OpenStreetMap 摩洛哥
+    openstreetmapmunchen: OpenStreetMap 慕尼黑
     openstreetmapmyanmar: OpenStreetMap 缅甸
     openstreetmapnepal: OpenStreetMap 尼泊尔
     openstreetmapnetherlands: OpenStreetMap 荷兰
     openstreetmapnicaragua: OpenStreetMap 尼加拉瓜
     openstreetmapniger: OpenStreetMap 尼日尔
     openstreetmapnigeria: OpenStreetMap 尼日利亚
+    openstreetmapnorthkorea: OpenStreetMap 朝鲜
     openstreetmapnorway: OpenStreetMap 挪威
+    openstreetmapoceania: OpenStreetMap 大洋洲
+    openstreetmapohio: OpenStreetMap 俄亥俄
     openstreetmapottawa: OpenStreetMap 渥太华
     openstreetmappakistan: OpenStreetMap 巴基斯坦
     openstreetmappanama: OpenStreetMap 巴拿马
@@ -128,6 +158,7 @@ zh_CN:
     openstreetmappoland: OpenStreetMap 波兰
     openstreetmapportugal: OpenStreetMap 葡萄牙
     openstreetmaprdc: OpenStreetMap 刚果（金）
+    openstreetmaprennes: OpenStreetMap 雷恩
     openstreetmapreunion: OpenStreetMap 留尼汪岛
     openstreetmapriograndedosul: OpenStreetMap 南里奥格兰德州
     openstreetmapromania: OpenStreetMap 罗马尼亚
@@ -151,7 +182,9 @@ zh_CN:
     openstreetmaptanzania: OpenStreetMap 坦桑尼亚
     openstreetmapthailand: OpenStreetMap 泰国
     openstreetmaptogo: OpenStreetMap 多哥
+    openstreetmaptoronto: OpenStreetMap 多伦多
     openstreetmaptunisia: OpenStreetMap 突尼斯
+    openstreetmapturin: OpenStreetMap 都灵
     openstreetmapturkey: OpenStreetMap 土耳其
     openstreetmapuganda: OpenStreetMap 乌干达
     openstreetmapuk: OpenStreetMap 英国
@@ -161,9 +194,11 @@ zh_CN:
     openstreetmapuzbekistan: OpenStreetMap 乌兹别克斯坦
     openstreetmapvenezuela: OpenStreetMap 委内瑞拉
     openstreetmapvietnam: OpenStreetMap 越南
+    openstreetmapwarszawa: OpenStreetMap 华沙
     openstreetmapwesternsahara: OpenStreetMap 西撒哈拉
     openstreetmapzambia: OpenStreetMap 赞比亚
     openstreetmapzimbabwe: OpenStreetMap 津巴布韦
+    youthmappersasu: 青年绘制者ASU
   _defaults:
     aparat:
       name: 'Aparat 上的 {community}'
@@ -173,9 +208,14 @@ zh_CN:
       name: '{community} Discord'
       description: 在 Discord 上于其他 Mapper 保持联系
       url: https://discord.gg/{account}
+    discourse:
+      name: '{community} 社区论坛'
+      description: '{community} 的官方论坛'
+      url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: 'Facebook 上的 {community}'
       description: 在Facebook上加入我们的社区
+      url: https://www.facebook.com/{account}
     forum:
       name: '{community} 论坛'
       description: '{community} 的官方论坛'
@@ -189,21 +229,28 @@ zh_CN:
       name: '{community}'
     irc:
       name: 'IRC 上的 {community}'
-      description: '在 irc.oftc.net (端口 6667)上加入 #{account} '
+      description: '在 irc.oftc.net 上加入 #{account} （无 SSL 端口 6667 ，或 SSL 端口 6697）'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: 'LinkedIn 上的 {community}'
       description: 在LinkedIn上加入我们的社区
+      url: https://www.linkedin.com/company/{account}
     mailinglist:
       name: '{account} 邮件列表'
       description: '{community} 的官方邮件列表'
       url: https://lists.openstreetmap.org/listinfo/{account}
+    mastodon:
+      name: 'Mastodon 上的 {community}'
+      description: '{community} 的官方 Mastodon 账号'
     matrix:
       name: '{community} Matrix 聊天室'
       description: 加入我们社区的 Matrix 聊天室
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: '{community} Meetup'
+      url: https://www.meetup.com/{account}
+    newsletter:
+      name: '{community} 电子报'
     osm:
       name: '{community}'
     osm-lc:
@@ -211,25 +258,43 @@ zh_CN:
     reddit:
       name: 'Reddit 上的 {community}'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: '{community} 的 Signal'
+      description: 在 Signal 上加入我们的社区聊天
     slack:
       name: '{community} Slack'
     telegram:
       name: '{community} Telegram'
       description: 加入我们社区的 Telegram 聊天室
       url: https://t.me/{account}
+    threads:
+      name: 'Threads 上的 {community}'
+      description: 在 Threads 上关注我们
+      url: https://threads.net/@{account}
     twitter:
-      name: 'Twitter 上的 {community}'
-      description: 在推特关注我们
+      name: '𝕏 上的 {community}'
+      description: 在 𝕏 上关注我们
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    x:
+      name: '𝕏 上的 {community}'
+      description: 在 𝕏 上关注我们
+      url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
     youtube:
       name: 'YouTube 上的 {community}'
       description: 订阅我们的 YouTube 频道
       url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: '{community} Zulip'
+      description: 在 Zulip 上加入我们的社区聊天
+  aberdeen-discord:
+    name: OSM ABZ Discord
   af-matrix:
     description: 阿富汗社区的Martix群
   al-maptime-tirana:
@@ -364,8 +429,6 @@ zh_CN:
     name: OpenStreetMap 波士顿
     description: 位于波士顿地区的绘图者和 OpenStreetMap 用户
     extendedDescription: OpenStreetMap 是一种免费的，开放的 Wiki 风格的世界地图，每天都有来自像您这样的人作出的数十万贡献。 编辑地图既简单又有趣！ 在室内和室外与我们一起，努力创建波士顿和世界其他地区的最佳地图！
-  OSM-CA-Slack:
-    description: 欢迎所有人加入！在 {signupUrl} 上注册。
   OSM-Central-Salish-Sea:
     name: OpenStreetMap 中央盐海
     description: 位于华盛顿州弗农山地区的绘图者和 OpenStreetMap 用户
@@ -515,10 +578,6 @@ zh_CN:
     name: Connected YouthMappers
     description: 冈比亚基督教青年会/冈比亚大学的 YouthMappers 分会
     extendedDescription: Connected YouthMappers 由年轻甘比亚人组成，希望能改变和协助国家发展
-  ym-Universit-de-NZrkor:
-    name: 恩泽雷科雷 YouthMappers
-    description: 恩泽雷科雷大学 YouthMappers 分会
-    extendedDescription: YouthMappers是一个小组，可以绘制内陆社区的地图，并在发生灾难或流行病时做出决策。 它还允许免费访问数据的生产和使用。
   ym-University-of-Cape-Coast:
     name: UCC地理学协会
     description: 海岸角大学的 YouthMappers 分会

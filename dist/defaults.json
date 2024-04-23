@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.5.3",
-    "generated": "2023-06-20T15:55:22.903Z",
+    "version": "5.6.2",
+    "generated": "2024-02-26T16:41:56.592Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/defaults.json",
-    "hash": "fd66401c736bd865b0a32b1a7de84544"
+    "hash": "129bfd060fe86428af5740daa6a4873e"
   },
   "defaults": {
     "aparat": {
@@ -41,7 +41,7 @@
     "group": {"name": "{community}"},
     "irc": {
       "name": "{community} on IRC",
-      "description": "Join #{account} on irc.oftc.net (port 6667)",
+      "description": "Join #{account} on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
       "url": "https://webchat.oftc.net/?channels={account}"
     },
     "linkedin": {
@@ -55,7 +55,7 @@
       "url": "https://lists.openstreetmap.org/listinfo/{account}"
     },
     "mastodon": {
-      "name": "{community} Mastodon Account",
+      "name": "{community} on Mastodon",
       "description": "The official Mastodon account for {community}"
     },
     "matrix": {
@@ -84,15 +84,25 @@
       "description": "Join our community Telegram chat",
       "url": "https://t.me/{account}"
     },
+    "threads": {
+      "name": "{community} on Threads",
+      "description": "Follow us on Threads",
+      "url": "https://threads.net/@{account}"
+    },
     "twitter": {
-      "name": "{community} on Twitter",
-      "description": "Follow us on Twitter",
+      "name": "{community} on 𝕏",
+      "description": "Follow us on 𝕏",
       "url": "https://twitter.com/{account}"
     },
     "website": {"name": "{community}"},
     "wiki": {
       "name": "{community} WikiProject",
       "url": "https://wiki.openstreetmap.org/wiki/{account}"
+    },
+    "x": {
+      "name": "{community} on 𝕏",
+      "description": "Follow us on 𝕏",
+      "url": "https://twitter.com/{account}"
     },
     "xmpp": {"name": "{community} XMPP"},
     "youtube": {

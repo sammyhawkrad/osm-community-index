@@ -19,6 +19,107 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.6.2
+##### 2024-Feb-26
+* Add Armenia Wiki, Singapore Wiki and Telegram ([#693])
+* Remove nonexistant `talk-al` mailing list ([#695])
+* Add Iraq Telegram ([#696])
+* Add West Bengal, Dehli, Indian XMPP resources ([#697])
+* Update Portugal and Brazil sort orders, added Brazil wiki ([#698])
+* Remove `help.osm.org`, as it will be readonly from March 1 ([#700])
+
+[#693]: https://github.com/osmlab/osm-community-index/issues/693
+[#695]: https://github.com/osmlab/osm-community-index/issues/695
+[#696]: https://github.com/osmlab/osm-community-index/issues/696
+[#697]: https://github.com/osmlab/osm-community-index/issues/697
+[#698]: https://github.com/osmlab/osm-community-index/issues/698
+[#700]: https://github.com/osmlab/osm-community-index/issues/700
+
+
+# 5.6.1
+##### 2023-Dec-21
+* Bump reqired node to 18, swap `tap` for `node:test`
+* Added:
+  * Catalan community Twitch channel ([#680])
+  * Bengaluru commmunity resources ([#682])
+  * London Mastodon ([#683])
+  * India Mastodon ([#685])
+  * Canada Matrix ([#686])
+  * India forum ([#687])
+  * Montenegro Telegram ([#690])
+  * Portugal community Discord ([#692])
+* Updated:
+  * Specify language for MapRVA ([#679])
+  * Fix city locations in Poland (Warszawa & Góra Kalwaria were swapped) ([#684])
+* Removed:
+  * Discontinued @osm_at Twitter account ([#689])
+
+[#679]: https://github.com/osmlab/osm-community-index/issues/679
+[#680]: https://github.com/osmlab/osm-community-index/issues/680
+[#682]: https://github.com/osmlab/osm-community-index/issues/682
+[#683]: https://github.com/osmlab/osm-community-index/issues/683
+[#684]: https://github.com/osmlab/osm-community-index/issues/684
+[#685]: https://github.com/osmlab/osm-community-index/issues/685
+[#686]: https://github.com/osmlab/osm-community-index/issues/686
+[#687]: https://github.com/osmlab/osm-community-index/issues/687
+[#689]: https://github.com/osmlab/osm-community-index/issues/689
+[#690]: https://github.com/osmlab/osm-community-index/issues/690
+[#692]: https://github.com/osmlab/osm-community-index/issues/692
+
+
+# 5.6.0
+##### 2023-Aug-27
+* Rebrand Twitter to 𝕏, support both `twitter` and `x` interchangeably ([#678])
+* Support new resource type `threads` ([#677])
+* Updated:
+  * OSM mastodon should be higher ([#675])
+  * IRC should list port 6697 ([#676])
+  * Use square icons for consistency, where available
+
+[#675]: https://github.com/osmlab/osm-community-index/issues/675
+[#676]: https://github.com/osmlab/osm-community-index/issues/676
+[#677]: https://github.com/osmlab/osm-community-index/issues/677
+[#678]: https://github.com/osmlab/osm-community-index/issues/678
+
+
+# 5.5.5
+##### 2023-Aug-17
+* Added:
+  * Add MapRVA Mastadon ([#671], [#673])
+* Updated:
+  * Update osm.ch to type `url` ([#669])
+  * Update Swiss Mailing List URL ([#668])
+  * Use English language for source strings ([#576], [#577])
+* Deleted:
+  * Remove defunct OSM Canada Slack ([#661])
+  * Remove defunct YouthMappers Montgomery College ([#674])
+
+[#576]: https://github.com/osmlab/osm-community-index/issues/576
+[#577]: https://github.com/osmlab/osm-community-index/issues/577
+[#661]: https://github.com/osmlab/osm-community-index/issues/661
+[#668]: https://github.com/osmlab/osm-community-index/issues/668
+[#669]: https://github.com/osmlab/osm-community-index/issues/669
+[#671]: https://github.com/osmlab/osm-community-index/issues/671
+[#673]: https://github.com/osmlab/osm-community-index/issues/673
+[#674]: https://github.com/osmlab/osm-community-index/issues/674
+
+
+# 5.5.4
+##### 2023-Jul-12
+* Bump dependencies, including location-conflation v1.2.1 / country-coder v5.2.1
+* Added:
+  * Swiss OSM local chapter ([#664])
+* Updated:
+  * Rename Code for San José to Open Source San José ([#666], [#667])
+* Deleted:
+  * Sacred Heart Junior College YouthMappers ([#665])
+
+[#664]: https://github.com/osmlab/osm-community-index/issues/664
+[#665]: https://github.com/osmlab/osm-community-index/issues/665
+[#666]: https://github.com/osmlab/osm-community-index/issues/666
+[#667]: https://github.com/osmlab/osm-community-index/issues/667
+
+
 # 5.5.3
 ##### 2023-Jun-20
 * Added:

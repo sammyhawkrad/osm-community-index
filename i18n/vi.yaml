@@ -225,7 +225,6 @@ vi:
       name: '{community}'
     irc:
       name: '{community} trên IRC'
-      description: 'Hãy tham gia #{account} tại irc.oftc.net (cổng 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} tại LinkedIn'
@@ -236,7 +235,7 @@ vi:
       description: Danh sách thư chính thức của {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: 'Tài khoản Mastodon {community}'
+      name: '{community} trên Mastodon'
       description: Tài khoản Mastodon chính thức của {community}
     matrix:
       name: 'Trò chuyện Matrix {community}'
@@ -263,15 +262,23 @@ vi:
       name: 'Telegram {community}'
       description: Hãy tham gia trò chuyện cộng đồng Telegram của chúng ta
       url: https://t.me/{account}
+    threads:
+      name: '{community} trên Threads'
+      description: Theo dõi chúng tôi trên Threads
+      url: https://threads.net/@{account}
     twitter:
-      name: '{community} tại Twitter'
-      description: Theo dõi chúng tôi tại Twitter
+      name: '{community} trên 𝕏'
+      description: Theo dõi chúng tôi trên 𝕏
       url: https://twitter.com/{account}
     website:
       name: '{community}'
     wiki:
       name: 'Dự án Wiki {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}?uselang=vi
+    x:
+      name: '{community} trên 𝕏'
+      description: Theo dõi chúng tôi trên 𝕏
+      url: https://twitter.com/{account}
     xmpp:
       name: '{community} trên XMPP'
     youtube:
@@ -331,6 +338,8 @@ vi:
     description: Các dự án GitHub của cộng đồng OpenStreetMap tại các xứ Catalunya
   cat-matrix:
     description: Nhóm Matrix của cộng đồng OpenStreetMap tại các xứ Catalunya
+  cat-twitch:
+    name: Kênh Twitch của {community}
   cat-wiki:
     description: 'Không gian cộng tác của cộng đồng OpenStreetMap tại các xứ Catalunya: {url}'
   cd-chapter:
@@ -348,12 +357,6 @@ vi:
     extendedDescription: Mời mọi người tham gia cộng đồng để tìm hiểu thêm về OpenStreetMap, hỏi đáp, và tham dự các cuộc họp mặt của chúng ta.
   co-facebook:
     extendedDescription: Mời mọi người tham gia cộng đồng để tìm hiểu thêm về OpenStreetMap. Mời mọi người tham gia!
-  Code-for-San-Jose-Discord:
-    name: Discord Code for San José
-    description: 'Liên lạc với những người lập bản đồ trên Discord! Sau khi đăng nhập, hãy ghé vào kênh #🗺openstreetmap.'
-  Code-for-San-Jose-Slack:
-    name: Slack Code for San José
-    description: 'Mời bạn tham gia tại {signupUrl}, rồi tham gia kênh #proj-osm.'
   comunitat-valenciana-wiki:
     description: 'Mọi điều cần biết để lập bản đồ tại Cộng đồng Valencia: {url}'
   czech-community:
@@ -595,6 +598,10 @@ vi:
     description: Tụ tập xã hội dành cho những người lập bản đồ và người sử dụng tại Đông Midlands
   np-facebook:
     extendedDescription: Bạn có lập bản đồ tại Nepal? Bạn có thắc mắc, muốn liên hệ với cộng đồng tại đây? Mời bạn tham gia tại {url}.
+  Open-Source-San-Jose-Discord:
+    name: Discord Mã nguồn mở San José
+  Open-Source-San-Jose-Slack:
+    name: Slack Mã nguồn mở San José
   OpenCleveland-meetup:
     name: Open Cleveland
     description: Cải thiện OpenStreetMap tại khu vực Cleveland
@@ -628,8 +635,6 @@ vi:
     name: OpenStreetMap Boston
     description: Những người lập bản đồ và người dùng OpenStreetMap ở vùng Boston
     extendedDescription: OpenStreetMap là bản đồ thế giới mở kiểu wiki nhờ những người như bạn đóng góp mỗi ngày hàng trăm ngàn lần. Sửa đổi bản đồ là điều đơn giản và thú vị! Hãy tham gia chúng tôi trong nhà và ngoài đường để cùng xây dựng bản đồ đầy đủ nhất của vùng Boston và cả thế giới!
-  OSM-CA-Slack:
-    description: Mời bạn tham gia tại {signupUrl}
   OSM-Central-Salish-Sea:
     name: OpenStreetMap Biển Salish Trung
     description: Những người lập bản đồ và người dùng OpenStreetMap ở vùng Mount Vernon, Washington
@@ -761,6 +766,7 @@ vi:
     extendedDescription: OpenStreetMap Nam Ca Li liên hiệp những người nào quan tâm về bản đồ để ủng hộ OpenStreetMap. OSM là Wikipedia của bản đồ, tức bản đồ thế giới mở do hơn một triệu người tình nguyện xây dựng ở khắp thế giới. Mời mọi người tham gia. Nếu bạn chưa biết đến OpenStreetMap, chúng tôi sẽ giới thiệu cho bạn. Nếu bạn có ý niệm bắt đầu dự án bản đồ hoặc dẫn nhóm đi nơi nào, tuyệt vời!
   OSM-South-Bay:
     name: OSM Miền Nam Vùng Vịnh
+    extendedDescription: Gặp mặt những người cùng lập bản đồ tại miền Nam Vùng Vịnh và đóng góp vào các dự án lập bản đồ địa phương trong cuộc họp trực tuyến của chúng ta, vào ban chiều thứ ba hai tuần một lần, nhờ sự hỗ trợ của Mã nguồn mở San José. Không cần quen thuộc về lập trình hoặc GIS.
   OSM-Tampa-Bay:
     name: OpenStreetMap Vịnh Tampa
     description: Những người lập bản đồ và người dùng OpenStreetMap ở vùng vịnh Tampa
@@ -997,8 +1003,6 @@ vi:
     description: Nhánh YouthMappers tại Đại học Moi
   ym-Monroe-Community-College:
     description: Nhánh YouthMappers tại Trường cao đẳng Cộng đồng Monroe
-  ym-Montgomery-College:
-    description: Nhánh YouthMappers tại Trường cao đẳng Montgomery
   ym-Namibia-University-of-Science-and-Technology:
     name: Hội Sinh viên Địa tin học
     description: Nhánh YouthMappers tại Đại học Khoa học và Công nghệ Namibia
@@ -1027,8 +1031,6 @@ vi:
     description: Nhánh YouthMappers tại Đại học Nữ hoàng Mary tại Luân Đôn
   ym-Rajshahi-University-of-Engineering-Technology:
     description: Nhánh YouthMappers tại Đại học Kỹ thuật và Công nghệ Rajshahi
-  ym-Sacred-Heart-Junior-College:
-    description: Nhánh YouthMappers tại Trường cao đẳng Thánh Tâm
   ym-Sherubtse-College:
     name: Hội Địa lý
     description: Nhánh YouthMappers tại Trường cao đẳng Sherubtse
@@ -1091,10 +1093,6 @@ vi:
   ym-Universidade-Eduardo-Mondlane:
     name: Cộng đồng YouthMappers Mozambique
     description: Nhánh YouthMappers tại Đại học Eduardo Mondlane
-  ym-Universit-de-NZrkor:
-    description: Nhánh YouthMappers tại Đại học N’Zérékoré
-  ym-Universit-des-Sciences-Sociale-et-de-Gestion-de-Bamako:
-    description: Nhánh YouthMappers tại Đại học Khoa học Xã hội và Quản lý Bamako
   ym-Universit-Gaston-Berger:
     description: Nhánh YouthMappers tại Đại học Gaston Berger
   ym-Universit-Mohammed-V-Rabat:
